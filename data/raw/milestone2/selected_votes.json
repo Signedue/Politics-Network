@@ -1,0 +1,317 @@
+{
+  "method": "Sort all 20251 Afstemning records by meeting date, vote number, and Afstemning ID; select ten positions evenly spaced from first through last using round(i * (n - 1) / 9).",
+  "positions": [
+    0,
+    21,
+    42,
+    64,
+    85,
+    106,
+    127,
+    149,
+    170,
+    191
+  ],
+  "votes": [
+    {
+      "Møde": {
+        "id": 15443,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "3",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-10-09T08:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-10-10T10:51:47.74"
+      },
+      "Afstemningstype": {
+        "id": 3,
+        "type": "Forslag til vedtagelse",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10379,
+      "nummer": 2,
+      "konklusion": "Vedtaget\nFor stemte 59 (S, V, M, JF, Jeppe Søe (UFG), Jon Stephensen (UFG)) \nimod stemte 51 (DD, SF, LA, KF, EL, DF, RV, ALT, Mike Villa Fonseca (UFG)) \nhverken for eller imod stemte 0 ",
+      "vedtaget": true,
+      "kommentar": "",
+      "mødeid": 15443,
+      "typeid": 3,
+      "sagstrinid": 268868,
+      "opdateringsdato": "2025-10-10T11:45:43.137"
+    },
+    {
+      "Møde": {
+        "id": 15461,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "23",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-12-04T10:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-12-04T16:10:04.293"
+      },
+      "Afstemningstype": {
+        "id": 1,
+        "type": "Endelig vedtagelse",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10396,
+      "nummer": 23,
+      "konklusion": "Forslaget er vedtaget.\nFor stemte 84 (S, V, SF, M, KF, EL, RV, ALT og Hans Kristian Skibby (DD)),\nimod stemte 23 (DD, LA, DF og BP),\nhverken for eller imod stemte 1 ( Mike Villa Fonseca (UFG)).",
+      "vedtaget": true,
+      "kommentar": "Ved en fejl stemte Hans Kristian Skibby (DD) for forslaget.",
+      "mødeid": 15461,
+      "typeid": 1,
+      "sagstrinid": 268172,
+      "opdateringsdato": "2025-12-04T13:39:33.487"
+    },
+    {
+      "Møde": {
+        "id": 15465,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "26",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-12-10T09:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-12-11T09:18:28.923"
+      },
+      "Afstemningstype": {
+        "id": 4,
+        "type": "Ændringsforslag",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10453,
+      "nummer": 44,
+      "konklusion": "Forslaget er forkastet.\nFor stemte 20 (DD, LA, DF),\nimod stemte 74 (S, V, SF, M, KF, RV, ALT, SP),\nhverken for eller imod stemte 4 (EL).",
+      "vedtaget": false,
+      "kommentar": "",
+      "mødeid": 15465,
+      "typeid": 4,
+      "sagstrinid": 268016,
+      "opdateringsdato": "2025-12-17T14:01:44.9"
+    },
+    {
+      "Møde": {
+        "id": 15465,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "26",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-12-10T09:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-12-11T09:18:28.923"
+      },
+      "Afstemningstype": {
+        "id": 4,
+        "type": "Ændringsforslag",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10475,
+      "nummer": 68,
+      "konklusion": "Forslaget er forkastet.\nFor stemte 20 (DD, LA, DF),\nimod stemte 79 (S, V, SF, M, KF, EL, RV, ALT, SP),\nhverken for eller imod stemte 0.",
+      "vedtaget": false,
+      "kommentar": "",
+      "mødeid": 15465,
+      "typeid": 4,
+      "sagstrinid": 268016,
+      "opdateringsdato": "2025-12-17T14:02:59.59"
+    },
+    {
+      "Møde": {
+        "id": 15465,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "26",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-12-10T09:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-12-11T09:18:28.923"
+      },
+      "Afstemningstype": {
+        "id": 4,
+        "type": "Ændringsforslag",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10496,
+      "nummer": 91,
+      "konklusion": "Forslaget er forkastet.\nFor stemte 11 (DD, DF),\nimod stemte 87 (S, V, SF, LA, M, KF, EL, RV, ALT, SP),\nhverken for eller imod stemte 0.",
+      "vedtaget": false,
+      "kommentar": "",
+      "mødeid": 15465,
+      "typeid": 4,
+      "sagstrinid": 268016,
+      "opdateringsdato": "2025-12-17T15:01:26.773"
+    },
+    {
+      "Møde": {
+        "id": 15466,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "27",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-12-11T10:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-12-11T15:29:33.14"
+      },
+      "Afstemningstype": {
+        "id": 1,
+        "type": "Endelig vedtagelse",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10419,
+      "nummer": 112,
+      "konklusion": "Forslaget er vedtaget.\nFor stemte 85 (S, V, DD, LA, M, KF, DF, RV og BP),\nimod stemte 13 (SF og EL),\nhverken for eller imod stemte 2 (ALT).",
+      "vedtaget": true,
+      "kommentar": null,
+      "mødeid": 15466,
+      "typeid": 1,
+      "sagstrinid": 268564,
+      "opdateringsdato": "2025-12-11T10:06:10.543"
+    },
+    {
+      "Møde": {
+        "id": 15471,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "31",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-12-18T10:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-12-18T12:58:12.657"
+      },
+      "Afstemningstype": {
+        "id": 1,
+        "type": "Endelig vedtagelse",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10506,
+      "nummer": 133,
+      "konklusion": "Forslaget er vedtaget.\nFor stemte 92 (S, V, SF, LA, M, KF, EL, RV, ALT, Jeppe Søe (UFG), Jon Stephensen (UFG) og Mike Villa Fonseca (UFG)),\nimod stemte 14 (DD, DF og BP),\nhverken for eller imod stemte 0.",
+      "vedtaget": true,
+      "kommentar": null,
+      "mødeid": 15471,
+      "typeid": 1,
+      "sagstrinid": 269087,
+      "opdateringsdato": "2025-12-18T10:02:39.167"
+    },
+    {
+      "Møde": {
+        "id": 15470,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "32",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-12-19T09:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-12-19T09:58:27.953"
+      },
+      "Afstemningstype": {
+        "id": 1,
+        "type": "Endelig vedtagelse",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10527,
+      "nummer": 155,
+      "konklusion": "Forslaget er vedtaget.\nFor stemte 99 (S, V, DD, SF, LA, M, KF, EL, RV, ALT, Jeppe Søe (UFG), Jon Stephensen (UFG) og Mike Villa Fonseca (UFG)),\nimod stemte 3 (DF),\nhverken for eller imod stemte 0.",
+      "vedtaget": true,
+      "kommentar": null,
+      "mødeid": 15470,
+      "typeid": 1,
+      "sagstrinid": 269649,
+      "opdateringsdato": "2025-12-19T09:17:08.667"
+    },
+    {
+      "Møde": {
+        "id": 15487,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "46",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2026-01-29T10:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2026-01-30T10:04:23.79"
+      },
+      "Afstemningstype": {
+        "id": 1,
+        "type": "Endelig vedtagelse",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10549,
+      "nummer": 176,
+      "konklusion": "Forslaget er forkastet. For stemte 45 (DD, SF, LA, KF, EL, RV, ALT, BP, Jeppe Søe (UFG), Jon Stephensen (UFG)), imod stemte 60 (S, V, M, DF, Søren Søndergaard (EL), Pelle Dragsted (EL)), hverken for eller imod stemte 0.",
+      "vedtaget": false,
+      "kommentar": "Ved en fejl stemte Søren Søndergaard (EL) og Pelle Dragsted (EL) imod forslaget.",
+      "mødeid": 15487,
+      "typeid": 1,
+      "sagstrinid": 270632,
+      "opdateringsdato": "2026-04-07T15:24:44.32"
+    },
+    {
+      "Møde": {
+        "id": 15496,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "57",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2026-02-26T10:20:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2026-02-26T15:40:59.747"
+      },
+      "Afstemningstype": {
+        "id": 1,
+        "type": "Endelig vedtagelse",
+        "opdateringsdato": "2014-08-06T14:40:50.207"
+      },
+      "id": 10567,
+      "nummer": 212,
+      "konklusion": "Forslaget er vedtaget.\nFor stemte 87 (S, V, SF, M, KF, EL, RV, ALT og Jeppe Søe (UFG)),\nimod stemte 23 (DD, LA, DF og BP),\nhverken for eller imod stemte 0.",
+      "vedtaget": true,
+      "kommentar": null,
+      "mødeid": 15496,
+      "typeid": 1,
+      "sagstrinid": 271522,
+      "opdateringsdato": "2026-04-07T15:24:44.32"
+    }
+  ]
+}

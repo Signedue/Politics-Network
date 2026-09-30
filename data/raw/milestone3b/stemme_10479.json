@@ -1,0 +1,2524 @@
+{
+  "value": [
+    {
+      "id": 2338832,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 119,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338833,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 34,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338834,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 238,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338835,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20392,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338836,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18723,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338837,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 15779,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338838,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20384,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338839,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20389,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338840,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20357,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338841,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20369,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338842,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 134,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338843,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 113,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338844,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 93,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338845,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 127,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338846,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 1454,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338847,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 17141,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338848,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 11702,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338849,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20415,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338850,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20385,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338851,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 99,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338852,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20391,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338853,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 82,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338854,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20373,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338855,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 125,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338856,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 49,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338857,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 180,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338858,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 15793,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338859,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 21194,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338860,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20377,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338861,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18703,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338862,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 48,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338863,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 182,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338864,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 164,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338865,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 102,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338866,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18713,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338867,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18699,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338868,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 15763,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338869,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20400,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338870,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20394,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338871,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20397,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338872,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20378,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338873,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20386,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338874,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 112,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338875,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 191,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338876,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20352,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338877,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 15775,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338878,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 262,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338879,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20372,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338880,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20375,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338881,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20356,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338882,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20350,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338883,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20820,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338884,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20398,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338885,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20395,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338886,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18726,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338887,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18729,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338888,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20370,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338889,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20381,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338890,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20353,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338891,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20349,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338892,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20376,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338893,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20355,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338894,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18724,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338895,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18722,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338896,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20388,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338897,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20390,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338898,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20383,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338899,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20354,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338900,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18695,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338901,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 168,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338902,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 1146,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338903,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 162,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338904,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 18,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338905,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 252,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338906,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20393,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338907,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20396,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338908,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20399,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338909,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 21159,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338910,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20496,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338911,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18725,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338912,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 141,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338913,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20351,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338914,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20966,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338915,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20925,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338916,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 21168,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338917,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20371,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338918,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18698,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338919,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18700,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338920,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20374,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338921,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 17629,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338922,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 15774,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338923,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18721,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338924,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 21143,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338925,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 21044,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338926,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20781,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338927,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18688,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338928,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20798,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338929,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20360,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338930,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 20359,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338931,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20358,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338932,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20366,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338933,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20364,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338934,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20930,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338935,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20367,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338936,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20363,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338937,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20365,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338938,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20368,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338939,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 19928,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338940,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18882,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338941,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 15757,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338942,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20962,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338943,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 18707,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338944,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 18708,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338945,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20411,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338946,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 109,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338947,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18717,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338948,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18720,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338949,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18715,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338950,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 273,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338951,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 16503,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338952,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 16180,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338953,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 16351,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338954,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 1619,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338955,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 278,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338956,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 74,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338957,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 208,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338958,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18704,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338959,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 121,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338960,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 219,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338961,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 18694,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338962,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 667,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338963,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 152,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338964,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 97,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338965,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 201,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338966,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 224,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338967,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 38,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338968,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 154,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338969,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 257,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338970,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 20362,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338971,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 199,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338972,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 16728,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338973,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 110,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338974,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18693,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338975,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18718,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338976,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 18719,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338977,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 15760,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338978,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 118,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338979,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 266,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338980,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 18709,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338981,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 19000,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338982,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 176,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338983,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 16582,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338984,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 213,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338985,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 120,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338986,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 43,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338987,
+      "typeid": 1,
+      "afstemningid": 10479,
+      "aktørid": 15777,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338988,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 15762,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338989,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 260,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338990,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 145,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338991,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 206,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338992,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 138,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338993,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 57,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338994,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 15776,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338995,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 130,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338996,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 12,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338997,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 214,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338998,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 15787,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2338999,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 15770,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339000,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 286,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339001,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 244,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339002,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 220,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339003,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 20382,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339004,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 139,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339005,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 173,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339006,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 80,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339007,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18696,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339008,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18701,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339009,
+      "typeid": 3,
+      "afstemningid": 10479,
+      "aktørid": 18716,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    },
+    {
+      "id": 2339010,
+      "typeid": 2,
+      "afstemningid": 10479,
+      "aktørid": 1845,
+      "opdateringsdato": "2025-12-17T14:03:13.117"
+    }
+  ],
+  "pages": [
+    {
+      "odata.metadata": "https://oda.ft.dk/api/$metadata#Stemme",
+      "value": [
+        {
+          "id": 2338832,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 119,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338833,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 34,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338834,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 238,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338835,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20392,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338836,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18723,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338837,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 15779,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338838,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20384,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338839,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20389,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338840,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20357,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338841,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20369,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338842,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 134,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338843,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 113,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338844,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 93,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338845,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 127,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338846,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 1454,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338847,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 17141,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338848,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 11702,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338849,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20415,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338850,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20385,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338851,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 99,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338852,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20391,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338853,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 82,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338854,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20373,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338855,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 125,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338856,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 49,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338857,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 180,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338858,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 15793,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338859,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 21194,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338860,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20377,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338861,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18703,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338862,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 48,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338863,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 182,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338864,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 164,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338865,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 102,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338866,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18713,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338867,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18699,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338868,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 15763,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338869,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20400,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338870,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20394,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338871,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20397,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338872,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20378,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338873,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20386,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338874,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 112,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338875,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 191,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338876,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20352,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338877,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 15775,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338878,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 262,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338879,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20372,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338880,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20375,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338881,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20356,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338882,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20350,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338883,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20820,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338884,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20398,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338885,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20395,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338886,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18726,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338887,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18729,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338888,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20370,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338889,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20381,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338890,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20353,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338891,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20349,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338892,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20376,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338893,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20355,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338894,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18724,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338895,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18722,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338896,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20388,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338897,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20390,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338898,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20383,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338899,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20354,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338900,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18695,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338901,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 168,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338902,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 1146,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338903,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 162,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338904,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 18,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338905,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 252,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338906,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20393,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338907,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20396,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338908,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20399,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338909,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 21159,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338910,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20496,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338911,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18725,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338912,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 141,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338913,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20351,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338914,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20966,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338915,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20925,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338916,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 21168,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338917,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20371,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338918,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18698,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338919,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18700,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338920,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20374,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338921,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 17629,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338922,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 15774,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338923,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18721,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338924,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 21143,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338925,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 21044,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338926,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20781,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338927,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18688,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338928,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20798,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338929,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20360,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338930,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 20359,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338931,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20358,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        }
+      ],
+      "odata.nextLink": "https://oda.ft.dk/api/Stemme?$filter=afstemningid%20eq%2010479&$skip=100"
+    },
+    {
+      "odata.metadata": "https://oda.ft.dk/api/$metadata#Stemme",
+      "value": [
+        {
+          "id": 2338932,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20366,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338933,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20364,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338934,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20930,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338935,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20367,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338936,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20363,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338937,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20365,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338938,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20368,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338939,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 19928,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338940,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18882,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338941,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 15757,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338942,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20962,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338943,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 18707,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338944,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 18708,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338945,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20411,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338946,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 109,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338947,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18717,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338948,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18720,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338949,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18715,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338950,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 273,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338951,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 16503,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338952,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 16180,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338953,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 16351,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338954,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 1619,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338955,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 278,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338956,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 74,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338957,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 208,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338958,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18704,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338959,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 121,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338960,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 219,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338961,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 18694,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338962,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 667,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338963,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 152,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338964,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 97,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338965,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 201,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338966,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 224,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338967,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 38,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338968,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 154,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338969,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 257,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338970,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 20362,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338971,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 199,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338972,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 16728,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338973,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 110,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338974,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18693,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338975,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18718,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338976,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 18719,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338977,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 15760,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338978,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 118,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338979,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 266,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338980,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 18709,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338981,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 19000,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338982,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 176,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338983,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 16582,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338984,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 213,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338985,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 120,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338986,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 43,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338987,
+          "typeid": 1,
+          "afstemningid": 10479,
+          "aktørid": 15777,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338988,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 15762,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338989,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 260,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338990,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 145,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338991,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 206,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338992,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 138,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338993,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 57,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338994,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 15776,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338995,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 130,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338996,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 12,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338997,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 214,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338998,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 15787,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2338999,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 15770,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339000,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 286,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339001,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 244,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339002,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 220,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339003,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 20382,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339004,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 139,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339005,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 173,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339006,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 80,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339007,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18696,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339008,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18701,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339009,
+          "typeid": 3,
+          "afstemningid": 10479,
+          "aktørid": 18716,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        },
+        {
+          "id": 2339010,
+          "typeid": 2,
+          "afstemningid": 10479,
+          "aktørid": 1845,
+          "opdateringsdato": "2025-12-17T14:03:13.117"
+        }
+      ]
+    }
+  ],
+  "page_count": 2
+}

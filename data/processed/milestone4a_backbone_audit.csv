@@ -1,0 +1,9 @@
+family,setting_left,setting_right,jaccard_edge_overlap
+global threshold,> 0,>= 0.05,0.8989197530864198
+global threshold,>= 0.05,>= 0.10,0.8947067238912733
+global threshold,>= 0.10,>= 0.15,0.9398784777742245
+global threshold,>= 0.15,>= 0.20,0.821367812181014
+global threshold,>= 0.20,>= 0.25,0.6967688483844242
+disparity backbone,alpha <= 0.05,alpha <= 0.10,0.42105263157894735
+disparity backbone,alpha <= 0.10,alpha <= 0.20,0.3470319634703196
+disparity backbone,alpha <= 0.20,alpha <= 0.30,0.18280467445742904
