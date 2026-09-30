@@ -1,0 +1,29 @@
+{
+  "value": [
+    {
+      "id": 165,
+      "startdato": "2025-10-07T12:00:00",
+      "slutdato": "2026-03-24T12:00:00",
+      "type": "samling",
+      "kode": "20251",
+      "titel": "2025-26 (1. samling)",
+      "opdateringsdato": "2026-03-24T14:07:07.593"
+    }
+  ],
+  "pages": [
+    {
+      "odata.metadata": "https://oda.ft.dk/api/$metadata#Periode",
+      "value": [
+        {
+          "id": 165,
+          "startdato": "2025-10-07T12:00:00",
+          "slutdato": "2026-03-24T12:00:00",
+          "type": "samling",
+          "kode": "20251",
+          "titel": "2025-26 (1. samling)",
+          "opdateringsdato": "2026-03-24T14:07:07.593"
+        }
+      ]
+    }
+  ]
+}

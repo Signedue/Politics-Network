@@ -1,0 +1,112 @@
+{
+  "samples": [
+    {
+      "period": "20252",
+      "vote": 3,
+      "afstemning_id": 10571,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20252",
+      "vote": 43,
+      "afstemning_id": 10604,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20252",
+      "vote": 4,
+      "afstemning_id": 10572,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20251",
+      "vote": 2,
+      "afstemning_id": 10379,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20251",
+      "vote": 207,
+      "afstemning_id": 10570,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20251",
+      "vote": 3,
+      "afstemning_id": 10380,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20241",
+      "vote": 1,
+      "afstemning_id": 9913,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20241",
+      "vote": 533,
+      "afstemning_id": 10378,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20241",
+      "vote": 3,
+      "afstemning_id": 9914,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20231",
+      "vote": 1,
+      "afstemning_id": 9357,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20231",
+      "vote": 576,
+      "afstemning_id": 9912,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20231",
+      "vote": 4,
+      "afstemning_id": 9358,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20252",
+      "vote": 5,
+      "afstemning_id": 10573,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20252",
+      "vote": 6,
+      "afstemning_id": 10574,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20252",
+      "vote": 7,
+      "afstemning_id": 10575,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20251",
+      "vote": 5,
+      "afstemning_id": 10381,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20251",
+      "vote": 6,
+      "afstemning_id": 10382,
+      "stemme_rows": 1
+    },
+    {
+      "period": "20251",
+      "vote": 7,
+      "afstemning_id": 10383,
+      "stemme_rows": 1
+    }
+  ]
+}

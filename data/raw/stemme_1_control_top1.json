@@ -1,0 +1,12 @@
+{
+  "odata.metadata": "https://oda.ft.dk/api/$metadata#Stemme",
+  "value": [
+    {
+      "id": 1,
+      "typeid": 1,
+      "afstemningid": 1,
+      "aktørid": 158,
+      "opdateringsdato": "2014-09-09T09:05:59.653"
+    }
+  ]
+}

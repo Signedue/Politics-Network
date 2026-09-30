@@ -1,0 +1,40 @@
+{
+  "odata.metadata": "https://oda.ft.dk/api/$metadata#Stemme",
+  "value": [
+    {
+      "id": 1,
+      "typeid": 1,
+      "afstemningid": 1,
+      "aktørid": 158,
+      "opdateringsdato": "2014-09-09T09:05:59.653"
+    },
+    {
+      "id": 2,
+      "typeid": 1,
+      "afstemningid": 1,
+      "aktørid": 71,
+      "opdateringsdato": "2014-09-09T09:05:59.653"
+    },
+    {
+      "id": 3,
+      "typeid": 1,
+      "afstemningid": 1,
+      "aktørid": 50,
+      "opdateringsdato": "2014-09-09T09:05:59.653"
+    },
+    {
+      "id": 4,
+      "typeid": 1,
+      "afstemningid": 1,
+      "aktørid": 49,
+      "opdateringsdato": "2014-09-09T09:05:59.653"
+    },
+    {
+      "id": 5,
+      "typeid": 1,
+      "afstemningid": 1,
+      "aktørid": 183,
+      "opdateringsdato": "2014-09-09T09:05:59.653"
+    }
+  ]
+}

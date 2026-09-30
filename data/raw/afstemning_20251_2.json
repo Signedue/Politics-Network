@@ -1,0 +1,61 @@
+{
+  "value": [
+    {
+      "Møde": {
+        "id": 15443,
+        "titel": "Møde i salen",
+        "lokale": "",
+        "nummer": "3",
+        "dagsordenurl": "",
+        "starttidsbemærkning": "",
+        "offentlighedskode": "O",
+        "dato": "2025-10-09T08:00:00",
+        "statusid": 2,
+        "typeid": 1,
+        "periodeid": 165,
+        "opdateringsdato": "2025-10-10T10:51:47.74"
+      },
+      "id": 10379,
+      "nummer": 2,
+      "konklusion": "Vedtaget\nFor stemte 59 (S, V, M, JF, Jeppe Søe (UFG), Jon Stephensen (UFG)) \nimod stemte 51 (DD, SF, LA, KF, EL, DF, RV, ALT, Mike Villa Fonseca (UFG)) \nhverken for eller imod stemte 0 ",
+      "vedtaget": true,
+      "kommentar": "",
+      "mødeid": 15443,
+      "typeid": 3,
+      "sagstrinid": 268868,
+      "opdateringsdato": "2025-10-10T11:45:43.137"
+    }
+  ],
+  "pages": [
+    {
+      "odata.metadata": "https://oda.ft.dk/api/$metadata#Afstemning",
+      "value": [
+        {
+          "Møde": {
+            "id": 15443,
+            "titel": "Møde i salen",
+            "lokale": "",
+            "nummer": "3",
+            "dagsordenurl": "",
+            "starttidsbemærkning": "",
+            "offentlighedskode": "O",
+            "dato": "2025-10-09T08:00:00",
+            "statusid": 2,
+            "typeid": 1,
+            "periodeid": 165,
+            "opdateringsdato": "2025-10-10T10:51:47.74"
+          },
+          "id": 10379,
+          "nummer": 2,
+          "konklusion": "Vedtaget\nFor stemte 59 (S, V, M, JF, Jeppe Søe (UFG), Jon Stephensen (UFG)) \nimod stemte 51 (DD, SF, LA, KF, EL, DF, RV, ALT, Mike Villa Fonseca (UFG)) \nhverken for eller imod stemte 0 ",
+          "vedtaget": true,
+          "kommentar": "",
+          "mødeid": 15443,
+          "typeid": 3,
+          "sagstrinid": 268868,
+          "opdateringsdato": "2025-10-10T11:45:43.137"
+        }
+      ]
+    }
+  ]
+}

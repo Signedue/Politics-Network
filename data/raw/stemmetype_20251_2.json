@@ -1,0 +1,25 @@
+{
+  "odata.metadata": "https://oda.ft.dk/api/$metadata#Stemmetype",
+  "value": [
+    {
+      "id": 1,
+      "type": "For",
+      "opdateringsdato": "2014-06-24T15:17:12.423"
+    },
+    {
+      "id": 2,
+      "type": "Imod",
+      "opdateringsdato": "2014-06-24T15:17:12.423"
+    },
+    {
+      "id": 3,
+      "type": "Fravær",
+      "opdateringsdato": "2014-06-24T15:17:12.423"
+    },
+    {
+      "id": 4,
+      "type": "Hverken for eller imod",
+      "opdateringsdato": "2014-06-24T15:17:12.423"
+    }
+  ]
+}
