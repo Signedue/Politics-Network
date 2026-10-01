@@ -47,21 +47,26 @@
               <strong>0.741</strong>
               <p class="callout-label">Null expectation</p>
               <strong>0.747</strong>
-              <p><span class="callout-label">Why it matters</span>Raw agreement alone does not distinguish observed structure from agreement expected from vote-level outcomes.</p>
             </aside>
           </div>
           <div class="interpretation">
-            <div class="interpretation-item">
-              <p class="interpretation-label">What we see</p>
-              <p>Politicians agree on roughly 74% of votes they both participate in. Mean observed pairwise similarity is 0.741, compared with 0.747 under the vote-preserving null.</p>
+            <p class="interpretation-kicker">Interpretation</p>
+            <h3>Raw agreement is not enough</h3>
+            <p class="interpretation-summary">Politicians agree on roughly 74% of votes they both participate in, but the vote-preserving null expects almost the same average level of agreement.</p>
+            <div class="interpretation-evidence">
+              <p class="interpretation-label">Key evidence</p>
+              <div><span>Observed mean</span><strong>0.741</strong></div>
+              <div><span>Null expectation</span><strong>0.747</strong></div>
             </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it tells us</p>
-              <p>High raw agreement is not by itself evidence of a distinctive pairwise relationship. Much agreement is already expected from parliamentary vote outcomes, motivating comparison with the null baseline.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it does not tell us</p>
-              <p>This does not show that voting is random or that politicians do not differ systematically. The null preserves participation and each vote's exact For, Imod, and Hverken totals while randomizing which participants cast them.</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>Much of the high raw voting agreement is already expected from the outcome distributions of parliamentary votes. Pair-specific voting structure therefore needs to be evaluated relative to the null baseline rather than from raw similarity alone.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>This does not imply that parliamentary voting is random or that politicians do not differ systematically. The result is conditional on this null model, which preserves participation and each vote's For, Imod, and Hverken totals while randomizing which participating politicians cast those positions.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -78,17 +83,19 @@
           <p class="note">The provisional Rule B network uses participated votes ≥ 40, n_shared ≥ 40, positive excess similarity, and adjusted q &lt; 0.05.</p>
           <div class="network-placeholder">Interactive voting network — next analysis step</div>
           <div class="interpretation">
-            <div class="interpretation-item">
-              <p class="interpretation-label">What we see</p>
-              <p>There are 150 eligible politicians, 3,086 validated edges, 6 connected components, and 117 politicians in the giant component. Edges require at least 40 shared participated votes, positive excess similarity, and BH FDR q &lt; 0.05; their weight is excess similarity.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it tells us</p>
-              <p>The network represents pairwise voting agreement that exceeds the vote-preserving null expectation and passes the chosen statistical criterion. It captures more than simply counting same-way votes.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it does not tell us</p>
-              <p>An edge is not evidence of friendship, cooperation, ideological similarity, or strategic coordination. It represents a statistical relationship in observed parliamentary voting during the analysed period.</p>
+            <p class="interpretation-kicker">Interpretation</p>
+            <h3>Edges represent excess voting agreement</h3>
+            <p class="interpretation-summary">The provisional network keeps pairwise relationships that exceed the vote-preserving baseline and pass the selected statistical criterion.</p>
+            <p class="interpretation-evidence-text"><span class="interpretation-label">Key evidence</span>150 eligible politicians · 3,086 edges · 6 components · 117 politicians in the giant component</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>Edges require at least 40 shared participated votes, positive excess similarity, and BH FDR q &lt; 0.05. Their weight is excess similarity, so the network captures more than simply counting same-way votes.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>An edge is not evidence of friendship, political alignment, or strategic coordination. It represents a statistical relationship in observed parliamentary voting during the analysed period.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -105,17 +112,19 @@
             </div>
           </div>
           <div class="interpretation">
-            <div class="interpretation-item">
-              <p class="interpretation-label">What we see</p>
-              <p>Across 20 weighted Louvain runs with different fixed random seeds, every run produced 9 communities. Mean pairwise NMI was 0.9623 and median pairwise NMI was 0.9629.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it tells us</p>
-              <p>The detected community structure is highly consistent across these runs. Changing the algorithm's random seed generally produces very similar partitions.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it does not tell us</p>
-              <p>Stability does not prove that nine communities are the uniquely correct or true division of the network. It shows that this network and this method repeatedly recover similar partitions.</p>
+            <p class="interpretation-kicker">Interpretation</p>
+            <h3>The community solution is reproducible across seeds</h3>
+            <p class="interpretation-summary">Across 20 weighted Louvain runs with different fixed random seeds, the algorithm repeatedly returned a very similar partition.</p>
+            <p class="interpretation-evidence-text"><span class="interpretation-label">Key evidence</span>9 communities in every run · Mean pairwise NMI 0.9623 · Median pairwise NMI 0.9629</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>The detected community structure is highly consistent across these runs. Changing the algorithm's random seed generally produces very similar partitions.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>Stability does not establish that nine communities are the uniquely correct division of the network. It shows that this network and this method repeatedly recover similar partitions.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -134,17 +143,19 @@
             </div>
           </div>
           <div class="interpretation">
-            <div class="interpretation-item">
-              <p class="interpretation-label">What we see</p>
-              <p>Representative weighted modularity is Q = 0.1530. Degree-preserving null networks have mean Q = 0.0630, SD = 0.00229, and empirical one-sided p = 0.00990; observed Q lies above the null distribution.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it tells us</p>
-              <p>Under the selected baseline, the observed network contains stronger community structure than expected. The null preserves the node set and degree sequence, rewires edges, and randomly permutes observed weights across shuffled edges.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it does not tell us</p>
-              <p>This does not explain why communities exist or establish ideology, party strategy, government/opposition relations, or personal cooperation. The conclusion is conditional on the chosen network definition and null model.</p>
+            <p class="interpretation-kicker">Interpretation</p>
+            <h3>Community structure exceeds the selected network null</h3>
+            <p class="interpretation-summary">The representative network has higher modularity than the degree-preserving null distribution used for comparison.</p>
+            <p class="interpretation-evidence-text"><span class="interpretation-label">Key evidence</span>Observed Q 0.1530 · Null mean Q 0.0630 · Null SD 0.00229 · Empirical one-sided p 0.00990</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>Under the selected baseline, the observed network contains stronger community structure than expected. The null preserves the node set and degree sequence, rewires edges, and randomly permutes observed weights across shuffled edges.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>This does not explain why communities exist or establish party strategy, government/opposition relations, or personal relationships. The conclusion is conditional on the chosen network definition and null model.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -154,17 +165,19 @@
           <div class="party-stat"><span>COMMUNITY ↔ PARTY</span><small>NMI</small><strong>0.6449</strong></div>
           <p>Formal party membership and detected voting communities overlap, but they do not define identical partitions.</p>
           <div class="interpretation">
-            <div class="interpretation-item">
-              <p class="interpretation-label">What we see</p>
-              <p>NMI between the representative Louvain communities and formal party membership is 0.6449.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it tells us</p>
-              <p>Party membership and detected voting communities contain overlapping information, but they do not produce identical partitions. The voting network is not perfectly described by party labels alone.</p>
-            </div>
-            <div class="interpretation-item">
-              <p class="interpretation-label">What it does not tell us</p>
-              <p>NMI does not explain why particular politicians or parties appear together or apart, nor does it establish that either partition is better or more meaningful. Those differences require direct examination of composition and voting patterns.</p>
+            <p class="interpretation-kicker">Interpretation</p>
+            <h3>Voting communities overlap with — but do not reproduce — parties</h3>
+            <p class="interpretation-summary">The representative Louvain communities and formal party membership contain overlapping information without producing identical partitions.</p>
+            <p class="interpretation-evidence-text"><span class="interpretation-label">Key evidence</span>Community ↔ party NMI 0.6449</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>Party membership and detected voting communities overlap, but the voting network is not perfectly described by party labels alone.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>NMI does not explain why particular politicians or parties appear together or apart, nor does it establish that either partition is better or more meaningful. Those differences require direct examination of composition and voting patterns.</p>
+              </div>
             </div>
           </div>
         </section>

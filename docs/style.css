@@ -585,17 +585,35 @@ code {
 }
 
 .interpretation {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
   max-width: 1060px;
   margin-top: 2.25rem;
   border-top: 1px solid var(--line);
-  padding-top: 1.25rem;
+  border-bottom: 1px solid var(--line);
+  padding: 1.5rem 0 1.75rem;
 }
 
-.interpretation-item {
-  min-width: 0;
+.interpretation-kicker {
+  margin-bottom: 0.55rem;
+  color: var(--teal);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.interpretation h3 {
+  max-width: 720px;
+  margin: 0 0 0.55rem;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.interpretation-summary {
+  max-width: 720px;
+  margin-bottom: 1.15rem;
+  color: var(--muted);
+  font-size: 1rem;
 }
 
 .interpretation-label {
@@ -607,10 +625,55 @@ code {
   text-transform: uppercase;
 }
 
+.interpretation-evidence {
+  max-width: 430px;
+  margin-bottom: 1.35rem;
+}
+
+.interpretation-evidence > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--line);
+  padding: 0.45rem 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.interpretation-evidence strong {
+  color: var(--teal-dark);
+}
+
+.interpretation-evidence-text {
+  margin-bottom: 1.35rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.interpretation-evidence-text .interpretation-label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.interpretation-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.interpretation-item {
+  min-width: 0;
+}
+
 .interpretation-item p:last-child {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+}
+
+.interpretation-limit {
+  border-left: 2px solid var(--teal);
+  padding-left: 1.25rem;
 }
 
 .large-stat {
@@ -655,10 +718,21 @@ footer {
 
   .project-intro,
   .editorial-chart,
-  .result-grid,
-  .interpretation {
+  .result-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .interpretation-columns {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .interpretation-limit {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+    padding-top: 1.25rem;
+    padding-left: 0;
   }
 
   .content {
