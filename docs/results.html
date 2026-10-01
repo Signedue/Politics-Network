@@ -10,87 +10,84 @@
   <body>
     <main class="page">
       <header class="site-header">
-        <a class="wordmark" href="index.html">Politics Network</a>
-        <nav class="site-nav" aria-label="Main navigation">
-          <a href="index.html">Project</a>
-          <a href="methodology.html">Methodology</a>
-          <a class="active" href="results.html" aria-current="page">Results</a>
-        </nav>
+        <div class="nav-shell">
+          <a class="brand" href="index.html">Politics Network</a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="index.html">Project</a>
+            <a href="methodology.html">Methodology</a>
+            <a class="active" href="results.html" aria-current="page">Results</a>
+          </nav>
+        </div>
       </header>
 
       <header class="page-header">
         <p class="eyebrow">Validated outputs</p>
         <h1>Results</h1>
-        <p class="intro">A concise view of the documented data, network, and community diagnostics.</p>
+        <p class="intro">A voting agreement network with structure beyond the selected null baseline.</p>
       </header>
 
-      <div class="content">
-        <section class="card card-wide">
-          <p class="label">01 · Data coverage</p>
-          <div class="metric-grid">
-            <div><strong>192</strong><span>Total votes</span></div>
-            <div><strong>168</strong><span>Usable votes</span></div>
-            <div><strong>87.5%</strong><span>Coverage</span></div>
+      <section class="top-metrics" aria-label="Key results">
+        <div class="top-metric"><strong>192</strong><span>Total votes</span></div>
+        <div class="top-metric"><strong>168</strong><span>Usable votes</span></div>
+        <div class="top-metric"><strong>150</strong><span>Network politicians</span></div>
+        <div class="top-metric"><strong>3,086</strong><span>Edges</span></div>
+      </section>
+
+      <div class="results-stack">
+        <section class="result-section">
+          <p class="label">01 / Why raw agreement is not enough</p>
+          <h2>Observed similarity versus the vote-preserving null</h2>
+          <div class="chart-card">
+            <div id="similarity-chart" class="chart-container" aria-label="Interactive histogram of observed and null pairwise similarity"></div>
+            <p class="chart-note">Observed mean: <strong>0.741</strong> · Null mean: <strong>0.747</strong></p>
           </div>
-          <p class="note">The 24 unavailable vote records remain excluded and documented.</p>
         </section>
 
-        <section class="card card-wide">
-          <p class="label">02 · Raw similarity versus null</p>
-          <h2>Vote-level outcome distributions matter</h2>
-          <figure>
-            <img src="assets/figures/milestone3d_observed_vs_null.png" alt="Histogram comparing observed pairwise similarity with the vote-preserving null mean.">
-            <figcaption>Raw voting agreement is high, but much of that level is also expected from vote-level outcome distributions.</figcaption>
-          </figure>
+        <section class="result-section">
+          <p class="label">02 / Network structure</p>
+          <div class="stat-row">
+            <div><strong>150</strong><span>politicians</span></div>
+            <div><strong>3,086</strong><span>edges</span></div>
+            <div><strong>6</strong><span>components</span></div>
+            <div><strong>117</strong><span>giant component</span></div>
+          </div>
+          <p class="note">The provisional Rule B network uses participated votes ≥ 40, n_shared ≥ 40, positive excess similarity, and adjusted q &lt; 0.05.</p>
         </section>
 
-        <section class="card">
-          <p class="label">03 · Network summary</p>
-          <h2>Provisional Rule B network</h2>
-          <dl class="metrics">
-            <div><dt>Politicians</dt><dd>150</dd></div>
-            <div><dt>Edges</dt><dd>3,086</dd></div>
-            <div><dt>Components</dt><dd>6</dd></div>
-            <div><dt>Giant component</dt><dd>117</dd></div>
-          </dl>
-          <p>No final network visualization is presented here.</p>
+        <section class="result-section">
+          <p class="label">03 / Stable communities</p>
+          <div class="result-grid">
+            <div>
+              <h2>Weighted Louvain</h2>
+              <p><strong>9</strong> representative communities</p>
+              <p>Mean seed-to-seed NMI: <strong>0.9623</strong></p>
+            </div>
+            <div class="chart-card">
+              <div id="nmi-chart" class="chart-container" aria-label="Interactive heatmap of NMI between Louvain runs"></div>
+            </div>
+          </div>
         </section>
 
-        <section class="card">
-          <p class="label">04 · Community structure</p>
-          <h2>Stable across Louvain seeds</h2>
-          <p><strong>9</strong> representative communities</p>
-          <p>Mean seed-to-seed NMI: <strong>0.9623</strong></p>
-          <figure>
-            <img src="assets/figures/milestone5a_nmi_stability.png" alt="Heatmap of pairwise NMI between Louvain runs.">
-            <figcaption>Pairwise normalized mutual information across 20 weighted Louvain runs.</figcaption>
-          </figure>
+        <section class="result-section">
+          <p class="label">04 / Compared with null</p>
+          <div class="result-grid">
+            <div class="summary-list">
+              <p><span>Real Q</span><strong>0.1530</strong></p>
+              <p><span>Null mean Q</span><strong>0.0630</strong></p>
+              <p><span>Null SD</span><strong>0.00229</strong></p>
+              <p><span>Empirical p</span><strong>0.00990</strong></p>
+            </div>
+            <div class="chart-card">
+              <div id="modularity-chart" class="chart-container" aria-label="Interactive histogram of null modularity with the real modularity marked"></div>
+            </div>
+          </div>
         </section>
 
-        <section class="card">
-          <p class="label">05 · Compared to null</p>
-          <h2>Modularity</h2>
-          <figure>
-            <img src="assets/figures/milestone5a_modularity_null.png" alt="Histogram comparing real modularity with degree-preserving null modularities.">
-            <figcaption>Observed Rule B modularity compared with degree-preserving null networks.</figcaption>
-          </figure>
-          <p>Real Q = <strong>0.153</strong>; null mean Q = <strong>0.063</strong>; empirical p = <strong>0.0099</strong>.</p>
-        </section>
-
-        <section class="card">
-          <p class="label">06 · Parties and communities</p>
+        <section class="result-section">
+          <p class="label">05 / Communities and parties</p>
           <h2>Partial alignment</h2>
-          <p>Community/party NMI: <strong>0.6449</strong></p>
-          <p class="note">Formal party membership and detected voting communities overlap substantially but do not encode exactly the same partition.</p>
-        </section>
-
-        <section class="card card-wide">
-          <p class="label">07 · Next</p>
-          <ul>
-            <li>Inspect community composition.</li>
-            <li>Investigate cross-community structural positions.</li>
-            <li>Later evaluate whether parliamentary language provides a second layer.</li>
-          </ul>
+          <p class="large-stat">NMI = <strong>0.6449</strong></p>
+          <p>Formal party membership and detected voting communities overlap, but they do not define identical partitions.</p>
         </section>
       </div>
 
@@ -98,5 +95,7 @@
         <p>Results are descriptive and limited to documented repository outputs.</p>
       </footer>
     </main>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script src="js/results.js"></script>
   </body>
 </html>
