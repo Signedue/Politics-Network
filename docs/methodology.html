@@ -28,7 +28,7 @@
 
       <div class="timeline">
         <details class="timeline-step" open>
-          <summary><span class="label">Step 1 · Data retrieval</span><span>Can individual votes be retrieved reliably?</span></summary>
+          <summary><span class="label">01 / QUESTION</span><span>Can individual votes be retrieved reliably?</span></summary>
           <div class="decision-log">
             <p><strong>Test:</strong> Folketinget's official OData service was inspected and one vote was retrieved.</p>
             <p><strong>Result:</strong> OData initially returned 100 rows; <code>odata.nextLink</code> revealed additional pages. Vote 2 contained 179 individual records: 59 For, 51 Imod, and 69 Fravær. Cast-vote totals matched the official result.</p>
@@ -37,7 +37,7 @@
         </details>
 
         <details class="timeline-step">
-          <summary><span class="label">Step 2 · Session coverage</span><span>How much of period 20251 has individual data?</span></summary>
+          <summary><span class="label">02 / QUESTION</span><span>How much of period 20251 has individual data?</span></summary>
           <div class="decision-log">
             <p><strong>Test:</strong> Count-only queries were made for all Afstemning records.</p>
             <p><strong>Result:</strong> 192 records were identified; 168 had individual Stemme data and 24 had zero individual rows. Coverage was 87.5%, with missing votes clustered in two meetings.</p>
@@ -46,7 +46,7 @@
         </details>
 
         <details class="timeline-step">
-          <summary><span class="label">Step 3 · Raw voting similarity</span><span>How should pairwise agreement be defined?</span></summary>
+          <summary><span class="label">03 / QUESTION</span><span>How should pairwise agreement be defined?</span></summary>
           <div class="decision-log">
             <p><strong>Test:</strong> Similarity was defined as the same participated voting positions divided by shared participated votes. Fravær and missing observations were excluded.</p>
             <p><strong>Result:</strong> In the 10-vote test, similarity of 1.0 could be based on only one shared vote.</p>
@@ -55,7 +55,7 @@
         </details>
 
         <details class="timeline-step">
-          <summary><span class="label">Step 4 · Sample size</span><span>How many votes are needed?</span></summary>
+          <summary><span class="label">04 / QUESTION</span><span>How many votes are needed?</span></summary>
           <div class="decision-log">
             <p><strong>Test:</strong> Pairwise diagnostics progressed from 10 votes to 50 votes to all 168 valid votes.</p>
             <p><strong>Result:</strong> The median <code>n_shared</code> was 12 for 50 votes and 40 for 168 valid votes. First-half versus second-half similarity correlation was 0.8984 for eligible pairs.</p>
@@ -64,7 +64,7 @@
         </details>
 
         <details class="timeline-step">
-          <summary><span class="label">Step 5 · Null model</span><span>Is raw similarity above vote-level expectations?</span></summary>
+          <summary><span class="label">05 / QUESTION</span><span>Is raw similarity above vote-level expectations?</span></summary>
           <div class="decision-log">
             <p><strong>Test:</strong> For each vote, participation, absence, missingness, and exact For / Imod / Hverken totals were fixed while positions were shuffled across participating politicians.</p>
             <p><strong>Result:</strong> Observed mean similarity was 0.741 and null mean similarity was 0.747. Same-party mean excess was +0.254; different-party mean excess was -0.049.</p>
@@ -73,7 +73,7 @@
         </details>
 
         <details class="timeline-step">
-          <summary><span class="label">Step 6 · Network construction</span><span>What provisional agreement network is defensible?</span></summary>
+          <summary><span class="label">06 / QUESTION</span><span>What provisional agreement network is defensible?</span></summary>
           <div class="decision-log">
             <p><strong>Test:</strong> Require participated votes ≥ 40, pairwise <code>n_shared</code> ≥ 40, excess similarity &gt; 0, and Benjamini-Hochberg adjusted <code>q</code> &lt; 0.05. Use excess similarity as the edge weight.</p>
             <p><strong>Result:</strong> The provisional Rule B network has 150 politicians, 3,086 edges, 147 nodes with edges, 3 isolates, 6 components, and a 117-node giant component. Rule B versus Rule C edge Jaccard was 0.9802.</p>
@@ -82,7 +82,7 @@
         </details>
 
         <details class="timeline-step">
-          <summary><span class="label">Step 7 · Community analysis</span><span>Are communities stable and above the null baseline?</span></summary>
+          <summary><span class="label">07 / QUESTION</span><span>Are communities stable and above the null baseline?</span></summary>
           <div class="decision-log">
             <p><strong>Test:</strong> Weighted Louvain was run with 20 seeds on all 150 nodes. A degree-preserving edge-swap null retained the degree sequence while randomly permuting observed edge weights across shuffled edges.</p>
             <p><strong>Result:</strong> Every run found 9 communities; modularity ranged from 0.1366 to 0.1531, with mean pairwise NMI 0.9623. The representative seed was 1004 with Q = 0.1530. The null mean Q was 0.0630, SD 0.00229, z = 39.32, and empirical p = 0.00990. Community/party NMI was 0.6449; Rule B/Rule C community NMI was 0.9085.</p>

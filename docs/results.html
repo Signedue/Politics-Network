@@ -21,9 +21,10 @@
       </header>
 
       <header class="page-header">
-        <p class="eyebrow">Validated outputs</p>
+        <p class="eyebrow">Validated analysis / 2025–26</p>
         <h1>Results</h1>
         <p class="intro">A voting agreement network with structure beyond the selected null baseline.</p>
+        <div class="hero-rule"></div>
       </header>
 
       <section class="top-metrics" aria-label="Key results">
@@ -37,14 +38,23 @@
         <section class="result-section">
           <p class="label">01 / Why raw agreement is not enough</p>
           <h2>Observed similarity versus the vote-preserving null</h2>
-          <div class="chart-card">
-            <div id="similarity-chart" class="chart-container" aria-label="Interactive histogram of observed and null pairwise similarity"></div>
-            <p class="chart-note">Observed mean: <strong>0.741</strong> · Null mean: <strong>0.747</strong></p>
+          <div class="editorial-chart">
+            <div class="chart-card">
+              <div id="similarity-chart" class="chart-container" aria-label="Interactive histogram of observed and null pairwise similarity"></div>
+            </div>
+            <aside class="result-callout">
+              <p class="callout-label">Observed</p>
+              <strong>0.741</strong>
+              <p class="callout-label">Null expectation</p>
+              <strong>0.747</strong>
+              <p><span class="callout-label">Why it matters</span>Raw agreement alone does not distinguish observed structure from agreement expected from vote-level outcomes.</p>
+            </aside>
           </div>
         </section>
 
         <section class="result-section">
           <p class="label">02 / Network structure</p>
+          <p class="network-statement"><strong>150</strong> politicians connected by <strong>3,086</strong> validated agreement relationships.</p>
           <div class="stat-row">
             <div><strong>150</strong><span>politicians</span></div>
             <div><strong>3,086</strong><span>edges</span></div>
@@ -52,15 +62,15 @@
             <div><strong>117</strong><span>giant component</span></div>
           </div>
           <p class="note">The provisional Rule B network uses participated votes ≥ 40, n_shared ≥ 40, positive excess similarity, and adjusted q &lt; 0.05.</p>
+          <div class="network-placeholder">Interactive voting network — next analysis step</div>
         </section>
 
         <section class="result-section">
           <p class="label">03 / Stable communities</p>
           <div class="result-grid">
             <div>
-              <h2>Weighted Louvain</h2>
-              <p><strong>9</strong> representative communities</p>
-              <p>Mean seed-to-seed NMI: <strong>0.9623</strong></p>
+              <div class="community-stat"><strong>9</strong><span>REPRESENTATIVE<br>COMMUNITIES</span></div>
+              <p>Mean Louvain stability<br><strong class="accent-number">NMI 0.9623</strong></p>
             </div>
             <div class="chart-card">
               <div id="nmi-chart" class="chart-container" aria-label="Interactive heatmap of NMI between Louvain runs"></div>
@@ -85,8 +95,7 @@
 
         <section class="result-section">
           <p class="label">05 / Communities and parties</p>
-          <h2>Partial alignment</h2>
-          <p class="large-stat">NMI = <strong>0.6449</strong></p>
+          <div class="party-stat"><span>COMMUNITY ↔ PARTY</span><small>NMI</small><strong>0.6449</strong></div>
           <p>Formal party membership and detected voting communities overlap, but they do not define identical partitions.</p>
         </section>
       </div>
