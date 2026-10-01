@@ -3,66 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A small research project on Danish parliamentary voting networks.">
-    <title>Politics Network</title>
+    <meta name="description" content="Research project on Danish parliamentary voting networks.">
+    <title>Danish Parliamentary Voting Networks</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main class="page">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Project</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="results.html">Results</a>
+      </nav>
+
       <header class="hero">
         <p class="eyebrow">Research project</p>
-        <h1>Politics Network</h1>
+        <h1>Danish Parliamentary Voting Networks</h1>
         <p class="intro">
-          Exploring how Danish parliamentary voting patterns relate to party
-          membership, with parliamentary language as a possible later dimension.
+          A documented study of how parliamentary voting agreement relates to
+          formal party membership.
         </p>
       </header>
 
       <div class="content">
-        <section class="card" id="research-question">
-          <p class="label">01</p>
-          <h2>Research question</h2>
+        <section class="card card-wide">
+          <p class="label">Research question</p>
+          <h2>Project</h2>
           <p>
             How closely does the network structure of Danish parliamentary
-            voting correspond to party membership, and can parliamentary
-            language later add another dimension?
+            voting correspond to formal party membership?
           </p>
+          <p>
+            A later extension may compare parliamentary language with voting
+            behaviour; no language analysis has been completed.
         </section>
 
-        <section class="card" id="current-phase">
-          <p class="label">02</p>
-          <h2>Current phase</h2>
-          <p>Data acquisition validated.</p>
+        <section class="card">
+          <p class="label">Status</p>
+          <h2>Milestones</h2>
+          <ul class="milestones">
+            <li><span class="status pass">PASS</span> Project setup</li>
+            <li><span class="status pass">PASS</span> Single-vote data pipeline</li>
+            <li><span class="status pass">PASS</span> Session coverage audit</li>
+            <li><span class="status pass">PASS</span> Voting similarity validation</li>
+            <li><span class="status pass">PASS</span> Vote-preserving null model</li>
+            <li><span class="status pass">PASS</span> Network construction</li>
+            <li><span class="status pass">PASS</span> Community analysis</li>
+            <li><span class="status next">NEXT</span> Interpretation and later language analysis</li>
+          </ul>
         </section>
 
-        <section class="card" id="latest-result">
-          <p class="label">03</p>
-          <h2>Latest result</h2>
-          <p>Successfully retrieved all 179 individual records for one parliamentary vote from Folketinget's official OData API.</p>
-        </section>
-
-        <section class="card" id="validation">
-          <p class="label">04</p>
-          <h2>Validation</h2>
-          <p>59 For, 51 Against, 0 Neither, and 69 Absent. The cast-vote totals match the official result exactly. OData pagination is now handled automatically.</p>
-        </section>
-
-        <section class="card card-wide" id="next-step">
-          <p class="label">05</p>
-          <h2>Next step</h2>
-          <p>Test the validated retrieval pipeline across a small sample of 10 parliamentary votes.</p>
-        </section>
-
-        <section class="card card-wide" id="milestones">
-          <p class="label">Milestones</p>
-          <h2>Progress</h2>
-          <p>Milestone 0 — Project setup: PASS</p>
-          <p>Milestone 1 — Single-vote data pipeline: PASS</p>
+        <section class="card">
+          <p class="label">Data</p>
+          <h2>Key data summary</h2>
+          <dl class="metrics">
+            <div><dt>Vote records</dt><dd>192</dd></div>
+            <div><dt>With individual data</dt><dd>168</dd></div>
+            <div><dt>Coverage</dt><dd>87.5%</dd></div>
+            <div><dt>Politicians observed</dt><dd>188</dd></div>
+            <div><dt>Provisional network</dt><dd>150</dd></div>
+          </dl>
+          <p class="note">24 vote records had no individual-level Stemme data and are documented as unavailable.</p>
         </section>
       </div>
 
       <footer>
-        <p>Analysis code and project notes live alongside this site.</p>
+        <p>Analysis code and validation reports live alongside this site.</p>
       </footer>
     </main>
   </body>

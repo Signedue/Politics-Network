@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Decision log for the Danish parliamentary voting networks project.">
+    <title>Methodology | Danish Parliamentary Voting Networks</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="page">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Project</a>
+        <a class="active" href="methodology.html">Methodology</a>
+        <a href="results.html">Results</a>
+      </nav>
+
+      <header class="page-header">
+        <p class="eyebrow">Decision log</p>
+        <h1>Methodology</h1>
+        <p class="intro">Each decision below is tied to a documented diagnostic or validation report.</p>
+      </header>
+
+      <div class="timeline">
+        <article class="timeline-step">
+          <p class="label">Step 1 · Data retrieval</p>
+          <h2>Can individual votes be retrieved reliably?</h2>
+          <p><strong>Test:</strong> Folketinget's official OData service was inspected and one vote was retrieved.</p>
+          <p><strong>Result:</strong> OData initially returned 100 rows; <code>odata.nextLink</code> revealed additional pages. Vote 2 contained 179 individual records: 59 For, 51 Imod, and 69 Fravær. Cast-vote totals matched the official result.</p>
+          <p><strong>Decision:</strong> Automatically follow OData pagination. <span class="status pass">PASS</span></p>
+        </article>
+
+        <article class="timeline-step">
+          <p class="label">Step 2 · Session coverage</p>
+          <h2>How much of period 20251 has individual data?</h2>
+          <p><strong>Test:</strong> Count-only queries were made for all Afstemning records.</p>
+          <p><strong>Result:</strong> 192 records were identified; 168 had individual Stemme data and 24 had zero individual rows. Coverage was 87.5%, with missing votes clustered in two meetings.</p>
+          <p><strong>Decision:</strong> Use only the 168 observed votes and document the 24 unavailable votes. These observed votes are not described as a random sample. <span class="status pass">PASS</span></p>
+        </article>
+
+        <article class="timeline-step">
+          <p class="label">Step 3 · Raw voting similarity</p>
+          <h2>How should pairwise agreement be defined?</h2>
+          <p><strong>Test:</strong> Similarity was defined as the same participated voting positions divided by shared participated votes. Fravær and missing observations were excluded.</p>
+          <p><strong>Result:</strong> In the 10-vote test, similarity of 1.0 could be based on only one shared vote.</p>
+          <p><strong>Decision:</strong> Always retain <code>n_shared</code> alongside similarity. <span class="status pass">PASS</span></p>
+        </article>
+
+        <article class="timeline-step">
+          <p class="label">Step 4 · Sample size</p>
+          <h2>How many votes are needed?</h2>
+          <p><strong>Test:</strong> Pairwise diagnostics progressed from 10 votes to 50 votes to all 168 valid votes.</p>
+          <p><strong>Result:</strong> The median <code>n_shared</code> was 12 for 50 votes and 40 for 168 valid votes. First-half versus second-half similarity correlation was 0.8984 for eligible pairs.</p>
+          <p><strong>Decision:</strong> Use all 168 valid votes for pairwise estimation. <span class="status pass">PASS</span></p>
+        </article>
+
+        <article class="timeline-step">
+          <p class="label">Step 5 · Null model</p>
+          <h2>Is raw similarity above vote-level expectations?</h2>
+          <p><strong>Test:</strong> For each vote, participation, absence, missingness, and exact For / Imod / Hverken totals were fixed while positions were shuffled across participating politicians.</p>
+          <p><strong>Result:</strong> Observed mean similarity was 0.741 and null mean similarity was 0.747. Same-party mean excess was +0.254; different-party mean excess was -0.049.</p>
+          <p><strong>Decision:</strong> Raw similarity alone is insufficient; use excess similarity relative to the vote-preserving null. This is not a causal claim. <span class="status pass">PASS</span></p>
+        </article>
+
+        <article class="timeline-step">
+          <p class="label">Step 6 · Network construction</p>
+          <h2>What provisional agreement network is defensible?</h2>
+          <p><strong>Test:</strong> Require participated votes ≥ 40, pairwise <code>n_shared</code> ≥ 40, excess similarity &gt; 0, and Benjamini-Hochberg adjusted <code>q</code> &lt; 0.05. Use excess similarity as the edge weight.</p>
+          <p><strong>Result:</strong> The provisional Rule B network has 150 politicians, 3,086 edges, 147 nodes with edges, 3 isolates, 6 components, and a 117-node giant component. Rule B versus Rule C edge Jaccard was 0.9802.</p>
+          <p><strong>Decision:</strong> Use Rule B as a provisional, validated network definition for diagnostics. It was preferred to uncorrected p-values, arbitrary global cutoffs, and highly parameter-sensitive disparity filtering. <span class="status pass">PASS</span></p>
+        </article>
+
+        <article class="timeline-step">
+          <p class="label">Step 7 · Community analysis</p>
+          <h2>Are communities stable and above the null baseline?</h2>
+          <p><strong>Test:</strong> Weighted Louvain was run with 20 seeds on all 150 nodes. A degree-preserving edge-swap null retained the degree sequence while randomly permuting observed edge weights across shuffled edges.</p>
+          <p><strong>Result:</strong> Every run found 9 communities; modularity ranged from 0.1366 to 0.1531, with mean pairwise NMI 0.9623. The representative seed was 1004 with Q = 0.1530. The null mean Q was 0.0630, SD 0.00229, z = 39.32, and empirical p = 0.00990. Community/party NMI was 0.6449; Rule B/Rule C community NMI was 0.9085.</p>
+          <p><strong>Decision:</strong> The voting-agreement network contains stable community structure beyond the chosen null baseline. Communities partly align with formal party labels but are not identical to them. <span class="status pass">PASS</span></p>
+        </article>
+      </div>
+
+      <footer>
+        <p>All values are taken from repository validation reports and processed outputs.</p>
+      </footer>
+    </main>
+  </body>
+</html>

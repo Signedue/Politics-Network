@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Validated results from the Danish parliamentary voting networks project.">
+    <title>Results | Danish Parliamentary Voting Networks</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="page">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Project</a>
+        <a href="methodology.html">Methodology</a>
+        <a class="active" href="results.html">Results</a>
+      </nav>
+
+      <header class="page-header">
+        <p class="eyebrow">Validated outputs</p>
+        <h1>Results</h1>
+        <p class="intro">A concise view of the documented data, network, and community diagnostics.</p>
+      </header>
+
+      <div class="content">
+        <section class="card card-wide">
+          <p class="label">01 · Data coverage</p>
+          <div class="metric-grid">
+            <div><strong>192</strong><span>Total votes</span></div>
+            <div><strong>168</strong><span>Usable votes</span></div>
+            <div><strong>87.5%</strong><span>Coverage</span></div>
+          </div>
+          <p class="note">The 24 unavailable vote records remain excluded and documented.</p>
+        </section>
+
+        <section class="card card-wide">
+          <p class="label">02 · Raw similarity versus null</p>
+          <h2>Vote-level outcome distributions matter</h2>
+          <figure>
+            <img src="../outputs/figures/milestone3d_observed_vs_null.png" alt="Histogram comparing observed pairwise similarity with the vote-preserving null mean.">
+            <figcaption>Raw voting agreement is high, but much of that level is also expected from vote-level outcome distributions.</figcaption>
+          </figure>
+        </section>
+
+        <section class="card">
+          <p class="label">03 · Network summary</p>
+          <h2>Provisional Rule B network</h2>
+          <dl class="metrics">
+            <div><dt>Politicians</dt><dd>150</dd></div>
+            <div><dt>Edges</dt><dd>3,086</dd></div>
+            <div><dt>Components</dt><dd>6</dd></div>
+            <div><dt>Giant component</dt><dd>117</dd></div>
+          </dl>
+          <p>No final network visualization is presented here.</p>
+        </section>
+
+        <section class="card">
+          <p class="label">04 · Community structure</p>
+          <h2>Stable across Louvain seeds</h2>
+          <p><strong>9</strong> representative communities</p>
+          <p>Mean seed-to-seed NMI: <strong>0.9623</strong></p>
+          <figure>
+            <img src="../outputs/figures/milestone5a_nmi_stability.png" alt="Heatmap of pairwise NMI between Louvain runs.">
+          </figure>
+        </section>
+
+        <section class="card">
+          <p class="label">05 · Compared to null</p>
+          <h2>Modularity</h2>
+          <figure>
+            <img src="../outputs/figures/milestone5a_modularity_null.png" alt="Histogram comparing real modularity with degree-preserving null modularities.">
+          </figure>
+          <p>Real Q = <strong>0.153</strong>; null mean Q = <strong>0.063</strong>; empirical p = <strong>0.0099</strong>.</p>
+        </section>
+
+        <section class="card">
+          <p class="label">06 · Parties and communities</p>
+          <h2>Partial alignment</h2>
+          <p>Community/party NMI: <strong>0.6449</strong></p>
+          <p class="note">Formal party membership and detected voting communities overlap substantially but do not encode exactly the same partition.</p>
+        </section>
+
+        <section class="card card-wide">
+          <p class="label">07 · Next</p>
+          <ul>
+            <li>Inspect community composition.</li>
+            <li>Investigate cross-community structural positions.</li>
+            <li>Later evaluate whether parliamentary language provides a second layer.</li>
+          </ul>
+        </section>
+      </div>
+
+      <footer>
+        <p>Results are descriptive and limited to documented repository outputs.</p>
+      </footer>
+    </main>
+  </body>
+</html>

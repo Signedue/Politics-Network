@@ -78,12 +78,13 @@ def pairwise_nmi(label_maps: list[dict[int, int]], nodes: list[int]) -> pd.DataF
 def edge_swap_graph(
     original: nx.Graph,
     seed: int,
-    swaps_per_edge: int = 10,
+    swaps_per_edge: int = 3,
 ) -> nx.Graph:
     rng = np.random.default_rng(seed)
     graph = nx.Graph()
     graph.add_nodes_from(original.nodes(data=True))
     edges = [(int(left), int(right)) for left, right in original.edges()]
+    edge_set = set(edges)
     target_swaps = swaps_per_edge * len(edges)
     accepted = 0
     attempts = 0
@@ -105,10 +106,13 @@ def edge_swap_graph(
             new_second = (new_second[1], new_second[0])
         if new_first[0] == new_first[1] or new_second[0] == new_second[1]:
             continue
-        current = set(edges)
-        if new_first in current or new_second in current:
+        if new_first in edge_set or new_second in edge_set:
             continue
+        edge_set.remove(edges[first])
+        edge_set.remove(edges[second])
         edges[first], edges[second] = new_first, new_second
+        edge_set.add(new_first)
+        edge_set.add(new_second)
         accepted += 1
     graph.add_edges_from(edges)
     if sorted(dict(graph.degree()).values()) != sorted(dict(original.degree()).values()):
@@ -251,7 +255,8 @@ def main() -> None:
     plt.savefig(FIGURES / "milestone5a_modularity_null.png", dpi=150)
     plt.close()
 
-    upper = full_nmi[np.triu_indices_from(full_nmi, k=1)]
+    full_nmi_values = full_nmi.to_numpy()
+    upper = full_nmi_values[np.triu_indices_from(full_nmi_values, k=1)]
     mean_nmi = float(upper.mean())
     median_nmi = float(np.median(upper))
     min_nmi = float(upper.min())
@@ -261,13 +266,14 @@ def main() -> None:
         [representative_labels[node] for node in rule_b.nodes()],
         party_labels.tolist(),
     )
-    giant_upper = giant_nmi[np.triu_indices_from(giant_nmi, k=1)]
+    giant_nmi_values = giant_nmi.to_numpy()
+    giant_upper = giant_nmi_values[np.triu_indices_from(giant_nmi_values, k=1)]
     giant_party_nmi = normalized_mutual_info_score(
         [giant_rep_labels[node] for node in giant.nodes()],
         nodes.set_index("politician_id").loc[list(giant.nodes()), "party"].tolist(),
     )
     plt.figure(figsize=(6, 5))
-    plt.imshow(full_nmi, vmin=0, vmax=1, cmap="viridis")
+    plt.imshow(full_nmi_values, vmin=0, vmax=1, cmap="viridis")
     plt.colorbar(label="NMI")
     plt.xlabel("Louvain run")
     plt.ylabel("Louvain run")
