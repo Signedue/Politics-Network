@@ -22,3 +22,12 @@ another dimension?
 The GitHub Pages source is configured to use the `docs/` folder. The project is
 currently scaffolded only; no data has been collected and no analysis has been
 implemented.
+
+## Politician metadata
+
+The validated politician metadata CSV is available at
+[`data/processed/politicians.csv`](data/processed/politicians.csv). Group
+members can download it directly from the repository. It contains one row per
+actor ID with the actor ID, name, and party label. Party labels originate from
+the official actor biography metadata (`partyShortname`); they were not
+manually corrected or assigned as a historical membership series.
