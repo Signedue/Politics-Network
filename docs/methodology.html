@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Decision log for the Danish parliamentary voting networks project.">
     <title>Methodology | Danish Parliamentary Voting Networks</title>
-    <link rel="stylesheet" href="style.css?v=20261028-1">
+    <link rel="stylesheet" href="style.css?v=20261028-2">
   </head>
   <body>
     <main class="page">
@@ -24,10 +24,17 @@
       <header class="page-header">
         <p class="eyebrow">Decision log</p>
         <h1>Methodology</h1>
-        <p class="intro">Each decision below is tied to a documented diagnostic or validation report.</p>
+        <p class="intro">The current study period is 2022-11-01 inclusive to 2026-03-24 exclusive. Each decision below is tied to a documented diagnostic or validation report.</p>
       </header>
 
       <div class="timeline">
+        <details class="timeline-step" open>
+          <summary><span class="label">00 / SCOPE</span><span>What is the full-period study population?</span></summary>
+          <div class="decision-log">
+            <p><strong>Result:</strong> Milestone 6A covers 1,569 votes, 1,470 with individual Stemme records, 99 without individual records, and 236 observed politician actor IDs.</p>
+            <p><strong>Decision:</strong> Keep all 236 observed politicians in the master dataset and directory. Any future pairwise or network subset must be defined separately from this population. <span class="status pass">PASS</span></p>
+          </div>
+        </details>
         <details class="timeline-step" open>
           <summary><span class="label">01 / QUESTION</span><span>Can individual votes be retrieved reliably?</span></summary>
           <div class="decision-log">
