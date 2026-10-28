@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Validated results from the Danish parliamentary voting networks project.">
     <title>Results | Danish Parliamentary Voting Networks</title>
-    <link rel="stylesheet" href="style.css?v=20261001-2">
+    <link rel="stylesheet" href="style.css?v=20261028-1">
   </head>
   <body>
     <main class="page">
@@ -14,6 +14,7 @@
           <a class="brand" href="index.html">Politics Network</a>
           <nav class="site-nav" aria-label="Primary navigation">
             <a href="index.html">Project</a>
+            <a href="dataset.html">Dataset</a>
             <a href="methodology.html">Methodology</a>
             <a class="active" href="results.html" aria-current="page">Results</a>
           </nav>
@@ -181,6 +182,63 @@
             </div>
           </div>
         </section>
+
+        <section class="result-section">
+          <p class="label">06 / Community composition</p>
+          <h2>Communities contain both concentrated and mixed party composition</h2>
+          <div class="chart-card">
+            <div id="community-party-chart" class="chart-container" aria-label="Interactive stacked bar chart of party composition across nine representative communities"></div>
+          </div>
+          <p class="chart-note">Community IDs are arbitrary labels from the representative Louvain partition (seed 1004), not rankings. The three UFG singleton communities are shown as one-member isolates.</p>
+          <div class="interpretation">
+            <p class="interpretation-kicker">Interpretation</p>
+            <h3>Party composition varies across the representative partition</h3>
+            <p class="interpretation-summary">Communities 0, 3, 4, and 5 are mixed, while communities 1 and 2 contain only DF and DD members respectively. Communities 6, 7, and 8 are one-member UFG isolates.</p>
+            <p class="interpretation-evidence-text"><span class="interpretation-label">Key evidence</span>Community 0: 46 members and 6 parties · Community 3: 39 members and 4 parties · Community 4: 18 members and 3 parties · Community 5: 25 members and 3 parties</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>The partition contains several communities with multiple party labels as well as single-party communities. This is consistent with overlap between voting communities and formal party membership without making them identical.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>Community IDs do not rank communities, and party composition alone does not establish ideology, motives, or causal relationships. The chart describes the selected network partition.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="result-section">
+          <p class="label">07 / Party-pair agreement</p>
+          <h2>Pairwise excess similarity and filtered edges measure different things</h2>
+          <div class="chart-toolbar" aria-label="Party-pair metric selector">
+            <label for="pair-metric">Display</label>
+            <select id="pair-metric">
+              <option value="mean_excess_similarity">Mean excess similarity</option>
+              <option value="ruleB_edge_fraction">Rule B edge fraction</option>
+            </select>
+          </div>
+          <div class="chart-card">
+            <div id="party-pair-chart" class="chart-container" aria-label="Interactive heatmap of party-pair agreement"></div>
+          </div>
+          <p class="chart-note">Hover values include the party pair, metric value, eligible pair count, and Rule B edge count. Unavailable party pairs have no eligible comparison and are not treated as zero.</p>
+          <div class="interpretation">
+            <p class="interpretation-kicker">Interpretation</p>
+            <h3>Pairwise agreement is not the same as a network edge</h3>
+            <p class="interpretation-summary">Mean excess similarity summarizes all eligible politician pairs in a party pair, while the Rule B edge fraction counts only pairs that also pass the existing statistical edge rule.</p>
+            <p class="interpretation-evidence-text"><span class="interpretation-label">Key evidence</span>8,794 eligible politician pairs · 3,086 Rule B edges</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>The two views describe different stages of the validated workflow: continuous pairwise excess similarity versus the proportion retained as Rule B edges.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>Small eligible-pair counts make individual cells less informative, and neither metric explains why parties or politicians differ. Missing cells indicate unavailable eligible comparisons, not zero similarity.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
       <footer>
@@ -188,6 +246,6 @@
       </footer>
     </main>
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-    <script src="js/results.js?v=20261001-2"></script>
+    <script src="js/results.js?v=20261028-1"></script>
   </body>
 </html>

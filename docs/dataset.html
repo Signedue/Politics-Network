@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dataset overview and descriptive politician and party tables for the Danish parliamentary voting networks project.">
+    <title>Dataset | Danish Parliamentary Voting Networks</title>
+    <link rel="stylesheet" href="style.css?v=20261028-1">
+  </head>
+  <body>
+    <main class="page">
+      <header class="site-header">
+        <div class="nav-shell">
+          <a class="brand" href="index.html">Politics Network</a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="index.html">Project</a>
+            <a class="active" href="dataset.html" aria-current="page">Dataset</a>
+            <a href="methodology.html">Methodology</a>
+            <a href="results.html">Results</a>
+          </nav>
+        </div>
+      </header>
+
+      <header class="page-header">
+        <p class="eyebrow">Validated data / 2025–26</p>
+        <h1>Dataset</h1>
+        <p class="intro">The observed politicians, participation coverage, party metadata, and descriptive summaries used by the validated network analysis.</p>
+        <div class="hero-rule"></div>
+      </header>
+
+      <section class="dataset-band">
+        <p class="label">Dataset overview</p>
+        <div class="dataset-overview" aria-label="Dataset counts">
+          <div><strong>188</strong><span>observed politicians</span></div>
+          <div><strong>150</strong><span>included politicians</span></div>
+          <div><strong>38</strong><span>excluded politicians</span></div>
+          <div><strong>192</strong><span>recorded votes</span></div>
+          <div><strong>168</strong><span>votes with individual records</span></div>
+          <div><strong>24</strong><span>votes without individual records</span></div>
+        </div>
+        <p class="dataset-copy">The analysis covers period <strong>20251</strong>, the 2025–26 first session. Vote and individual voting records come from Folketinget’s official OData service. The network analysis uses the 168 votes with individual records; the 24 votes without such records are excluded rather than replaced.</p>
+      </section>
+
+      <section class="dataset-section">
+        <p class="label">01 / Party representation</p>
+        <h2>Participation eligibility varies across party labels</h2>
+        <div class="chart-card">
+          <div id="party-representation-chart" class="chart-container" aria-label="Interactive stacked bar chart of included and excluded politicians by party"></div>
+        </div>
+        <p class="chart-note">Inclusion requires at least 40 participated votes out of 168 valid votes. Hover shows observed counts, included and excluded counts, and inclusion percentage.</p>
+      </section>
+
+      <section class="dataset-section">
+        <p class="label">02 / Explore the politicians</p>
+        <h2>All 188 observed politicians</h2>
+        <div class="directory-controls">
+          <label>Search <input id="politician-search" type="search" placeholder="Search name or ID"></label>
+          <label>Party <select id="politician-party"><option value="">All parties</option></select></label>
+          <label>Status <select id="politician-status"><option value="">All statuses</option><option value="Included">Included</option><option value="Excluded">Excluded</option></select></label>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <caption>Politician directory from the validated Milestone 3C matrix and Milestone 5B inclusion rule.</caption>
+            <thead>
+              <tr><th data-sort="politician_name">Name</th><th data-sort="party">Party</th><th data-sort="participation_count">Participation</th><th data-sort="participation_rate">Rate</th><th data-sort="status">Status</th><th>Exclusion reason</th></tr>
+            </thead>
+            <tbody id="politician-table-body"></tbody>
+          </table>
+        </div>
+        <p id="directory-count" class="table-status" aria-live="polite"></p>
+      </section>
+
+      <section class="dataset-section">
+        <p class="label">03 / Participation</p>
+        <h2>Observed participation counts by party</h2>
+        <div class="chart-card">
+          <div id="participation-chart" class="chart-container" aria-label="Interactive box plot of participation counts by party with a 40 vote threshold"></div>
+        </div>
+        <p class="chart-note">The 40-vote line marks the network inclusion threshold. Exclusion reflects insufficient observed participation for this analysis, not a claim about political engagement.</p>
+      </section>
+
+      <section class="dataset-section">
+        <p class="label">04 / Data quality and limitations</p>
+        <div class="interpretation dataset-interpretation">
+          <p class="interpretation-kicker">Interpretation</p>
+          <h3>The dataset is bounded by observed coverage and metadata choices</h3>
+          <p class="interpretation-summary">The descriptive tables distinguish what was observed and included from what was unavailable or below the participation threshold.</p>
+          <div class="interpretation-columns">
+            <div class="interpretation-item">
+              <p class="interpretation-label">What we can say</p>
+              <p>There are 192 recorded votes in the period, 168 with individual voting records and 24 without. Party labels use the official <code>partyShortname</code> value from actor biography metadata. UFG and other small-party groups have small denominators in some comparisons.</p>
+            </div>
+            <div class="interpretation-item interpretation-limit">
+              <p class="interpretation-label">What we cannot say</p>
+              <p>Party labels are not a verified historical membership series for every vote. The 24 unavailable votes are not silently treated as absences, and small-party summaries should not be read as equally precise to larger-party summaries.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>Dataset summaries are descriptive and limited to documented repository outputs.</p>
+      </footer>
+    </main>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script src="js/dataset.js?v=20261028-1"></script>
+  </body>
+</html>

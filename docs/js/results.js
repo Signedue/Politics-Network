@@ -100,6 +100,71 @@
     }, config);
   }
 
+  function renderCommunityParty(rows) {
+    const communities = [...new Set(rows.map(row => row.community))].sort((a, b) => a - b);
+    const parties = [...new Set(rows.map(row => row.party))].sort();
+    const traces = parties.map(function (party) {
+      return {
+        x: communities.map(String),
+        y: communities.map(function (community) {
+          const row = rows.find(item => item.community === community && item.party === party);
+          return row ? row.count : 0;
+        }),
+        type: "bar",
+        name: party,
+        customdata: communities.map(function (community) {
+          const row = rows.find(item => item.community === community && item.party === party);
+          return row ? [row.community_size, row.share, row.party_diversity] : [0, 0, 0];
+        }),
+        hovertemplate: "Community %{x}<br>" + party + ": %{y}<br>Community size: %{customdata[0]}<br>Share: %{customdata[1]:.1%}<br>Distinct parties: %{customdata[2]}<extra></extra>"
+      };
+    });
+    Plotly.newPlot("community-party-chart", traces, {
+      ...layoutBase,
+      title: { text: "Party composition across representative communities", font: { size: 16 } },
+      barmode: "stack",
+      xaxis: { title: "Louvain community (seed 1004)", gridcolor: palette.line, type: "category" },
+      yaxis: { title: "Politicians", gridcolor: palette.line, rangemode: "tozero" },
+      legend: { orientation: "h", y: 1.12, x: 0 }
+    }, config);
+  }
+
+  function renderPartyPairs(rows, metric) {
+    const parties = [...new Set(rows.flatMap(row => [row.party_A, row.party_B]))].sort();
+    const byPair = new Map(rows.map(row => [row.party_A + "|" + row.party_B, row]));
+    const z = parties.map(function (a) {
+      return parties.map(function (b) {
+        const row = byPair.get(a + "|" + b) || byPair.get(b + "|" + a);
+        return row ? row[metric] : null;
+      });
+    });
+    const customdata = parties.map(function (a) {
+      return parties.map(function (b) {
+        const row = byPair.get(a + "|" + b) || byPair.get(b + "|" + a);
+        return row ? [a, b, row.eligible_pair_count, row.ruleB_edge_count, row[metric]] : [a, b, null, null, null];
+      });
+    });
+    const isEdge = metric === "ruleB_edge_fraction";
+    Plotly.react("party-pair-chart", [{
+      z: z,
+      x: parties,
+      y: parties,
+      type: "heatmap",
+      zmin: isEdge ? 0 : -0.5,
+      zmax: isEdge ? 1 : 0.35,
+      colorscale: isEdge ? [[0, "#eef3f3"], [0.5, "#8db7b4"], [1, palette.accent]] : [[0, "#b46d68"], [0.5, "#f7f9f9"], [1, palette.accent]],
+      colorbar: { title: isEdge ? "Edge fraction" : "Mean excess", thickness: 12 },
+      customdata: customdata,
+      hovertemplate: "%{customdata[0]} × %{customdata[1]}<br>" + (isEdge ? "Rule B edge fraction" : "Mean excess similarity") + ": %{customdata[4]:.4f}<br>Eligible pairs: %{customdata[2]}<br>Rule B edges: %{customdata[3]}<extra></extra>"
+    }], {
+      ...layoutBase,
+      title: { text: isEdge ? "Rule B edge fraction by party pair" : "Mean excess similarity by party pair", font: { size: 16 } },
+      margin: { l: 64, r: 24, t: 42, b: 64 },
+      xaxis: { title: "Party", type: "category", gridcolor: palette.line },
+      yaxis: { title: "Party", type: "category", autorange: "reversed", gridcolor: palette.line }
+    }, config);
+  }
+
   function loadJson(path) {
     return fetch(path).then(function (response) {
       if (!response.ok) {
@@ -117,6 +182,16 @@
     renderSimilarity(datasets[0]);
     renderNmi(datasets[1]);
     renderModularity(datasets[2]);
+    return loadJson("assets/data/community_party.json");
+  }).then(function (community) {
+    renderCommunityParty(community.rows);
+    return loadJson("assets/data/party_pair_agreement.json");
+  }).then(function (pairs) {
+    const selector = document.getElementById("pair-metric");
+    renderPartyPairs(pairs.rows, selector ? selector.value : "mean_excess_similarity");
+    if (selector) selector.addEventListener("change", function () {
+      renderPartyPairs(pairs.rows, selector.value);
+    });
   }).catch(function (error) {
     document.querySelectorAll(".chart-container").forEach(function (container) {
       container.innerHTML = "<p class=\"chart-error\">Interactive chart data could not be loaded.</p>";
