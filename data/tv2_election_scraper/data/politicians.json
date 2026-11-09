@@ -1,0 +1,1134 @@
+[
+  {
+    "actor_id": 15757,
+    "name": "Aaja Chemnitz",
+    "party": "IA",
+    "party_name": "Inuit Ataqatigiit"
+  },
+  {
+    "actor_id": 18688,
+    "name": "Aki-Matilda Høegh-Dam",
+    "party": "N",
+    "party_name": "Naleraq"
+  },
+  {
+    "actor_id": 18,
+    "name": "Alex Ahrendtsen",
+    "party": "DF",
+    "party_name": "Dansk Folkeparti"
+  },
+  {
+    "actor_id": 18703,
+    "name": "Alex Vanopslagh",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 20395,
+    "name": "Alexander Ryle",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 21159,
+    "name": "Ammar Ali",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 18718,
+    "name": "Anders Kronborg",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 286,
+    "name": "Ane Halsboe-Jørgensen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20349,
+    "name": "Anna Falkenberg",
+    "party": "SP",
+    "party_name": "Sambandsflokkurin"
+  },
+  {
+    "actor_id": 16503,
+    "name": "Anne Paulin",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 168,
+    "name": "Anni Matthiesen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 18707,
+    "name": "Astrid Carøe",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 38,
+    "name": "Astrid Krag",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 120,
+    "name": "Benny Engelbrecht",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20372,
+    "name": "Betina Kastbjerg",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 18719,
+    "name": "Birgitte Vind",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 257,
+    "name": "Bjarne Laustsen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 18717,
+    "name": "Bjørn Brandenborg",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 17141,
+    "name": "Brigitte Klintskov Jerkel",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 18720,
+    "name": "Camilla Fabricius",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20820,
+    "name": "Carl Andersen",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 17628,
+    "name": "Carl Valentin",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 15779,
+    "name": "Carsten Bach",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 20385,
+    "name": "Charlotte Bagge Hansen",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 18708,
+    "name": "Charlotte Broman Mølbæk",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 20375,
+    "name": "Charlotte Munch Pasler",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 134,
+    "name": "Christian Friis Bach",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 15762,
+    "name": "Christian Rabjerg Madsen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20370,
+    "name": "Christina Olumeko",
+    "party": "ALT",
+    "party_name": "Alternativet"
+  },
+  {
+    "actor_id": 18699,
+    "name": "Christoffer Aagaard Melson",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 20962,
+    "name": "Claus Jørgensen",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 119,
+    "name": "Dennis Flydtkjær",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 20925,
+    "name": "Dina Raabjerg",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 21206,
+    "name": "Elvira Kûitse",
+    "party": "N",
+    "party_name": "Naleraq"
+  },
+  {
+    "actor_id": 21168,
+    "name": "Erik Veje Rasmussen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 49,
+    "name": "Erling Bonnesen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 20361,
+    "name": "Fie Hækkerup",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 224,
+    "name": "Flemming Møller Mortensen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20351,
+    "name": "Franciska Rosenkilde",
+    "party": "ALT",
+    "party_name": "Alternativet"
+  },
+  {
+    "actor_id": 20966,
+    "name": "Frederik Bloch Münster",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 20364,
+    "name": "Frederik Vad",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20781,
+    "name": "Gunvor Wibroe",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 18704,
+    "name": "Halime Oguz",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 164,
+    "name": "Hans Andersen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 125,
+    "name": "Hans Christian Schmidt",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 82,
+    "name": "Hans Kristian Skibby",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 18700,
+    "name": "Heidi Bank",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 20398,
+    "name": "Helena Artmann Andresen",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 20352,
+    "name": "Helene Brydensholt",
+    "party": "ALT",
+    "party_name": "Alternativet"
+  },
+  {
+    "actor_id": 20369,
+    "name": "Helle Bonnesen",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 20377,
+    "name": "Henrik Frandsen",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 18715,
+    "name": "Henrik Møller",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20496,
+    "name": "Henrik Rejnholt Andersen",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 152,
+    "name": "Ida Auken",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 182,
+    "name": "Inger Støjberg",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 173,
+    "name": "Jacob Jensen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 57,
+    "name": "Jakob Engel-Schmidt",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 102,
+    "name": "Jan E. Jørgensen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 113,
+    "name": "Jens Henrik Thulesen Dahl",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 213,
+    "name": "Jens Joel",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20396,
+    "name": "Jens Meilvang",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 214,
+    "name": "Jeppe Bruus",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20383,
+    "name": "Jeppe Søe",
+    "party": "UFG",
+    "party_name": "Uden for folketingsgrupperne"
+  },
+  {
+    "actor_id": 97,
+    "name": "Jesper Petersen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 21194,
+    "name": "Joachim Hoffmann-Petersen",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 20388,
+    "name": "Jon Stephensen",
+    "party": "UFG",
+    "party_name": "Uden for folketingsgrupperne"
+  },
+  {
+    "actor_id": 15787,
+    "name": "Kaare Dybvad Bek",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 278,
+    "name": "Karin Gaardsted",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20381,
+    "name": "Karin Liltorp",
+    "party": "ALT",
+    "party_name": "Alternativet"
+  },
+  {
+    "actor_id": 162,
+    "name": "Karina Adsbøl",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 121,
+    "name": "Karina Lorentzen Dehnhardt",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 199,
+    "name": "Karsten Hønge",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 16180,
+    "name": "Kasper Roug",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20393,
+    "name": "Katrine Daugaard",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 18729,
+    "name": "Katrine Robsøe",
+    "party": "RV",
+    "party_name": "Radikale Venstre"
+  },
+  {
+    "actor_id": 20374,
+    "name": "Kenneth Fredslund Petersen",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 19928,
+    "name": "Kim Aas",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20355,
+    "name": "Kim Edberg Andersen",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 18695,
+    "name": "Kim Valentin",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 16728,
+    "name": "Kirsten Normann Andersen",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 20367,
+    "name": "Kris Jensen Skriver",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20376,
+    "name": "Kristian Bøgsted",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 18724,
+    "name": "Lars Boje Mathiesen",
+    "party": "UFG",
+    "party_name": "Uden for folketingsgrupperne"
+  },
+  {
+    "actor_id": 217,
+    "name": "Lars Christian Lilleholt",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 145,
+    "name": "Lars Løkke Rasmussen",
+    "party": "M",
+    "party_name": "Moderaterne",
+    "aliases": [
+      "Løkke",
+      "Lars Løkke"
+    ]
+  },
+  {
+    "actor_id": 20392,
+    "name": "Lars-Christian Brask",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 21044,
+    "name": "Lasse Haugaard Pedersen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 15760,
+    "name": "Lea Wermelin",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 260,
+    "name": "Leif Lahn Jensen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20411,
+    "name": "Leila Stockmarr",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 20371,
+    "name": "Linea Søgaard-Lidell",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 219,
+    "name": "Lisbeth Bech-Nielsen",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 15774,
+    "name": "Lise Bech",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 20357,
+    "name": "Lise Bertelsen",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 112,
+    "name": "Lotte Rod",
+    "party": "RV",
+    "party_name": "Radikale Venstre"
+  },
+  {
+    "actor_id": 20399,
+    "name": "Louise Brown",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 93,
+    "name": "Louise Elholm",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 20930,
+    "name": "Louise Mehnke",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 17629,
+    "name": "Mads Fuglede",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 21186,
+    "name": "Mads Madsen Henriksen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20798,
+    "name": "Mads Olsen",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 244,
+    "name": "Magnus Heunicke",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 18693,
+    "name": "Mai Villadsen",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 16351,
+    "name": "Malte Larsen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20368,
+    "name": "Maria Durhuus",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20358,
+    "name": "Marianne Bigum",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 18701,
+    "name": "Marie Bjerre",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 18698,
+    "name": "Marlene Ambo-Rasmussen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 1146,
+    "name": "Marlene Harpsøe",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 141,
+    "name": "Martin Lidegaard",
+    "party": "RV",
+    "party_name": "Radikale Venstre"
+  },
+  {
+    "actor_id": 20365,
+    "name": "Matilde Powers",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 15770,
+    "name": "Mattias Tesfaye",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 15793,
+    "name": "Mette Abildgaard",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 138,
+    "name": "Mette Frederiksen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20382,
+    "name": "Mette Kierkgaard",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 74,
+    "name": "Mette Reissmann",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 18721,
+    "name": "Mette Thiesen",
+    "party": "DF",
+    "party_name": "Dansk Folkeparti"
+  },
+  {
+    "actor_id": 20390,
+    "name": "Mike Villa Fonseca",
+    "party": "UFG",
+    "party_name": "Uden for folketingsgrupperne"
+  },
+  {
+    "actor_id": 20356,
+    "name": "Mikkel Bjørn",
+    "party": "DF",
+    "party_name": "Dansk Folkeparti"
+  },
+  {
+    "actor_id": 154,
+    "name": "Mogens Jensen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20415,
+    "name": "Mohammad Rona",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 18713,
+    "name": "Mona Juul",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 20380,
+    "name": "Monika Rubin",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 220,
+    "name": "Morten Bødskov",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 18696,
+    "name": "Morten Dahlin",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 21143,
+    "name": "Morten Klessen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 238,
+    "name": "Morten Messerschmidt",
+    "party": "DF",
+    "party_name": "Dansk Folkeparti"
+  },
+  {
+    "actor_id": 20384,
+    "name": "Nanna W. Gotfredsen",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 20350,
+    "name": "Nick Zimmermann",
+    "party": "DF",
+    "party_name": "Dansk Folkeparti"
+  },
+  {
+    "actor_id": 12,
+    "name": "Nicolai Wammen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 99,
+    "name": "Ole Birk Olesen",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 16582,
+    "name": "Peder Hvelplund",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 15777,
+    "name": "Pelle Dragsted",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 273,
+    "name": "Per Husted",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 11702,
+    "name": "Per Larsen",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 18723,
+    "name": "Pernille Vermund",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 20389,
+    "name": "Peter Have",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 15776,
+    "name": "Peter Hummelgaard",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 180,
+    "name": "Peter Juel-Jensen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 15763,
+    "name": "Peter Kofod",
+    "party": "DF",
+    "party_name": "Dansk Folkeparti"
+  },
+  {
+    "actor_id": 18722,
+    "name": "Peter Seier Christensen",
+    "party": "UFG",
+    "party_name": "Uden for folketingsgrupperne"
+  },
+  {
+    "actor_id": 48,
+    "name": "Peter Skaarup",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 252,
+    "name": "Pia Kjærsgaard",
+    "party": "DF",
+    "party_name": "Dansk Folkeparti"
+  },
+  {
+    "actor_id": 43,
+    "name": "Pia Olsen Dyhr",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 127,
+    "name": "Preben Bang Henriksen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 266,
+    "name": "Rasmus Horn Langhoff",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 1454,
+    "name": "Rasmus Jarlov",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 20386,
+    "name": "Rasmus Lund-Nielsen",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 18716,
+    "name": "Rasmus Stoklund",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20378,
+    "name": "Rosa Eriksen",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 110,
+    "name": "Rosa Lund",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 18725,
+    "name": "Samira Nawa",
+    "party": "RV",
+    "party_name": "Radikale Venstre"
+  },
+  {
+    "actor_id": 20400,
+    "name": "Sandra Elisabeth Skalvig",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 20363,
+    "name": "Sara Emil Baaring",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20353,
+    "name": "Sascha Faxe",
+    "party": "ALT",
+    "party_name": "Alternativet"
+  },
+  {
+    "actor_id": 18709,
+    "name": "Signe Munk",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 20359,
+    "name": "Sigurd Agersnap",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 208,
+    "name": "Simon Kollerup",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 262,
+    "name": "Sjúrður Skaale",
+    "party": "JF",
+    "party_name": "Javnaðarflokkurin"
+  },
+  {
+    "actor_id": 20360,
+    "name": "Sofie Lippert",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 130,
+    "name": "Sophie Løhde",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 20397,
+    "name": "Steffen Larsen",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 20394,
+    "name": "Steffen W. Frølund",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 18726,
+    "name": "Stinus Lindgreen",
+    "party": "RV",
+    "party_name": "Radikale Venstre"
+  },
+  {
+    "actor_id": 20373,
+    "name": "Susie Jessen",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 20391,
+    "name": "Sólbjørg Jakobsen",
+    "party": "LA",
+    "party_name": "Liberal Alliance"
+  },
+  {
+    "actor_id": 667,
+    "name": "Søren Egge Rasmussen",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 34,
+    "name": "Søren Espersen",
+    "party": "DD",
+    "party_name": "Danmarksdemokraterne - Inger Støjberg"
+  },
+  {
+    "actor_id": 1845,
+    "name": "Søren Gade",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 176,
+    "name": "Søren Søndergaard",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 18882,
+    "name": "Tanja Larsson",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 19000,
+    "name": "Theresa Berg Andersen",
+    "party": "SF",
+    "party_name": "Socialistisk Folkeparti"
+  },
+  {
+    "actor_id": 20354,
+    "name": "Theresa Scavenius",
+    "party": "UFG",
+    "party_name": "Uden for folketingsgrupperne"
+  },
+  {
+    "actor_id": 139,
+    "name": "Thomas Danielsen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 201,
+    "name": "Thomas Jensen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20362,
+    "name": "Thomas Monberg",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20366,
+    "name": "Thomas Skriver Jensen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 21083,
+    "name": "Thorkild Holmboe-Hay",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 20917,
+    "name": "Tina Cartey Hansen",
+    "party": "KF",
+    "party_name": "Det Konservative Folkeparti"
+  },
+  {
+    "actor_id": 20379,
+    "name": "Tobias Grotkjær Elmstrøm",
+    "party": "M",
+    "party_name": "Moderaterne"
+  },
+  {
+    "actor_id": 15775,
+    "name": "Torsten Gejl",
+    "party": "ALT",
+    "party_name": "Alternativet"
+  },
+  {
+    "actor_id": 80,
+    "name": "Torsten Schack Pedersen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 118,
+    "name": "Trine Bramsen",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 109,
+    "name": "Trine Pertou Mach",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 206,
+    "name": "Troels Lund Poulsen",
+    "party": "V",
+    "party_name": "Venstre, Danmarks Liberale Parti"
+  },
+  {
+    "actor_id": 18694,
+    "name": "Victoria Velasquez",
+    "party": "EL",
+    "party_name": "Enhedslisten - De Rød-Grønne"
+  },
+  {
+    "actor_id": 1619,
+    "name": "Yildiz Akdogan",
+    "party": "S",
+    "party_name": "Socialdemokratiet"
+  },
+  {
+    "actor_id": 191,
+    "name": "Zenia Stampe",
+    "party": "RV",
+    "party_name": "Radikale Venstre"
+  }
+]

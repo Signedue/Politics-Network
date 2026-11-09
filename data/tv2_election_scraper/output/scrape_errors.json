@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://nyheder.tv2.dk/folketingsvalg/kandidat/13536",
+    "error": "500 Server Error: Internal Server Error for url: https://nyheder.tv2.dk/folketingsvalg/kandidat/13536",
+    "http_status": 500
+  },
+  {
+    "url": "https://nyheder.tv2.dk/live/politik/2025-08-11-dansk-politik/paa-tide-at-regeringen-traekker-i-arbejdstoejet-siger-flydtkjaer",
+    "error": "500 Server Error: Internal Server Error for url: https://nyheder.tv2.dk/live/politik/2025-08-11-dansk-politik/paa-tide-at-regeringen-traekker-i-arbejdstoejet-siger-flydtkjaer",
+    "http_status": 500
+  },
+  {
+    "url": "https://nyheder.tv2.dk/live/kort-nyt/erling-bonnesen-stiller-op-til-kommunalvalget",
+    "error": "500 Server Error: Internal Server Error for url: https://nyheder.tv2.dk/live/kort-nyt/erling-bonnesen-stiller-op-til-kommunalvalget",
+    "http_status": 500
+  },
+  {
+    "url": "https://nyheder.tv2.dk/live/politik/2026-02-26-folketingsvalg-2026/taet-kamp-i-venstre-om-fynske-pladser-i-folketinget",
+    "error": "500 Server Error: Internal Server Error for url: https://nyheder.tv2.dk/live/politik/2026-02-26-folketingsvalg-2026/taet-kamp-i-venstre-om-fynske-pladser-i-folketinget",
+    "http_status": 500
+  },
+  {
+    "url": "https://nyheder.tv2.dk/video/dXJuOnR2MjpjbXM6YnJpZ2h0Y292ZTp2aWRlbzo2MzA4OTU3OTU1MTEy",
+    "error": "404 Client Error: Not Found for url: https://nyheder.tv2.dk/video/dXJuOnR2MjpjbXM6YnJpZ2h0Y292ZTp2aWRlbzo2MzA4OTU3OTU1MTEy",
+    "http_status": 404
+  },
+  {
+    "url": "https://nyheder.tv2.dk/live/politik/2026-02-26-folketingsvalg-2026/kan-blive-rigtig-rigtig-godt-siger-mangeaarig-venstre-medlem",
+    "error": "HTTPSConnectionPool(host='nyheder.tv2.dk', port=443): Read timed out. (read timeout=20)"
+  },
+  {
+    "url": "https://nyheder.tv2.dk/live/politik/2025-08-11-dansk-politik/pressemoede-hos-socialdemokratiet-er-i-gang",
+    "error": "HTTPSConnectionPool(host='nyheder.tv2.dk', port=443): Read timed out. (read timeout=20)"
+  }
+]
