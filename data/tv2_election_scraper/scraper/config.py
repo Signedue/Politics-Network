@@ -7,8 +7,8 @@ OUTPUT_DIR = "output"
 
 # Conservative pacing. Increase only if permitted by the site's policies.
 REQUEST_DELAY_SECONDS = 2.0
-REQUEST_TIMEOUT_SECONDS = 20
-MAX_ARTICLE_PAGES = 2500
+REQUEST_TIMEOUT_SECONDS = 30
+MAX_ARTICLE_PAGES = 200
 
 # These searches complement politician-name searches. They are deliberately broad.
 ELECTION_QUERIES = [

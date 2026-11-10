@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import csv
 import re
 import time
 import hashlib
@@ -33,7 +34,9 @@ OUT = ROOT / OUTPUT_DIR
 OUT.mkdir(parents=True, exist_ok=True)
 
 ARTICLES_FILE = OUT / "tv2_articles.json"
+CSV_FILE = OUT / "tv2_articles.csv"
 ERRORS_FILE = OUT / "scrape_errors.json"
+CSV_COLUMNS = ("url", "date", "politicians", "body")
 
 START = date.fromisoformat(START_DATE)
 END = date.fromisoformat(END_DATE)
@@ -58,6 +61,25 @@ def save_json(path, data):
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+
+def save_csv(path, articles):
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS)
+        writer.writeheader()
+
+        for article in articles:
+            politicians = article.get("politicians") or []
+            names = [
+                person.get("name") if isinstance(person, dict) else person
+                for person in politicians
+            ]
+            writer.writerow({
+                "url": article.get("url") or "",
+                "date": article.get("published_at") or "",
+                "politicians": "; ".join(str(name) for name in names if name),
+                "body": article.get("content") or "",
+            })
 
 
 def extract_url_date(url):
@@ -412,21 +434,42 @@ def scrape_article_metadata(session, item):
     soup = BeautifulSoup(response.text, "html.parser")
     return extract_article_metadata(soup, url, response.status_code, item), None
 
+def load_candidates_from_csv(path):
+    candidates = []
+
+    with path.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+
+        for row in reader:
+            url = (
+                row.get("URL")
+                or row.get("url")
+                or row.get("Url")
+            )
+
+            if url:
+                candidates.append({
+                    "url": url.strip()
+                })
+
+    return candidates
+
 
 def main():
-    urls_file = OUT / "article_urls.json"
+    urls_file = OUT / "filteredArticleswithindate.csv"
 
     if not urls_file.exists():
         raise SystemExit(
-            "Run first: python -m scraper.discover_articles"
+            f"CSV file not found: {urls_file}"
         )
 
-    candidates = load_json(urls_file, [])
+    candidates = load_candidates_from_csv(urls_file)
     politicians = load_politicians()
 
     # Resume previously scraped articles.
     articles = load_json(ARTICLES_FILE, [])
     errors = load_json(ERRORS_FILE, [])
+    save_csv(CSV_FILE, articles)
 
     scraped_urls = {
         article.get("url")
@@ -457,6 +500,7 @@ def main():
 
     for item in tqdm(remaining, desc="Scraping TV2"):
         url = item.get("url", "")
+        article = None
 
         try:
             article, error = scrape_article(
@@ -501,6 +545,8 @@ def main():
         # Save after every article.
         save_json(ARTICLES_FILE, articles)
         save_json(ERRORS_FILE, errors)
+        if article:
+            save_csv(CSV_FILE, articles)
 
         time.sleep(REQUEST_DELAY_SECONDS)
 
@@ -513,6 +559,7 @@ def main():
 
     save_json(ARTICLES_FILE, articles)
     save_json(ERRORS_FILE, errors)
+    save_csv(CSV_FILE, articles)
 
     in_range = sum(
         article["date_validation"] == "inside_range"
@@ -538,6 +585,7 @@ def main():
     print(f"Unknown publication date: {unknown}")
     print(f"Errors: {len(errors)}")
     print(f"Saved to: {ARTICLES_FILE}")
+    print(f"Saved to: {CSV_FILE}")
     print("----------------------------------------")
 
 
