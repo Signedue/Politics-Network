@@ -279,10 +279,51 @@ def scrape_article(session, item, politicians):
     )
 
     response.raise_for_status()
+    response.encoding = response.apparent_encoding
 
     soup = BeautifulSoup(response.text, "html.parser")
-    objects = parse_jsonld(soup)
-    obj = find_article_object(objects)
+    article_obj = find_article_object(parse_jsonld(soup))
+    metadata = extract_article_metadata(
+        soup, url, response.status_code, item, article_obj,
+    )
+    body, body_source = collect_body(soup, article_obj)
+    text = metadata["title"] + " " + body
+    metadata["politicians"] = politician_matches(text, politicians)
+    metadata["parties"] = sorted({
+        match["party_name"]
+        for match in metadata["politicians"]
+        if match.get("party_name")
+    })
+    metadata["content"] = body
+    metadata["content_extraction_method"] = body_source
+    metadata["live_entries"] = collect_live_entries(soup)
+    return metadata, None
+
+
+def extract_article_metadata(soup, url, http_status, item, article_obj=None):
+    obj = article_obj or find_article_object(parse_jsonld(soup))
+
+    time_nodes = soup.select("time[datetime]")
+    visible_published = next(
+        (
+            node.get("datetime")
+            for node in time_nodes
+            if not normalize_text(node.get_text(" ", strip=True))
+            .casefold()
+            .startswith("opdateret")
+        ),
+        None,
+    )
+    visible_updated = next(
+        (
+            node.get("datetime")
+            for node in time_nodes
+            if normalize_text(node.get_text(" ", strip=True))
+            .casefold()
+            .startswith("opdateret")
+        ),
+        None,
+    )
 
     title = normalize_text(
         obj.get("headline")
@@ -297,6 +338,7 @@ def scrape_article(session, item, politicians):
             'meta[name="date"]',
             'meta[itemprop="datePublished"]',
         ])
+        or visible_published
     )
 
     updated_raw = (
@@ -305,13 +347,11 @@ def scrape_article(session, item, politicians):
             'meta[property="article:modified_time"]',
             'meta[itemprop="dateModified"]',
         ])
+        or visible_updated
     )
 
     published = parse_date_safe(published_raw)
     updated = parse_date_safe(updated_raw)
-
-    body, body_source = collect_body(soup, obj)
-    live_entries = collect_live_entries(soup)
 
     author = obj.get("author")
 
@@ -324,9 +364,17 @@ def scrape_article(session, item, politicians):
             for value in author
         )
 
-    text = title + " " + body
-
-    matches = politician_matches(text, politicians)
+    section = (
+        obj.get("articleSection")
+        or get_meta(soup, [
+            'meta[property="article:section"]',
+            'meta[name="section"]',
+        ])
+    )
+    if isinstance(section, list):
+        section = ", ".join(str(value) for value in section if value)
+    elif section is not None:
+        section = str(section)
 
     article_id = hashlib.sha1(
         url.encode("utf-8")
@@ -343,18 +391,26 @@ def scrape_article(session, item, politicians):
         "updated_at_raw": updated_raw,
         "date_validation": validate_date(published),
         "author": author,
-        "content": body,
-        "content_extraction_method": body_source,
-        "politicians": matches,
-        "parties": sorted({
-            match["party_name"]
-            for match in matches
-            if match.get("party_name")
-        }),
-        "live_entries": live_entries,
+        "section": section,
         "discovery": item,
-        "http_status": response.status_code,
-    }, None
+        "http_status": http_status,
+    }
+
+
+def scrape_article_metadata(session, item):
+    url = canonical_url(item.get("url", ""))
+
+    if not url:
+        return None, "Invalid or non-TV2 URL"
+
+    response = session.get(
+        url,
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    )
+    response.raise_for_status()
+    response.encoding = response.apparent_encoding
+    soup = BeautifulSoup(response.text, "html.parser")
+    return extract_article_metadata(soup, url, response.status_code, item), None
 
 
 def main():
