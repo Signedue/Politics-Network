@@ -41,6 +41,29 @@ Outputs are saved in `output/`:
 - `tv2_articles.json`
 - `politician_mentions.json`
 
+## Filter a political-coverage dataset
+
+The discovery progress file stores completed search queries; discovered
+article URLs are in `output/article_urls.json`. After scraping, run this
+separate filtering step from the project directory:
+
+```bash
+python -m scraper.filter_articles
+```
+
+It uses the actual publication metadata and body in `output/tv2_articles.json`
+and references `data/politicians.json`. The separate output is
+`output/tv2_politics_2022-10-05_2022-11-01.json`; the discovery and scrape
+files are not modified. To retry records with a missing publication date or
+body, use `python -m scraper.filter_articles --retry-incomplete`. Records
+without an actual date or body are excluded rather than classified from URL
+dates, titles, snippets, or discovery dates alone.
+
+The relevance check is intentionally conservative: it requires repeated body
+references to a registered politician or party, repeated political context,
+and at least one sentence linking the entity to political activity. It is a
+reproducible heuristic, not a substitute for human review.
+
 ## Important research and technical limitations
 
 - Search-engine RSS results are incomplete and can change over time. Historical indexing is not exhaustive.
