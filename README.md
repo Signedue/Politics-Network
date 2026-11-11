@@ -25,9 +25,10 @@ implemented.
 
 ## Politician metadata
 
-The validated politician metadata CSV is available at
+The validated full-period politician master list is available at
 [`data/processed/politicians.csv`](data/processed/politicians.csv). Group
-members can download it directly from the repository. It contains one row per
-actor ID with the actor ID, name, and party label. Party labels originate from
-the official actor biography metadata (`partyShortname`); they were not
-manually corrected or assigned as a historical membership series.
+members can download it directly from the repository. It contains all 236
+observed politicians in the study period, with one row per actor ID and the
+columns actor ID, name, and party label. Party labels originate from the
+official actor biography metadata (`partyShortname`); they were not manually
+corrected or assigned as a historical membership series.
