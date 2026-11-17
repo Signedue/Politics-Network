@@ -1,0 +1,1482 @@
+{
+  "summary": {
+    "records_checked": 184,
+    "records_verified": 184,
+    "records_unverifiable_or_missing": 0,
+    "unsupported_additions_detected": 0
+  },
+  "records": [
+    {
+      "party_code": "S",
+      "priority_order": "13",
+      "title": "En stram udlændingepolitik",
+      "archive_url": "https://web.archive.org/web/20251030211935id_/https://socialdemokratiet.dk/det-vil-vi/udlaendinge",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "1",
+      "title": "Bedre vilkår. Bedre velfærd.",
+      "archive_url": "https://web.archive.org/web/20230530085722id_/https://socialdemokratiet.dk/det-vil-vi/bedre-vilkaer-bedre-velfaerd",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "12",
+      "title": "Hurtigere grøn omstilling",
+      "archive_url": "https://web.archive.org/web/20250424041516id_/https://socialdemokratiet.dk/det-vil-vi/klima-og-miljoe",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "11",
+      "title": "Værdig velfærd",
+      "archive_url": "https://web.archive.org/web/20240916144422id_/https://socialdemokratiet.dk/vaerdig-velfaerd",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "9",
+      "title": "Lavere skat på arbejde",
+      "archive_url": "https://web.archive.org/web/20250430100545id_/https://socialdemokratiet.dk/det-vil-vi/lavere-skat-paa-arbejde",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "8",
+      "title": "Et grønt landbrug der indfrier klimamålene",
+      "archive_url": "https://web.archive.org/web/20250430095735id_/https://socialdemokratiet.dk/det-vil-vi/et-groent-landbrug-der-indfrier-klimamaalene",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "10",
+      "title": "Trygt igennem usikre tider",
+      "archive_url": "https://web.archive.org/web/20230510010145id_/https://socialdemokratiet.dk/det-vil-vi/inflation",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "7",
+      "title": "Tryghed for alle",
+      "archive_url": "https://web.archive.org/web/20250430102218id_/https://socialdemokratiet.dk/det-vil-vi/tryghed-for-alle",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "6",
+      "title": "Ny inflationshjælp",
+      "archive_url": "https://web.archive.org/web/20250514091020id_/https://socialdemokratiet.dk/det-vil-vi/ny-inflationspakke",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "2",
+      "title": "Et faglært Danmark",
+      "archive_url": "https://web.archive.org/web/20250315131430id_/https://socialdemokratiet.dk/det-vil-vi/et-faglaert-danmark",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "3",
+      "title": "Ret til rent drikkevand",
+      "archive_url": "https://web.archive.org/web/20260110130934id_/https://socialdemokratiet.dk/det-vil-vi/ret-til-rent-drikkevand",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "4",
+      "title": "Akutpakke til sygehusene",
+      "archive_url": "https://web.archive.org/web/20250430100657id_/https://socialdemokratiet.dk/det-vil-vi/akutpakke-til-sygehusene",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "5",
+      "title": "Ny sygehusfond til moderne sygehuse i hele landet",
+      "archive_url": "https://web.archive.org/web/20251113062954id_/https://socialdemokratiet.dk/det-vil-vi/ny-sygehusfond-til-moderne-sygehuse-i-hele-landet",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "V",
+      "priority_order": "3",
+      "title": "Mere frihed til selv at bestemme",
+      "archive_url": "https://web.archive.org/web/20260510114342id_/https://venstre.dk/politik/maerkesager/mere-frihed-til-selv-at-bestemme",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "V",
+      "priority_order": "4",
+      "title": "Konsekvente krav til udlændinge",
+      "archive_url": "https://web.archive.org/web/20260716225945id_/https://venstre.dk/politik/maerkesager/konsekvente-krav-til-udlaendinge",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "V",
+      "priority_order": "5",
+      "title": "Det skal kunne betale sig at arbejde",
+      "archive_url": "https://web.archive.org/web/20260716234619id_/https://venstre.dk/politik/maerkesager/det-skal-kunne-betale-sig-at-arbejde",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "V",
+      "priority_order": "1",
+      "title": "Danmark skal gå forrest i klimakampen",
+      "archive_url": "https://web.archive.org/web/20260716230842id_/https://venstre.dk/politik/maerkesager/danmark-skal-ga-forrest-i-klimakampen",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "V",
+      "priority_order": "2",
+      "title": "Et sundhedsvæsen, der sætter dig først",
+      "archive_url": "https://web.archive.org/web/20260612045627id_/https://venstre.dk/politik/maerkesager/et-sundhedsvaesen-der-saetter-dig-forst",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "V",
+      "priority_order": "6",
+      "title": "Vi skal tage større ansvar for Danmarks sikkerhed",
+      "archive_url": "https://web.archive.org/web/20250121115011id_/https://venstre.dk/politik/maerkesager/vi-skal-tage-storre-ansvar-for-danmarks-sikkerhed",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "1",
+      "title": "110 procent grønt Danmark",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "2",
+      "title": "Renere vand og bedre mad",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "3",
+      "title": "Et grønnere Danmark med rigere dyreliv",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "4",
+      "title": "Større klimaretfærdighed",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "5",
+      "title": "Mere leg, grin og nærvær",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "6",
+      "title": "Fri folkeskole som løfter alle",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "7",
+      "title": "Flere unge i fællesskabet",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "8",
+      "title": "Bedre uddannelse hele livet",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "9",
+      "title": "Høje ambitioner og nye reformer",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "10",
+      "title": "Plads til alle og fokus på den enkelte",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "11",
+      "title": "Flere gode leveår for alle",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "12",
+      "title": "Rummelighed i fællesskabet",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "13",
+      "title": "Vi vil tillid – ikke splittelse",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "14",
+      "title": "Åbent, stærkt demokrati",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "15",
+      "title": "Danmark, åbent mod verden",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "RV",
+      "priority_order": "16",
+      "title": "Stærkere ånd, rigere kultur",
+      "archive_url": "https://web.archive.org/web/20220930071116id_/https://radikale.dk/politik/sammen-om-en-ny-start",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "KF",
+      "priority_order": "3",
+      "title": "En grønnere fremtid for de næste generationer",
+      "archive_url": "https://web.archive.org/web/20221102131207id_/https://konservative.dk/politik/klimalov",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "KF",
+      "priority_order": "4",
+      "title": "En god start på livet",
+      "archive_url": "https://web.archive.org/web/20221102131516id_/https://konservative.dk/politik/en-god-start-paa-livet",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "KF",
+      "priority_order": "2",
+      "title": "Lavere skat og virksomheder i vækst",
+      "archive_url": "https://web.archive.org/web/20221102131205id_/https://konservative.dk/politik/lavere-skat-og-virksomheder-i-vaekst",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "KF",
+      "priority_order": "5",
+      "title": "Hjælp og omsorg, når du har brug for det",
+      "archive_url": "https://web.archive.org/web/20221102131206id_/https://konservative.dk/politik/hjaelp-og-omsorg-naar-du-har-brug-for-det",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "KF",
+      "priority_order": "1",
+      "title": "Respekt for loven og vores fælles værdier",
+      "archive_url": "https://web.archive.org/web/20221102131212id_/https://konservative.dk/politik/respekt-for-loven-og-vores-faelles-vaerdier",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "1",
+      "title": "Stop for spontan asyl til gengæld for et velordnet kvotesystem",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "2",
+      "title": "Udvise kriminelle udlændinge konsekvent efter første dom",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "3",
+      "title": "Udlændinge skal forsørge sig selv",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "4",
+      "title": "Integration er et personligt ansvar - ikke en offentlig opgave",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "5",
+      "title": "Lette danskeres mulighed for at bo med en udenlandsk ægtefælle",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "6",
+      "title": "Islam skal ingen indflydelse have i samfundet",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "7",
+      "title": "Fjerne indkomstskatten i bunden op til 90.000 kroner",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "8",
+      "title": "Indføre en flad skat på 37 %",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "9",
+      "title": "Sænke elafgiften",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "10",
+      "title": "Væk med registreringsafgiften på biler",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "11",
+      "title": "Nedsætte afgifter på øl, vin, spiritus, kaffe, chokolade og is",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "12",
+      "title": "Afskaffe arveafgiften",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "13",
+      "title": "Fuld frihed til at dele barsel mellem far og mor",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "14",
+      "title": "Frihedsbrev til skolerne i stedet for central styring",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "15",
+      "title": "Forældrene skal beslutte, om deres barn er klar til børnehave og skole",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "16",
+      "title": "Fradrag i skatten for at passe børnene hjemme, mens de er små",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "17",
+      "title": "Flere lokale folkeafstemninger",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "18",
+      "title": "Udvidet frit sygehusvalg fra dag 1",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "19",
+      "title": "Økonomien skal følge med befolkningsudviklingen",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "20",
+      "title": "Forbedret arbejdsmiljø i sundhedssektoren",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "21",
+      "title": "Mere nærhed i sundhed og flere familielæger",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "22",
+      "title": "Permanent højere ældrecheck til dem, der har mindst",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "23",
+      "title": "Flere friplejehjem",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "24",
+      "title": "Pengene skal følge den ældre, som selv må bestemme",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "25",
+      "title": "Faste teams frem for kommunal bureaukrati i ældreplejen",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "26",
+      "title": "Fair og hurtig tildeling af førtidspension",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "27",
+      "title": "Respekt for hjemløses ret til det gode liv",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "28",
+      "title": "En ny og styrket psykiatri",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "29",
+      "title": "Jobcentrene skal nedlægges",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "30",
+      "title": "Pension til Arne - men også en skatterabat til Bjarne",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "31",
+      "title": "Raske og rørige på kontanthjælp skal ansvarliggøres",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "32",
+      "title": "Fjerne arbejdsmarkedsbidraget - skatten for at gå på arbejde",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "33",
+      "title": "Lette adgang for international arbejdskraft",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "34",
+      "title": "Bedre forebyggelse fremfor tvangsanbringelse af børn",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "35",
+      "title": "Kompensation til borgerne for kommunens fejl og fristoverskridelser",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "36",
+      "title": "Mennesker med handicap skal fri af kommunens kløer",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "37",
+      "title": "Familieretssystemet skal menneskeliggøres",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "38",
+      "title": "Ud med mørklægningslovens ministerbetjeningsregel",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "39",
+      "title": "Væk med regeljunglen for biler og MC",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "40",
+      "title": "Bekæmpe socialt bedrageri - med fokus på ghettoområder",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "41",
+      "title": "Udvisningsdømte skal ikke gå frit omkring",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "42",
+      "title": "Skærpede straffe for vold og voldtægt",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "43",
+      "title": "Stærkere udrejsekontrol for at fange tyvebanderne",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "44",
+      "title": "Flere lokale politistationer",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "45",
+      "title": "Halvere regelmængden i løbet af 15 år",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "46",
+      "title": "Afskaffe to regler for hver ny, der indføres",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "47",
+      "title": "Ikke mere end 100 nye love i Folketinget om året",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "48",
+      "title": "Mindske erhvervstilskud med 10 milliarder kroner",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "49",
+      "title": "Lavere selskabsskat",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "50",
+      "title": "Lempe rente- og aktiebeskatningen",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "51",
+      "title": "Momsafløftning af restaurationsydelser",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "52",
+      "title": "Garanti mod overimplementering af EU-regler",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "53",
+      "title": "Bedre muligheder med medarbejderaktier",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "54",
+      "title": "Godskørselsloven skal afskaffes",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "55",
+      "title": "Fjerne frås for 6 milliarder kroner om året",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "56",
+      "title": "Styrke kernevelfærden med 43 milliarder kroner",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "57",
+      "title": "Flere private velfærdsiværksættere",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "58",
+      "title": "Mere frihandel - ingen udviklingsbistand",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "59",
+      "title": "Løfte den private beskæftigelse med 233.000 nye jobs",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "60",
+      "title": "Øge velstanden med 80 milliarder kroner",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "61",
+      "title": "Styrke infrastrukturen",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "62",
+      "title": "Afskaffe brugerbetaling på Storebæltsbroen",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "63",
+      "title": "Respekt om lærergerningen",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "64",
+      "title": "Styrke erhvervsskolerne og genindføre den traditionelle mesterlære",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "65",
+      "title": "Ingen tvangsfordeling af elever",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "66",
+      "title": "Flere uddannelser i de mindre byer",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "67",
+      "title": "Omlægge SU på kandidatdelen til lån",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "68",
+      "title": "Vi skal i gang - investeringer her og nu",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "69",
+      "title": "Udbygge værnepligten",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "70",
+      "title": "Styrke mobiliseringsforsvaret",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "71",
+      "title": "Flere fly og flere skibe",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "72",
+      "title": "Styrket hjemmeværn og beredskabsstyrelse",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "73",
+      "title": "Beskyttelse af vores veteraner",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "74",
+      "title": "Kernekraft skal indgå i planlægningen",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "75",
+      "title": "Respekt for naturværdierne",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "76",
+      "title": "Grøn omstilling baseret på fornuft",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "77",
+      "title": "Vind- og solenergi skal ikke have offentlig støtte",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "78",
+      "title": "En forceret grøn omstilling gør energien alt for dyr",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "79",
+      "title": "Strengere straffe for dyremishandling",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "80",
+      "title": "Stop for hvalpe- og killingefabrikker",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "81",
+      "title": "Ingen rewilding-projekter, der mishandler dyrene",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "82",
+      "title": "Ændring af hundeloven - styrket retssikkerhed",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "83",
+      "title": "Tydelig mærkning af halalcertificerede varer og produkter",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "84",
+      "title": "Havmiljøet skal beskyttes mod råstofudvinding og dumpning",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "85",
+      "title": "Kommunernes spildevand skal ikke ende i havet",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "86",
+      "title": "Skovbruget skal reguleres mindre, så vi får mere skov",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "87",
+      "title": "Landmænd og jægere skal anerkendes som naturforvaltere",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "88",
+      "title": "Oprydning efter generationsforureninger",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "89",
+      "title": "Landbruget skal udvikles - ikke afvikles",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "90",
+      "title": "Lempe krav om unyttige efterafgrøder",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "91",
+      "title": "Giv en lovbunden garanti mod konkurrenceforvridende regler",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "92",
+      "title": "Fjerne afgifter på planteværn",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "93",
+      "title": "Ingen jordskatter og arveafgift",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "94",
+      "title": "Beskyttelse af kystfiskeri og de mindre kuttere",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "95",
+      "title": "Stop for videoovervågning af fiskerne",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "96",
+      "title": "Give større bidrag til formidling af danmarkshistorien",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "97",
+      "title": "Fri adgang til de store museer",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "98",
+      "title": "Styrke bevarelsen af fortidsminder og landskabsværdier",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "99",
+      "title": "Sælge DR til private til fordel for en dansk kulturpulje",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "NB",
+      "priority_order": "100",
+      "title": "Opgør med identitetspolitik på uddannelser og kulturinstitutioner",
+      "archive_url": "https://web.archive.org/web/20221014020140id_/https://nyeborgerlige.dk/politik/valgoplaeg",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "2",
+      "title": "Sæt klimaet først",
+      "archive_url": "https://web.archive.org/web/20221201142857id_/https://sf.dk/maerkesager/saet-klimaambitionerne-op",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "8",
+      "title": "Mere hjerte i udlændingepolitikken",
+      "archive_url": "https://web.archive.org/web/20221121044428id_/https://sf.dk/det-vil-vi/integration",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "5",
+      "title": "Styrk sundhedsvæsnet og psykiatrien",
+      "archive_url": "https://web.archive.org/web/20221121051450id_/https://sf.dk/det-vil-vi/sundhed",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "3",
+      "title": "Værdigheden tilbage i ældreplejen",
+      "archive_url": "https://web.archive.org/web/20221121044431id_/https://sf.dk/det-vil-vi/aeldrepleje",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "4",
+      "title": "Giv naturen sin egen lov",
+      "archive_url": "https://web.archive.org/web/20221121045938id_/https://sf.dk/det-vil-vi/natur-miljoe",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "7",
+      "title": "Ligeløn og bedre arbejdsvilkår",
+      "archive_url": "https://web.archive.org/web/20221107220856id_/https://sf.dk/det-vil-vi/ligestilling",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "1",
+      "title": "Stop mistrivsel hos børn og unge",
+      "archive_url": "https://web.archive.org/web/20221121051442id_/https://sf.dk/det-vil-vi/boern-og-unge",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "SF",
+      "priority_order": "6",
+      "title": "Inflationshjælp til dem der har mindst",
+      "archive_url": "https://web.archive.org/web/20221121051444id_/https://sf.dk/det-vil-vi/inflationshjaelp",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "LA",
+      "priority_order": "1",
+      "title": "Lavere skat",
+      "archive_url": "https://web.archive.org/web/20221026075638id_/https://liberalalliance.dk/politik/skat",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "LA",
+      "priority_order": "4",
+      "title": "Klimapolitik",
+      "archive_url": "https://web.archive.org/web/20221006104307id_/https://liberalalliance.dk/politik/klima",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "LA",
+      "priority_order": "2",
+      "title": "Bedre og billigere velfærd",
+      "archive_url": "https://web.archive.org/web/20221121062737id_/https://liberalalliance.dk/politik/velfaerd",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "LA",
+      "priority_order": "3",
+      "title": "Retsstat & demokrati",
+      "archive_url": "https://web.archive.org/web/20220929004458id_/https://liberalalliance.dk/politik/retspolitik/retssikkerhed",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "LA",
+      "priority_order": "5",
+      "title": "1 regel ind, 2 regler ud",
+      "archive_url": "https://web.archive.org/web/20221208163042id_/https://liberalalliance.dk/politik/offentlig-sektor/afbureaukratisering",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "1",
+      "title": "VELFÆRD UNDER PRES",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "2",
+      "title": "Fremtidens sundhedsvæsen: SygehusDanmark",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "3",
+      "title": "Borgerpligt",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "4",
+      "title": "Større udsyn og højere kvalitet i uddannelsessystemet",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "5",
+      "title": "Reformer for vækst med sammenhængskraften i centrum",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "6",
+      "title": "Værdighedsydelse",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "7",
+      "title": "Grøn konsekvens",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "8",
+      "title": "Fremtidens pension",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "9",
+      "title": "Et åbent arbejdsmarked",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "10",
+      "title": "Kulturen i fokus",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "M",
+      "priority_order": "11",
+      "title": "Iværksætteri og vækst",
+      "archive_url": "https://web.archive.org/web/20221019082818id_/https://moderaterne.dk/politik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "2",
+      "title": "Velfærd og sundhed",
+      "archive_url": "https://web.archive.org/web/20221012115248id_/https://danskfolkeparti.dk/politik/sundhed",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "3",
+      "title": "Ældre og seniorer",
+      "archive_url": "https://web.archive.org/web/20221001144718id_/https://danskfolkeparti.dk/politik/seniorer",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "5",
+      "title": "Stop indvandringen",
+      "archive_url": "https://web.archive.org/web/20221001143419id_/https://danskfolkeparti.dk/politik/indvandrere",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "4",
+      "title": "Dyrevelfærd",
+      "archive_url": "https://web.archive.org/web/20221112194704id_/https://danskfolkeparti.dk/politik/dyrevelfaerd",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "6",
+      "title": "Kriminalitet",
+      "archive_url": "https://web.archive.org/web/20221001134646id_/https://danskfolkeparti.dk/politik/kriminalitet",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "8",
+      "title": "Nej til krænkelseshysteri",
+      "archive_url": "https://web.archive.org/web/20221005165312id_/https://danskfolkeparti.dk/politik/kraenkelseskultur",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "7",
+      "title": "Vi skal selv bestemme",
+      "archive_url": "https://web.archive.org/web/20221012100711id_/https://danskfolkeparti.dk/politik/national-selvbestemmelse",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DF",
+      "priority_order": "1",
+      "title": "En hjælpende hånd",
+      "archive_url": "https://web.archive.org/web/20221012221916id_/https://danskfolkeparti.dk/en-hjaelpende-haand",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "DD",
+      "priority_order": "1",
+      "title": "Danmark skal hænge sammen",
+      "archive_url": "https://web.archive.org/web/20221024115327id_/https://danmarksdemokraterne.dk/parti/program",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "DD",
+      "priority_order": "2",
+      "title": "Respekt for Produktionsdanmark",
+      "archive_url": "https://web.archive.org/web/20221024115327id_/https://danmarksdemokraterne.dk/parti/program",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "DD",
+      "priority_order": "3",
+      "title": "En varm hånd, der griber de svageste",
+      "archive_url": "https://web.archive.org/web/20221024115327id_/https://danmarksdemokraterne.dk/parti/program",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "DD",
+      "priority_order": "4",
+      "title": "Udlændinge- og retspolitik",
+      "archive_url": "https://web.archive.org/web/20221024115327id_/https://danmarksdemokraterne.dk/parti/program",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "EL",
+      "priority_order": "3",
+      "title": "Retfærdig flygtningepolitik nu",
+      "archive_url": "https://web.archive.org/web/20221202031411id_/https://enhedslisten.dk/retfaerdig-flygtningepolitik",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "EL",
+      "priority_order": "1",
+      "title": "Gør valget til et klimavalg",
+      "archive_url": "https://web.archive.org/web/20221031033937id_/https://enhedslisten.dk/klimavalg22",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "EL",
+      "priority_order": "2",
+      "title": "Red vores velfærd",
+      "archive_url": "https://web.archive.org/web/20221009082345id_/https://enhedslisten.dk/velfaerdsvalg22",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "EL",
+      "priority_order": "4",
+      "title": "Hjælp de inflationsramte",
+      "archive_url": "https://web.archive.org/web/20221202034752id_/https://enhedslisten.dk/oekonomiskvalg22",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "ALT",
+      "priority_order": "1",
+      "title": "Vores økonomi",
+      "archive_url": "https://web.archive.org/web/20221101124245id_/https://alternativet.dk/",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "ALT",
+      "priority_order": "2",
+      "title": "Vores planet",
+      "archive_url": "https://web.archive.org/web/20221101124245id_/https://alternativet.dk/",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "ALT",
+      "priority_order": "3",
+      "title": "Vores samfund",
+      "archive_url": "https://web.archive.org/web/20221101124245id_/https://alternativet.dk/",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "ALT",
+      "priority_order": "4",
+      "title": "Vores liv",
+      "archive_url": "https://web.archive.org/web/20221101124245id_/https://alternativet.dk/",
+      "status": "verified_exact_source_text",
+      "reason": "specialized section extraction exactly reproduces stored text"
+    }
+  ]
+}

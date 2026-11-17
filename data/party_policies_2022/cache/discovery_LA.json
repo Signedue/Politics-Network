@@ -1,0 +1,62 @@
+[
+  {
+    "original_url": "https://liberalalliance.dk/politik/skat",
+    "snapshots": [
+      {
+        "timestamp": "20211231231817",
+        "original": "https://www.liberalalliance.dk/politik/skat/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "XJXJSF3KQNRA6KNDBUKDCDMOGOPZRI3W"
+      }
+    ]
+  },
+  {
+    "original_url": "https://liberalalliance.dk/politik/velfaerd",
+    "snapshots": [
+      {
+        "timestamp": "20211231231848",
+        "original": "https://www.liberalalliance.dk/politik/velfaerd/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "GNSI5O23E4PYNJ3XNJAPTWZ5QJDBTIQI"
+      }
+    ]
+  },
+  {
+    "original_url": "https://liberalalliance.dk/politik/retspolitik/retssikkerhed",
+    "snapshots": [
+      {
+        "timestamp": "20220523081116",
+        "original": "https://www.liberalalliance.dk/politik/retspolitik/retssikkerhed/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "V4U2W5JCMR6DB5K3T6UNNL2INZLF7X6N"
+      }
+    ]
+  },
+  {
+    "original_url": "https://liberalalliance.dk/politik/klima",
+    "snapshots": [
+      {
+        "timestamp": "20220523090403",
+        "original": "https://www.liberalalliance.dk/politik/klima/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "QXIDRD2WK3GFVJE5SDZEAL2QMLAQQR6A"
+      }
+    ]
+  },
+  {
+    "original_url": "https://liberalalliance.dk/politik/offentlig-sektor/afbureaukratisering",
+    "snapshots": [
+      {
+        "timestamp": "20220129012311",
+        "original": "https://www.liberalalliance.dk/politik/offentlig-sektor/afbureaukratisering/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "4T6ANMKZU6E4SHDG73VKQFWSTBURSOLV"
+      }
+    ]
+  }
+]

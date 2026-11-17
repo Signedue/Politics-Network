@@ -1,0 +1,98 @@
+[
+  {
+    "original_url": "https://sf.dk/det-vil-vi/boern-og-unge",
+    "snapshots": [
+      {
+        "timestamp": "20190527012233",
+        "original": "https://sf.dk/det-vil-vi/boern-og-unge/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "HFLKJN6OY3I4KCHQ5Q5UCJLWAVQSWTRO"
+      }
+    ]
+  },
+  {
+    "original_url": "https://sf.dk/maerkesager/saet-klimaambitionerne-op",
+    "snapshots": [
+      {
+        "timestamp": "20221201142857",
+        "original": "https://sf.dk/maerkesager/saet-klimaambitionerne-op/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "AGD7BJM64TROJTQBQ4ODZ5IZ5N7QTTTQ"
+      }
+    ]
+  },
+  {
+    "original_url": "https://sf.dk/det-vil-vi/aeldrepleje",
+    "snapshots": [
+      {
+        "timestamp": "20220217083448",
+        "original": "https://sf.dk/det-vil-vi/aeldrepleje/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "IBVHG653MUAYY66Z3MXWUPFTEDBFT6UT"
+      }
+    ]
+  },
+  {
+    "original_url": "https://sf.dk/det-vil-vi/natur-miljoe",
+    "snapshots": [
+      {
+        "timestamp": "20190527012242",
+        "original": "https://sf.dk/det-vil-vi/natur-miljoe/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "HV5DSNAFN2B3VB7ACXVMZPNHCLIQQNLB"
+      }
+    ]
+  },
+  {
+    "original_url": "https://sf.dk/det-vil-vi/sundhed",
+    "snapshots": [
+      {
+        "timestamp": "20190527012201",
+        "original": "https://sf.dk/det-vil-vi/sundhed/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "DQIFKOVI6GD5UG7LQ3KLJLXTDI57DW7P"
+      }
+    ]
+  },
+  {
+    "original_url": "https://sf.dk/det-vil-vi/inflationshjaelp",
+    "snapshots": [
+      {
+        "timestamp": "20221121051444",
+        "original": "https://sf.dk/det-vil-vi/inflationshjaelp/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "YWG73A2HJKIGK2PDDBKFTWTLPSS2ZO7N"
+      }
+    ]
+  },
+  {
+    "original_url": "https://sf.dk/det-vil-vi/ligestilling",
+    "snapshots": [
+      {
+        "timestamp": "20190527012302",
+        "original": "https://sf.dk/det-vil-vi/ligestilling/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "D2YUYCGN6RFPJFPJ2XM4SSNNZQ23K2VA"
+      }
+    ]
+  },
+  {
+    "original_url": "https://sf.dk/det-vil-vi/integration",
+    "snapshots": [
+      {
+        "timestamp": "20190527012240",
+        "original": "https://sf.dk/det-vil-vi/integration/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "CNDAGHB2BFO7NFRQMLMQTHKPEWK6JPNI"
+      }
+    ]
+  }
+]
