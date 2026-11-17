@@ -10,12 +10,17 @@ from data.party_policies_2022.pipeline import (
     extract_danmarksdemokraterne_programme,
     extract_enhedslisten_campaign_priority,
     extract_alternativet_programme,
+    clean_socialdemokratiet_text,
     normalize_original_url,
     text_hash,
     timestamp_is_pre_election,
     timestamp_is_preferred,
 )
-from data.party_policies_2022.config import RADIKALE_VISION_THEMES
+from data.party_policies_2022.config import (
+    RADIKALE_VISION_THEMES,
+    SOCIALDEMOCRATIET_HIGHLIGHTED_PRIORITIES,
+    SOCIALDEMOCRATIET_2022_CAPTURE_OVERRIDES,
+)
 
 
 class PipelineTests(unittest.TestCase):
@@ -284,6 +289,58 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual([record["proposal_count"] for record in records], [1, 1])
         self.assertIn("Forslagstekst økonomi.", records[0]["text"])
         self.assertIn("Forslagstekst planet.", records[1]["text"])
+
+    def test_socialdemokratiet_13_priority_titles_and_order(self):
+        self.assertEqual(
+            SOCIALDEMOCRATIET_HIGHLIGHTED_PRIORITIES,
+            (
+                "Bedre vilkår. Bedre velfærd.",
+                "Et faglært Danmark",
+                "Ret til rent drikkevand",
+                "Akutpakke til sygehusene",
+                "Ny sygehusfond til moderne sygehuse i hele landet",
+                "Ny inflationshjælp",
+                "Tryghed for alle",
+                "Et grønt landbrug der indfrier klimamålene",
+                "Lavere skat på arbejde",
+                "Trygt igennem usikre tider",
+                "Værdig velfærd",
+                "Hurtigere grøn omstilling",
+                "En stram udlændingepolitik",
+            ),
+        )
+
+    def test_socialdemokratiet_cleaner_removes_membership_and_duplicates(self):
+        text = (
+            "## Politik\n\nVi vil gøre noget konkret.\n\n"
+            "- Vi vil gøre noget konkret.\n\n"
+            "## Apropos...\n\n### Klima\n\nRelateret indhold.\n\n"
+            "## Vil du være med i fællesskabet?\n\n"
+            "Som intromedlem af Socialdemokratiet bliver du medlem."
+        )
+        cleaned = clean_socialdemokratiet_text(text)
+        self.assertIn("Vi vil gøre noget konkret.", cleaned)
+        self.assertNotIn("Relateret indhold.", cleaned)
+        self.assertNotIn("Som intromedlem", cleaned)
+        self.assertEqual(cleaned.count("Vi vil gøre noget konkret."), 1)
+
+    def test_socialdemokratiet_climate_capture_is_post_election_near_capture(self):
+        stamp, url, capture_kind = SOCIALDEMOCRATIET_2022_CAPTURE_OVERRIDES["12"]
+        self.assertEqual(stamp, "20221108181631")
+        self.assertEqual(
+            url,
+            "https://www.socialdemokratiet.dk/det-vil-vi/klima-og-miljoe/",
+        )
+        self.assertEqual(capture_kind, "post_election_near_capture")
+
+    def test_socialdemokratiet_pre_election_capture_overrides(self):
+        verified = {
+            key
+            for key, (_, _, capture_kind)
+            in SOCIALDEMOCRATIET_2022_CAPTURE_OVERRIDES.items()
+            if capture_kind == "pre_election_verified"
+        }
+        self.assertEqual(verified, {"1", "6", "7", "8", "9", "10", "11"})
 
 
 if __name__ == "__main__":

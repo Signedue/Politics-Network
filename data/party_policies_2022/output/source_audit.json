@@ -7,110 +7,6 @@
   },
   "records": [
     {
-      "party_code": "S",
-      "priority_order": "13",
-      "title": "En stram udlændingepolitik",
-      "archive_url": "https://web.archive.org/web/20251030211935id_/https://socialdemokratiet.dk/det-vil-vi/udlaendinge",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "1",
-      "title": "Bedre vilkår. Bedre velfærd.",
-      "archive_url": "https://web.archive.org/web/20230530085722id_/https://socialdemokratiet.dk/det-vil-vi/bedre-vilkaer-bedre-velfaerd",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "12",
-      "title": "Hurtigere grøn omstilling",
-      "archive_url": "https://web.archive.org/web/20250424041516id_/https://socialdemokratiet.dk/det-vil-vi/klima-og-miljoe",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "11",
-      "title": "Værdig velfærd",
-      "archive_url": "https://web.archive.org/web/20240916144422id_/https://socialdemokratiet.dk/vaerdig-velfaerd",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "9",
-      "title": "Lavere skat på arbejde",
-      "archive_url": "https://web.archive.org/web/20250430100545id_/https://socialdemokratiet.dk/det-vil-vi/lavere-skat-paa-arbejde",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "8",
-      "title": "Et grønt landbrug der indfrier klimamålene",
-      "archive_url": "https://web.archive.org/web/20250430095735id_/https://socialdemokratiet.dk/det-vil-vi/et-groent-landbrug-der-indfrier-klimamaalene",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "10",
-      "title": "Trygt igennem usikre tider",
-      "archive_url": "https://web.archive.org/web/20230510010145id_/https://socialdemokratiet.dk/det-vil-vi/inflation",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "7",
-      "title": "Tryghed for alle",
-      "archive_url": "https://web.archive.org/web/20250430102218id_/https://socialdemokratiet.dk/det-vil-vi/tryghed-for-alle",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "6",
-      "title": "Ny inflationshjælp",
-      "archive_url": "https://web.archive.org/web/20250514091020id_/https://socialdemokratiet.dk/det-vil-vi/ny-inflationspakke",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "2",
-      "title": "Et faglært Danmark",
-      "archive_url": "https://web.archive.org/web/20250315131430id_/https://socialdemokratiet.dk/det-vil-vi/et-faglaert-danmark",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "3",
-      "title": "Ret til rent drikkevand",
-      "archive_url": "https://web.archive.org/web/20260110130934id_/https://socialdemokratiet.dk/det-vil-vi/ret-til-rent-drikkevand",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "4",
-      "title": "Akutpakke til sygehusene",
-      "archive_url": "https://web.archive.org/web/20250430100657id_/https://socialdemokratiet.dk/det-vil-vi/akutpakke-til-sygehusene",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
-      "party_code": "S",
-      "priority_order": "5",
-      "title": "Ny sygehusfond til moderne sygehuse i hele landet",
-      "archive_url": "https://web.archive.org/web/20251113062954id_/https://socialdemokratiet.dk/det-vil-vi/ny-sygehusfond-til-moderne-sygehuse-i-hele-landet",
-      "status": "verified_exact_source_text",
-      "reason": "stored text exactly matches structured extraction from archive HTML"
-    },
-    {
       "party_code": "V",
       "priority_order": "3",
       "title": "Mere frihed til selv at bestemme",
@@ -1477,6 +1373,110 @@
       "archive_url": "https://web.archive.org/web/20221101124245id_/https://alternativet.dk/",
       "status": "verified_exact_source_text",
       "reason": "specialized section extraction exactly reproduces stored text"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "1",
+      "title": "Bedre vilkår. Bedre velfærd.",
+      "archive_url": "https://web.archive.org/web/20221027082209id_/https://www.socialdemokratiet.dk/det-vil-vi/bedre-vilkaer-bedre-velfaerd/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "10",
+      "title": "Trygt igennem usikre tider",
+      "archive_url": "https://web.archive.org/web/20221008185827id_/https://www.socialdemokratiet.dk/det-vil-vi/inflation/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "13",
+      "title": "En stram udlændingepolitik",
+      "archive_url": "https://web.archive.org/web/20251030211935id_/https://socialdemokratiet.dk/det-vil-vi/udlaendinge",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "12",
+      "title": "Hurtigere grøn omstilling",
+      "archive_url": "https://web.archive.org/web/20221108181631id_/https://www.socialdemokratiet.dk/det-vil-vi/klima-og-miljoe/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "7",
+      "title": "Tryghed for alle",
+      "archive_url": "https://web.archive.org/web/20221021082429id_/https://www.socialdemokratiet.dk/det-vil-vi/tryghed-for-alle/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "11",
+      "title": "Værdig velfærd",
+      "archive_url": "https://web.archive.org/web/20221004160308id_/https://www.socialdemokratiet.dk/vaerdig-velfaerd/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "6",
+      "title": "Ny inflationshjælp",
+      "archive_url": "https://web.archive.org/web/20221022151952id_/https://www.socialdemokratiet.dk/det-vil-vi/ny-inflationspakke/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "2",
+      "title": "Et faglært Danmark",
+      "archive_url": "https://web.archive.org/web/20250315131430id_/https://socialdemokratiet.dk/det-vil-vi/et-faglaert-danmark",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "3",
+      "title": "Ret til rent drikkevand",
+      "archive_url": "https://web.archive.org/web/20260110130934id_/https://socialdemokratiet.dk/det-vil-vi/ret-til-rent-drikkevand",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "9",
+      "title": "Lavere skat på arbejde",
+      "archive_url": "https://web.archive.org/web/20221026044024id_/https://www.socialdemokratiet.dk/det-vil-vi/lavere-skat-paa-arbejde/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "4",
+      "title": "Akutpakke til sygehusene",
+      "archive_url": "https://web.archive.org/web/20250430100657id_/https://socialdemokratiet.dk/det-vil-vi/akutpakke-til-sygehusene",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "8",
+      "title": "Et grønt landbrug der indfrier klimamålene",
+      "archive_url": "https://web.archive.org/web/20221031151233id_/https://www.socialdemokratiet.dk/det-vil-vi/et-groent-landbrug-der-indfrier-klimamaalene/",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
+    },
+    {
+      "party_code": "S",
+      "priority_order": "5",
+      "title": "Ny sygehusfond til moderne sygehuse i hele landet",
+      "archive_url": "https://web.archive.org/web/20251113062954id_/https://socialdemokratiet.dk/det-vil-vi/ny-sygehusfond-til-moderne-sygehuse-i-hele-landet",
+      "status": "verified_exact_source_text",
+      "reason": "stored text exactly matches structured extraction from archive HTML"
     }
   ]
 }

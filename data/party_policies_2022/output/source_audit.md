@@ -7,19 +7,6 @@
 
 | Party | Order | Title | Status |
 |---|---:|---|---|
-| S | 13 | En stram udlændingepolitik | verified_exact_source_text |
-| S | 1 | Bedre vilkår. Bedre velfærd. | verified_exact_source_text |
-| S | 12 | Hurtigere grøn omstilling | verified_exact_source_text |
-| S | 11 | Værdig velfærd | verified_exact_source_text |
-| S | 9 | Lavere skat på arbejde | verified_exact_source_text |
-| S | 8 | Et grønt landbrug der indfrier klimamålene | verified_exact_source_text |
-| S | 10 | Trygt igennem usikre tider | verified_exact_source_text |
-| S | 7 | Tryghed for alle | verified_exact_source_text |
-| S | 6 | Ny inflationshjælp | verified_exact_source_text |
-| S | 2 | Et faglært Danmark | verified_exact_source_text |
-| S | 3 | Ret til rent drikkevand | verified_exact_source_text |
-| S | 4 | Akutpakke til sygehusene | verified_exact_source_text |
-| S | 5 | Ny sygehusfond til moderne sygehuse i hele landet | verified_exact_source_text |
 | V | 3 | Mere frihed til selv at bestemme | verified_exact_source_text |
 | V | 4 | Konsekvente krav til udlændinge | verified_exact_source_text |
 | V | 5 | Det skal kunne betale sig at arbejde | verified_exact_source_text |
@@ -191,3 +178,16 @@
 | ALT | 2 | Vores planet | verified_exact_source_text |
 | ALT | 3 | Vores samfund | verified_exact_source_text |
 | ALT | 4 | Vores liv | verified_exact_source_text |
+| S | 1 | Bedre vilkår. Bedre velfærd. | verified_exact_source_text |
+| S | 10 | Trygt igennem usikre tider | verified_exact_source_text |
+| S | 13 | En stram udlændingepolitik | verified_exact_source_text |
+| S | 12 | Hurtigere grøn omstilling | verified_exact_source_text |
+| S | 7 | Tryghed for alle | verified_exact_source_text |
+| S | 11 | Værdig velfærd | verified_exact_source_text |
+| S | 6 | Ny inflationshjælp | verified_exact_source_text |
+| S | 2 | Et faglært Danmark | verified_exact_source_text |
+| S | 3 | Ret til rent drikkevand | verified_exact_source_text |
+| S | 9 | Lavere skat på arbejde | verified_exact_source_text |
+| S | 4 | Akutpakke til sygehusene | verified_exact_source_text |
+| S | 8 | Et grønt landbrug der indfrier klimamålene | verified_exact_source_text |
+| S | 5 | Ny sygehusfond til moderne sygehuse i hele landet | verified_exact_source_text |

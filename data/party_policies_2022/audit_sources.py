@@ -14,6 +14,7 @@ from .config import (
 )
 from .pipeline import (
     HTML_CACHE,
+    read_cached_html,
     extract_danmarksdemokraterne_programme,
     extract_alternativet_programme,
     extract_enhedslisten_campaign_priority,
@@ -22,6 +23,7 @@ from .pipeline import (
     extract_df_main_content,
     extract_radikale_visions,
     extract_structured_html,
+    clean_socialdemokratiet_text,
 )
 
 ROOT = Path(__file__).resolve().parent
@@ -33,7 +35,7 @@ def cached_html(archive_url: str) -> str | None:
     path = HTML_CACHE / (
         f"{hashlib.sha256((archive_url + '|utf8-v2').encode()).hexdigest()}.html"
     )
-    return path.read_text(encoding="utf-8") if path.exists() else None
+    return read_cached_html(path) if path.exists() else None
 
 
 def audit() -> list[dict]:
@@ -152,7 +154,10 @@ def audit() -> list[dict]:
                     status = "unverifiable_or_mismatch"
                     reason = "stored text does not exactly match the specialized source extraction"
             else:
-                if row["party_code"] == "DF":
+                if row["party_code"] == "S":
+                    _, extracted, _, _, _ = extract_structured_html(html)
+                    extracted = clean_socialdemokratiet_text(extracted)
+                elif row["party_code"] == "DF":
                     _, extracted, _, _ = extract_df_main_content(html)
                 else:
                     _, extracted, _, _, _ = extract_structured_html(html)

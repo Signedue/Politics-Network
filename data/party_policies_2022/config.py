@@ -55,6 +55,49 @@ SOCIALDEMOCRATIET_HIGHLIGHTED_PRIORITIES = (
     "En stram udlændingepolitik",
 )
 
+SOCIALDEMOCRATIET_2022_CAPTURE_OVERRIDES = {
+    "1": (
+        "20221027082209",
+        "https://www.socialdemokratiet.dk/det-vil-vi/bedre-vilkaer-bedre-velfaerd/",
+        "pre_election_verified",
+    ),
+    "6": (
+        "20221022151952",
+        "https://www.socialdemokratiet.dk/det-vil-vi/ny-inflationspakke/",
+        "pre_election_verified",
+    ),
+    "7": (
+        "20221021082429",
+        "https://www.socialdemokratiet.dk/det-vil-vi/tryghed-for-alle/",
+        "pre_election_verified",
+    ),
+    "8": (
+        "20221031151233",
+        "https://www.socialdemokratiet.dk/det-vil-vi/et-groent-landbrug-der-indfrier-klimamaalene/",
+        "pre_election_verified",
+    ),
+    "9": (
+        "20221026044024",
+        "https://www.socialdemokratiet.dk/det-vil-vi/lavere-skat-paa-arbejde/",
+        "pre_election_verified",
+    ),
+    "10": (
+        "20221008185827",
+        "https://www.socialdemokratiet.dk/det-vil-vi/inflation/",
+        "pre_election_verified",
+    ),
+    "11": (
+        "20221004160308",
+        "https://www.socialdemokratiet.dk/vaerdig-velfaerd/",
+        "pre_election_verified",
+    ),
+    "12": (
+        "20221108181631",
+        "https://www.socialdemokratiet.dk/det-vil-vi/klima-og-miljoe/",
+        "post_election_near_capture",
+    ),
+}
+
 RADIKALE_VISION_THEMES = (
     ("TÆNK GRØNT", (
         "110 procent grønt Danmark",

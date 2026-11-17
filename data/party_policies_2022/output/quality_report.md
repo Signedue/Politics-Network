@@ -4,9 +4,6 @@ This report records Wayback discovery and extraction results. A policy page is n
 
 | Party | Discovered | Main dataset | High | Medium | Low | Missing | Rejected |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Socialdemokratiet | 13 | 13 | 12 | 1 | 0 | 0 | 0 |
-
-**Socialdemokratiet source:** homepage `https://web.archive.org/web/20221031095219id_/https://socialdemokratiet.dk/` (20221031095219); priority section `https://socialdemokratiet.dk/` — Vores mærkesager; manual review: `False`.
 | Venstre | 6 | 6 | 6 | 0 | 0 | 0 | 0 |
 
 **Venstre source:** homepage `https://web.archive.org/web/20221029033425id_/https://venstre.dk/` (20221029033425); priority section `https://www.venstre.dk/politik/maerkesager` — Mærkesager; manual review: `False`.
@@ -40,6 +37,9 @@ This report records Wayback discovery and extraction results. A policy page is n
 | Alternativet | 4 | 4 | 1 | 3 | 0 | 0 | 0 |
 
 **Alternativet source:** homepage `https://web.archive.org/web/20221101124245id_/https://alternativet.dk/` (20221101124245); priority section `https://alternativet.dk/` — Stien til det bæredygtige samfund; manual review: `False`.
+| Socialdemokratiet | 13 | 13 | 10 | 3 | 0 | 0 | 0 |
+
+**Socialdemokratiet source:** homepage `https://web.archive.org/web/20221031095219id_/https://socialdemokratiet.dk/` (20221031095219); priority section `https://socialdemokratiet.dk/` — Vores mærkesager; manual review: `True`.
 
 Total main-dataset pages: 184
 Total excluded low-relevance pages: 0

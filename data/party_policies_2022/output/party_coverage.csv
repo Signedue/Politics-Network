@@ -1,5 +1,4 @@
 party,party_code,discovered_urls,keyword_urls,extracted_pages,high_relevance,medium_relevance,low_relevance,missing_pages,rejected_pages,homepage_archive_url,homepage_snapshot_timestamp,priority_section_url,priority_section_heading,manual_review_needed
-Socialdemokratiet,S,13,13,13,12,1,0,0,0,https://web.archive.org/web/20221031095219id_/https://socialdemokratiet.dk/,20221031095219,https://socialdemokratiet.dk/,Vores mærkesager,False
 Venstre,V,6,6,6,6,0,0,0,0,https://web.archive.org/web/20221029033425id_/https://venstre.dk/,20221029033425,https://www.venstre.dk/politik/maerkesager,Mærkesager,False
 Radikale Venstre,RV,16,16,16,16,0,0,0,0,https://web.archive.org/web/20221031112531id_/https://radikale.dk/,20221031112531,https://radikale.dk/politik/sammen-om-en-ny-start,Sammen om en ny start - Valgoplæg 2022 - Radikale Venstre,False
 Det Konservative Folkeparti,KF,5,5,5,5,0,0,0,0,https://web.archive.org/web/20221028145423id_/https://konservative.dk/,20221028145423,https://konservative.dk/politik,Politik - Det Konservative Folkeparti,False
@@ -11,3 +10,4 @@ Dansk Folkeparti,DF,8,8,8,7,1,0,0,0,https://web.archive.org/web/20221102042344id
 Danmarksdemokraterne,DD,4,4,4,1,3,0,0,0,https://web.archive.org/web/20221031204040id_/https://danmarksdemokraterne.dk/parti,20221031204040,https://danmarksdemokraterne.dk/parti/program,Vores politik,False
 Enhedslisten,EL,4,4,4,3,1,0,0,0,https://web.archive.org/web/20221029044329id_/https://enhedslisten.dk/,20221029044329,https://enhedslisten.dk/,Enhedslisten valgkamp 2022,True
 Alternativet,ALT,4,4,4,1,3,0,0,0,https://web.archive.org/web/20221101124245id_/https://alternativet.dk/,20221101124245,https://alternativet.dk/,Stien til det bæredygtige samfund,False
+Socialdemokratiet,S,13,13,13,10,3,0,0,0,https://web.archive.org/web/20221031095219id_/https://socialdemokratiet.dk/,20221031095219,https://socialdemokratiet.dk/,Vores mærkesager,True

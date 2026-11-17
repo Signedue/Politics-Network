@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import gzip
 import hashlib
 import json
 import logging
@@ -21,6 +22,7 @@ from .config import (
     MAX_RETRIES,
     HISTORICAL_2022_PARTY_MAPPING,
     SOCIALDEMOCRATIET_HIGHLIGHTED_PRIORITIES,
+    SOCIALDEMOCRATIET_2022_CAPTURE_OVERRIDES,
     ALTERNATIVET_HIGHLIGHTED_PRIORITIES,
     PARTIES,
     Party,
@@ -423,6 +425,41 @@ def extract_structured_html(html: str) -> tuple[str, str, str, list[dict], str]:
     text = "\n\n".join(blocks)
     method = "structured_headings_paragraphs_lists" if blocks else "empty"
     return title, text, method, links, publication_date
+
+
+def clean_socialdemokratiet_text(text: str) -> str:
+    """Remove repeated and shared webpage boilerplate while retaining policy text."""
+    stop_markers = (
+        "## apropos",
+        "## vil du være med i fællesskabet",
+        "### bliv gratis intromedlem",
+        "som intromedlem af socialdemokratiet",
+        "meld dig ind i dag",
+        "gå til indmeldelse",
+    )
+    cleaned: list[str] = []
+    seen: set[str] = set()
+    for raw_block in text.split("\n\n"):
+        block = normalize_text(raw_block)
+        if not block:
+            continue
+        block_fold = block.casefold()
+        if any(marker in block_fold for marker in stop_markers):
+            break
+        if block_fold.startswith(("bliv medlem", "nyhedsbrev", "følg os", "kontakt", "cookie")):
+            continue
+        duplicate_key = normalize_text(re.sub(r"^[-*]\s*", "", block)).casefold()
+        if duplicate_key in seen:
+            continue
+        seen.add(duplicate_key)
+        cleaned.append(block)
+    return "\n\n".join(cleaned)
+
+
+def extract_socialdemokratiet_priority(html: str) -> tuple[str, str, str, str]:
+    title, text, method, _, publication_date = extract_structured_html(html)
+    cleaned = clean_socialdemokratiet_text(text)
+    return title, cleaned, method, publication_date
 
 
 def linked_internal_urls(
@@ -882,10 +919,17 @@ def extract_danmarksdemokraterne_programme(
     return sorted(mains, key=lambda record: record["number"]), supplements
 
 
+def read_cached_html(path: Path) -> str:
+    data = path.read_bytes()
+    if data.startswith(b"\x1f\x8b"):
+        data = gzip.decompress(data)
+    return data.decode("utf-8", errors="replace")
+
+
 def load_cached_html_for_page(page: dict) -> str:
     archive = str(page["archive_url"])
     cache_path = HTML_CACHE / f"{hashlib.sha256((archive + '|utf8-v2').encode()).hexdigest()}.html"
-    return cache_path.read_text(encoding="utf-8")
+    return read_cached_html(cache_path)
 
 
 def policy_link_score(url: str, label: str) -> tuple[int, str]:
@@ -1002,7 +1046,7 @@ def fetch_snapshot(
         cache_path = HTML_CACHE / f"{hashlib.sha256((url + '|utf8-v2').encode()).hexdigest()}.html"
         try:
             if cache_path.exists():
-                html = cache_path.read_text(encoding="utf-8")
+                html = read_cached_html(cache_path)
             else:
                 response = request_with_backoff(session, url)
                 response.encoding = "utf-8"
@@ -1271,6 +1315,103 @@ def run_party(session: requests.Session, party: Party, max_pages: int | None, dr
             home_timestamp = home_page["timestamp"]
             coverage["homepage_archive_url"] = home_archive
             coverage["homepage_snapshot_timestamp"] = home_timestamp
+            if party.code == "S":
+                checkpoint = load_json(CHECKPOINT_DIR / "S.json", {})
+                existing_rows = {
+                    str(row["priority_order"]): row
+                    for row in checkpoint.get("rows", [])
+                }
+                discovered = {}
+                direct_pages = {}
+                for index, title in enumerate(
+                    SOCIALDEMOCRATIET_HIGHLIGHTED_PRIORITIES,
+                    start=1,
+                ):
+                    key = str(index)
+                    existing = existing_rows.get(key, {})
+                    original_url = str(existing.get("original_url", "")).strip()
+                    if not original_url:
+                        original_url = normalize_original_url(
+                            f"https://socialdemokratiet.dk/det-vil-vi/{'klima-og-miljoe' if index == 12 else 'priority'}",
+                            domain,
+                        )
+                    override = SOCIALDEMOCRATIET_2022_CAPTURE_OVERRIDES.get(key)
+                    archive = str(existing.get("archive_url", "")).strip()
+                    timestamp = str(existing.get("snapshot_timestamp", "")).strip()
+                    text = str(existing.get("text", "")).strip()
+                    validation_status = "post_election_capture_unverified"
+                    review_status = "historical_text_unverified"
+                    source_kind = "existing_post_election_capture"
+                    if override:
+                        stamp, override_url, capture_kind = override
+                        override_archive = archive_url(stamp, override_url)
+                        cache_path = HTML_CACHE / (
+                            f"{hashlib.sha256((override_archive + '|utf8-v2').encode()).hexdigest()}.html"
+                        )
+                        if cache_path.exists():
+                            html = read_cached_html(cache_path)
+                            _, cleaned, _, _ = extract_socialdemokratiet_priority(html)
+                            if cleaned:
+                                archive = override_archive
+                                timestamp = stamp
+                                text = cleaned
+                                source_kind = capture_kind
+                                if capture_kind == "pre_election_verified":
+                                    validation_status = "preferred_pre_election"
+                                    review_status = "historical_text_verified_pre_election"
+                                else:
+                                    validation_status = "post_election_near_capture"
+                                    review_status = "historical_text_supported_post_election"
+                    if not override or not text:
+                        existing_cache = None
+                        if archive:
+                            existing_cache = HTML_CACHE / (
+                                f"{hashlib.sha256((archive + '|utf8-v2').encode()).hexdigest()}.html"
+                            )
+                        if existing_cache and existing_cache.exists():
+                            html = read_cached_html(existing_cache)
+                            _, cleaned, _, _ = extract_socialdemokratiet_priority(html)
+                            if cleaned:
+                                text = cleaned
+                    text = clean_socialdemokratiet_text(text)
+                    discovered[original_url] = [home_page]
+                    navigation[original_url] = {
+                        "path": f"{homepage_url} -> Vores mærkesager -> {title}",
+                        "homepage_archive_url": home_archive,
+                        "homepage_snapshot_timestamp": home_timestamp,
+                        "link_reason": "manually verified 2022 homepage priority",
+                        "overview_source_url": homepage_url,
+                        "link_label": title,
+                        "priority_category": "highlighted_priority",
+                        "source_section_heading": "Vores mærkesager",
+                        "priority_order": index,
+                        "text_granularity": "substantive_explanatory_text",
+                        "historical_source_kind": source_kind,
+                    }
+                    direct_pages[original_url] = {
+                        **home_page,
+                        "title": title,
+                        "text": text,
+                        "text_length": len(text),
+                        "extraction_method": "socialdemokratiet_homepage_priority",
+                        "archive_url": archive,
+                        "timestamp": timestamp,
+                        "resolved_original_url": (
+                            override[1] if override and override[2] != "post_election_near_capture"
+                            else str(existing.get("resolved_original_url", original_url))
+                        ),
+                        "temporal_status": validation_status,
+                        "review_status": review_status,
+                        "document_type": "general_policy_page",
+                        "content_status": "extracted" if text else "missing",
+                    }
+                coverage["priority_section_url"] = homepage_url
+                coverage["priority_section_heading"] = "Vores mærkesager"
+                coverage["manual_review_needed"] = any(
+                    navigation[url].get("historical_source_kind")
+                    not in {"pre_election_verified", "post_election_near_capture"}
+                    for url in discovered
+                )
             homepage_links = linked_internal_urls(
                 homepage_url,
                 home_page["hrefs"],
@@ -1934,10 +2075,12 @@ def run_party(session: requests.Session, party: Party, max_pages: int | None, dr
             "party": party.name, "party_code": party.code,
             "document_type": document_type, "title": output_title,
             "original_url": original_url, "archive_url": page["archive_url"],
-            "snapshot_timestamp": page["timestamp"],             "original_publication_date": page.get("original_publication_date", ""),
+            "snapshot_timestamp": page["timestamp"],
+            "original_publication_date": page.get("original_publication_date", ""),
             "text": page["text"], "text_length": page["text_length"],
             "extraction_method": f"{page['extraction_method']};classification={classification_method}",
-            "validation_status": page["temporal_status"], "review_status": "manual_review_required",
+            "validation_status": page["temporal_status"],
+            "review_status": page.get("review_status", "manual_review_required"),
             "policy_relevance": relevance, "relevance_reason": relevance_reason,
             "priority_category": navigation.get(original_url, {}).get("priority_category", "unclassified"),
             "source_section_heading": navigation.get(original_url, {}).get("source_section_heading", ""),
@@ -2073,7 +2216,7 @@ def run(parties: list[Party], max_pages: int | None, dry_run: bool) -> tuple[lis
     summaries = []
     selected_codes = {party.code for party in parties}
     for preserved_code in (
-        "S", "V", "RV", "KF", "NB", "SF", "LA", "M", "DF", "DD", "EL"
+        "S", "V", "RV", "KF", "NB", "SF", "LA", "M", "DF", "DD", "EL", "ALT"
     ):
         if preserved_code in selected_codes:
             continue
