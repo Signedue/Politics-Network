@@ -308,6 +308,15 @@
             </div>
           </div>
         </section>
+
+        <section class="result-section atlas-section">
+          <div class="atlas-subsection">
+            <h3>Interactive atlas of the quotes</h3>
+            <p>Each quote is a vector (TF-IDF or an LDA topic distribution), and PCA and t-SNE draw them in 2D. The nearest neighbours in the side panel are computed in the original space, not on the map. Readers can switch between quotes/politicians, TF-IDF/LDA and PCA/t-SNE, and colour by party, LDA topic or stance.</p>
+            <iframe class="atlas-frame" src="atlas.html" title="Interactive atlas of the election quotes" loading="lazy" width="100%" frameborder="0"></iframe>
+            <p><a class="text-link" href="atlas.html">Open the atlas in full screen</a></p>
+          </div>
+        </section>
       </div>
 
       <footer>
@@ -317,5 +326,23 @@
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
     <script src="js/results.js?v=20261028-1"></script>
     <script src="js/say_vs_do.js?v=20261118-1"></script>
+    <script>
+      (() => {
+        const frame = document.querySelector(".atlas-frame");
+        if (!frame) return;
+
+        let reloaded = false;
+        const reloadWhenVisible = ([entry]) => {
+          if (!entry.isIntersecting || reloaded) return;
+          reloaded = true;
+          observer.disconnect();
+          requestAnimationFrame(() => {
+            frame.src = frame.src;
+          });
+        };
+        const observer = new IntersectionObserver(reloadWhenVisible, { threshold: 0.05 });
+        observer.observe(frame);
+      })();
+    </script>
   </body>
 </html>

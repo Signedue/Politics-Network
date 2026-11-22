@@ -864,6 +864,32 @@ footer {
   font-size: 0.9rem;
 }
 
+.atlas-subsection {
+  min-width: 0;
+  margin-top: 1.5rem;
+}
+
+.atlas-subsection h3 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.atlas-subsection > p {
+  max-width: 760px;
+  color: var(--muted);
+}
+
+.atlas-frame {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 1100px;
+  margin: 1.25rem 0 0.75rem;
+  border: 0;
+}
+
 /* Say vs do */
 .say-vs-do-section .svd-figures {
   display: grid;
@@ -1377,6 +1403,12 @@ footer {
 
 .svd-example-verdict.holder { background: #dcefe5; color: #23613d; }
 .svd-example-verdict.holder-not { background: #f2dede; color: #8a3535; }
+
+@media (max-width: 900px) {
+  .atlas-frame {
+    height: 1500px;
+  }
+}
 
 @media (max-width: 800px) {
   .svd-figures,
