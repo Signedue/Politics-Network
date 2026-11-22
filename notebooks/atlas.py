@@ -1,28 +1,29 @@
 """
-atlas.py - interaktivt PCA/t-SNE-atlas ud fra DINE egne TF-IDF- og LDA-matricer
-================================================================================
-Inspireret af "Corpus Atlas" i Social Graphs uge 7. Læg filen ved siden af din
-notebook og kald:
+atlas.py - interactive PCA/t-SNE atlas built from YOUR OWN TF-IDF and LDA matrices
+==================================================================================
+Inspired by the "Corpus Atlas" in Social Graphs week 7. Put this file next to your
+notebook and call:
 
     from atlas import lav_atlas, top_ord
     lav_atlas(df_lda, tfidf_citat, topic_distributions,
               emne_navne=topic_names, emne_ord=top_ord(lda, count_vec),
               out="atlas.html")
 
-Krav til input (rækkerne SKAL være i samme rækkefølge i alle tre):
-  df      DataFrame med mindst kolonnerne politiker, parti og citat.
-          Valgfrit: stance_label + stance_score (giver "Farv efter stance"),
-          source og date (vises ved hvert citat).
-  tfidf   TF-IDF-matrix for citaterne, fx TfidfVectorizer().fit_transform(...)
-  theta   LDA-emnefordeling per citat, fx lda.fit_transform(dtm) / lda.transform(dtm)
+Input requirements (rows MUST be in the same order in all three):
+  df      DataFrame with at least the columns politiker, parti and citat.
+          Optional: stance_label + stance_score (enables "Colour by stance"),
+          source and date (shown with each quote).
+  tfidf   TF-IDF matrix for the quotes, e.g. TfidfVectorizer().fit_transform(...)
+  theta   LDA topic distribution per quote, e.g. lda.fit_transform(dtm) / lda.transform(dtm)
 
-Det, siden regner:
-  * Naboer findes i det oprindelige rum: cosinus på TF-IDF (efter LSA) og
-    Hellinger på LDA (cosinus på sqrt(theta)). Kortet bruges kun til at tegne.
-  * PCA og t-SNE for begge repræsentationer, både for citater og for politikere
-    (en politiker = gennemsnittet af sine citater).
-  * Hvor mange af de 5 rigtige naboer kortet bevarer, og hvor ofte naboer er fra samme parti.
-Kræver numpy, pandas, scikit-learn. Siden bruger Plotly fra internettet.
+What the page computes:
+  * Neighbours are found in the original space: cosine on TF-IDF (after LSA) and
+    Hellinger on LDA (cosine on sqrt(theta)). The map is only used for drawing.
+  * PCA and t-SNE for both representations, for quotes and for politicians
+    (a politician = the average of their quotes).
+  * How many of the 5 true neighbours the map preserves, and how often neighbours share a party
+    (returned as a DataFrame to the notebook, not shown on the page).
+Requires numpy, pandas, scikit-learn. The page loads Plotly from the internet.
 """
 import html
 import json
@@ -46,7 +47,7 @@ K_NN = 5
 
 
 def top_ord(lda, vectorizer, n=8):
-    """De n vigtigste ord per emne fra en sklearn-LDA, som tekst."""
+    """The n most important words per topic from a sklearn LDA, as text."""
     vocab = np.array(vectorizer.get_feature_names_out())
     return [", ".join(vocab[np.argsort(-t)[:n]]) for t in lda.components_]
 
@@ -87,7 +88,7 @@ def _build_map(V, parties, seed, metric, perp):
 
 
 def _tfidf_dense(X, seed, dim=100):
-    """TF-IDF er meget bred og sparse; LSA (TruncatedSVD) gør t-SNE hurtig og stabil."""
+    """TF-IDF is very wide and sparse; LSA (TruncatedSVD) makes t-SNE fast and stable."""
     if sparse.issparse(X) or X.shape[1] > dim:
         k = min(dim, X.shape[1] - 1, X.shape[0] - 1)
         X = TruncatedSVD(n_components=k, random_state=seed).fit_transform(X)
@@ -95,22 +96,22 @@ def _tfidf_dense(X, seed, dim=100):
 
 
 def lav_atlas(df, tfidf, theta, emne_navne=None, emne_ord=None, out="atlas.html",
-              min_citater=3, seed=42, titel="Et atlas over valgkampens citater", aaben=True):
+              min_citater=3, seed=42, titel="An atlas of the election campaign quotes", aaben=True):
     df = df.reset_index(drop=True)
     theta = np.asarray(theta, dtype=float)
     if not (len(df) == tfidf.shape[0] == theta.shape[0]):
-        raise ValueError(f"Rækkerne passer ikke sammen: df={len(df)}, tfidf={tfidf.shape[0]}, theta={theta.shape[0]}")
+        raise ValueError(f"Rows do not match: df={len(df)}, tfidf={tfidf.shape[0]}, theta={theta.shape[0]}")
     for c in ("politiker", "parti", "citat"):
         if c not in df.columns:
-            raise ValueError(f"df mangler kolonnen '{c}'")
+            raise ValueError(f"df is missing the column '{c}'")
     k = theta.shape[1]
-    emne_navne = list(emne_navne) if emne_navne is not None else [f"Emne {i}" for i in range(k)]
+    emne_navne = list(emne_navne) if emne_navne is not None else [f"Topic {i}" for i in range(k)]
     emne_navne = [str(e).strip() for e in emne_navne]
     emne_ord = list(emne_ord) if emne_ord is not None else [""] * k
 
     theta = theta / theta.sum(1, keepdims=True)
     Vt = _tfidf_dense(tfidf, seed)
-    Vl = np.sqrt(theta)  # Hellinger: cosinus på sqrt(theta) = Bhattacharyya-koefficient
+    Vl = np.sqrt(theta)  # Hellinger: cosine on sqrt(theta) = Bhattacharyya coefficient
 
     n = df.groupby("politiker").size()
     pols = sorted(n[n >= min_citater].index)
@@ -142,7 +143,7 @@ def lav_atlas(df, tfidf, theta, emne_navne=None, emne_ord=None, out="atlas.html"
     lengths = df["citat"].astype(str).str.len().to_numpy()
     pol = [{"n": p, "pa": ppa[j], "k": int(len(rows[j])), "lt": int(Ptheta[j].argmax()),
             "lp": round(float(Ptheta[j].max()), 2),
-            # eksempler: de citater, der ligger tættest på politikerens eget LDA-gennemsnit
+            # examples: the quotes closest to the politician's own LDA average
             "ex": [int(i) for i in rows[j][np.argsort(-(Vl[rows[j]] @ np.sqrt(Ptheta[j])) - 1e-6 * lengths[rows[j]])][:3]]}
            for j, p in enumerate(pols)]
     partier = set(df["parti"])
@@ -153,35 +154,35 @@ def lav_atlas(df, tfidf, theta, emne_navne=None, emne_ord=None, out="atlas.html"
         "topics": [{"label": emne_navne[i], "words": emne_ord[i]} for i in range(k)],
         "citater": citater, "pol": pol, "maps": maps,
         "meta": {"n": len(df), "nPol": len(pols), "minCit": min_citater, "k": K_NN,
-                 "tf": f"{tfidf.shape[1]} ord, reduceret med LSA", "lda": f"LDA med {k} emner"},
+                 "tf": f"{tfidf.shape[1]} words, reduced with LSA", "lda": f"LDA with {k} topics"},
     }
     js = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     Path(out).write_text(TEMPLATE.replace("__DATA__", js).replace("__TITLE__", html.escape(titel))
-                         .replace("Et atlas over valgkampens citater", html.escape(titel)), encoding="utf-8")
+                         .replace("An atlas of the election campaign quotes", html.escape(titel)), encoding="utf-8")
 
-    stats = pd.DataFrame([{"niveau": lvl, "repræsentation": rep, "bevaret_PCA": m["stats"]["pca"],
-                           "bevaret_tSNE": m["stats"]["tsne"], "samme_parti": m["stats"]["party"],
-                           "tilfældigt": m["stats"]["base"]} for lvl, mm in maps.items() for rep, m in mm.items()])
-    print(f"Gemt {out}: {len(df)} citater, {len(pols)} politikere (min. {min_citater} citater).")
-    if aaben:  # åbner siden i din standardbrowser
+    stats = pd.DataFrame([{"level": {"citat": "quotes", "politiker": "politicians"}[lvl], "representation": rep,
+                           "kept_PCA": m["stats"]["pca"], "kept_tSNE": m["stats"]["tsne"],
+                           "same_party": m["stats"]["party"], "random_baseline": m["stats"]["base"]} for lvl, mm in maps.items() for rep, m in mm.items()])
+    print(f"Saved {out}: {len(df)} quotes, {len(pols)} politicians (min. {min_citater} quotes).")
+    if aaben:  # opens the page in your default browser
         import webbrowser
         webbrowser.open(Path(out).resolve().as_uri())
     return stats
 
 
 TEMPLATE = r'''<!DOCTYPE html>
-<html lang="da"><head><meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <style>
-/* VOICE: avisens grafikredaktion – sagligt, præcist, roligt
-   IDEA: et atlas over valgkampen; kortet skifter, vektorerne gør ikke
-   PICTURE: ét stort kort med naboer trukket op som linjer, panel ved siden af
-   COLOUR and TYPE: hvid, sort blæk, rød fane; Source Serif 4 + Inter
-   LAYOUT: rød fane, overskrift, kontrolstribe, kort 2/3 + panel 1/3, tal og emner under */
+/* VOICE: a newspaper graphics desk – factual, precise, calm
+   IDEA: an atlas of the campaign; the map changes, the vectors do not
+   PICTURE: one large map with neighbours drawn as lines, panel beside it
+   COLOUR and TYPE: white, black ink, red tab; Source Serif 4 + Inter
+   LAYOUT: red tab, headline, control strip, map 2/3 + panel 1/3, numbers and topics below */
 :root{color-scheme:light dark;--bg:light-dark(#ffffff,#10191e);--ink:light-dark(#121212,#e9eef0);--mute:light-dark(#5b6670,#9aa8b1);
 --rule:light-dark(#d9dee2,#26343b);--panel:light-dark(#e3ecf0,#17242b);--red:#e3120b;--chip:light-dark(#fff,#10191e)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
@@ -219,7 +220,7 @@ q{display:block;font-size:15px;margin:6px 0}
 .verdict{background:var(--panel);padding:10px 12px;font-size:14px;margin-top:12px}
 .empty{color:var(--mute);font-size:15px}
 .btn{border:1px solid var(--rule);background:var(--chip);color:var(--ink);border-radius:8px;padding:0 14px;min-height:40px;font:500 14px Inter,sans-serif;cursor:pointer;margin-top:10px}
-.lower{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 36px;border-top:1px solid var(--rule);margin-top:8px;padding-top:6px}
+.lower{display:block;border-top:1px solid var(--rule);margin-top:8px;padding-top:6px}
 table{border-collapse:collapse;width:100%;font-size:14px;margin-top:8px}
 th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--rule);vertical-align:top}
 td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -230,28 +231,25 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 </style></head><body>
 <div class="band">
   <span class="tab-red"></span>
-  <h1>Et atlas over valgkampens citater</h1>
+  <h1>An atlas of the election campaign quotes</h1>
   <p class="lede" id="lede"></p>
   <div class="bar">
-    <div class="ctl"><span class="lbl">Niveau</span><div class="seg" id="s-level"><button data-v="citat">Citater</button><button data-v="politiker">Politikere</button></div></div>
-    <div class="ctl"><span class="lbl">Repræsentation</span><div class="seg" id="s-rep"><button data-v="tfidf">TF-IDF</button><button data-v="lda">LDA</button></div></div>
-    <div class="ctl"><span class="lbl">Kort</span><div class="seg" id="s-map"><button data-v="pca">PCA</button><button data-v="tsne">t-SNE</button></div></div>
-    <div class="ctl"><span class="lbl">Farv efter</span><div class="seg" id="s-color"><button data-v="parti">Parti</button><button data-v="lda">LDA-emne</button><button data-v="stance">Stance</button></div></div>
-    <label class="chk"><input type="checkbox" id="lines" checked> Linjer til naboer</label>
+    <div class="ctl"><span class="lbl">Level</span><div class="seg" id="s-level"><button data-v="citat">Quotes</button><button data-v="politiker">Politicians</button></div></div>
+    <div class="ctl"><span class="lbl">Representation</span><div class="seg" id="s-rep"><button data-v="tfidf">TF-IDF</button><button data-v="lda">LDA</button></div></div>
+    <div class="ctl"><span class="lbl">Map</span><div class="seg" id="s-map"><button data-v="pca">PCA</button><button data-v="tsne">t-SNE</button></div></div>
+    <div class="ctl"><span class="lbl">Colour by</span><div class="seg" id="s-color"><button data-v="parti">Party</button><button data-v="lda">LDA topic</button><button data-v="stance">Stance</button></div></div>
+    <label class="chk"><input type="checkbox" id="lines" checked> Lines to neighbours</label>
   </div>
   <div class="main">
-    <div class="mapwrap"><div id="map" role="img" aria-label="Kort over citater"></div><p class="mapsub" id="mapsub"></p></div>
+    <div class="mapwrap"><div id="map" role="img" aria-label="Map of quotes"></div><p class="mapsub" id="mapsub"></p></div>
     <aside>
-      <input type="search" id="q" placeholder="Søg citat, politiker eller parti" aria-label="Søg">
+      <input type="search" id="q" placeholder="Search a quote, politician or party" aria-label="Search">
       <div class="res" id="res"></div>
       <div class="sel" id="sel"></div>
     </aside>
   </div>
   <div class="lower">
-    <section><h2>Hvor meget kan man stole på kortet?</h2><p class="meta" id="statsub"></p>
-      <table class="stack"><thead><tr><th>Repræsentation</th><th class="n">Naboer bevaret, PCA</th><th class="n">Naboer bevaret, t-SNE</th><th class="n">Naboer fra samme parti</th></tr></thead><tbody id="stats"></tbody></table>
-    </section>
-    <section class="topics"><h2>LDA-emnerne</h2><p class="meta" id="ldasub"></p><div id="topics"></div></section>
+    <section class="topics"><h2>The LDA topics</h2><p class="meta" id="ldasub"></p><div id="topics"></div></section>
   </div>
   <div class="note" id="note"></div>
 </div>
@@ -261,15 +259,17 @@ const D = __DATA__;
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim() || "#888";
-const fmt = (v, d = 1) => v.toFixed(d).replace(".", ",");
-const pct = v => Math.round(v * 100) + " %";
+const fmt = (v, d = 1) => v.toFixed(d);
+const pct = v => Math.round(v * 100) + "%";
+const STL = { For: "For", Neutral: "Neutral", Imod: "Against" };  // stance labels from the data -> English
+const stl = s => STL[s] || s;
 const C = D.citater, P = D.pol, K = D.meta.k, T = D.topics;
 const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const S = { level: "citat", rep: "tfidf", map: "tsne", color: "parti", sel: null, lines: true };
-try { const h = location.hash.slice(1); if (h === "politikere") S.level = "politiker"; } catch (e) {}
+try { const h = location.hash.slice(1); if (h === "politicians" || h === "politikere") S.level = "politiker"; } catch (e) {}
 
-$("lede").innerHTML = `${D.meta.n} citater og ${D.meta.nPol} politikere (med mindst ${D.meta.minCit} citater). Hvert citat er en vektor – enten TF-IDF eller en LDA-emnefordeling. ` +
-  `Kortet tegner vektorerne i 2D, men <b>naboerne i panelet regnes i det oprindelige rum</b>. Klik på et punkt eller søg for at sammenligne.`;
+$("lede").innerHTML = `${D.meta.n} quotes and ${D.meta.nPol} politicians (with at least ${D.meta.minCit} quotes). Each quote is a vector – either TF-IDF or an LDA topic distribution. ` +
+  `The map draws the vectors in 2D, but <b>the neighbours in the panel are computed in the original space</b>. Click a point or search to compare.`;
 
 const items = () => S.level === "citat" ? C : P;
 const M = () => D.maps[S.level][S.rep];
@@ -277,7 +277,7 @@ const tname = i => T[i].label;
 const groupDefs = {
   parti: { of: x => x.pa, list: () => D.partier, col: g => D.partiFarver[g] || "#888" },
   lda: { of: x => tname(x.lt), list: () => T.map((_, i) => tname(i)), col: g => D.ldaFarver[T.findIndex(t => t.label === g)] },
-  stance: { of: x => x.s, list: () => ["For", "Neutral", "Imod"], col: g => D.stanceFarver[g] },
+  stance: { of: x => x.s, list: () => ["For", "Neutral", "Imod"], col: g => D.stanceFarver[g], name: stl },
 };
 function wrap(s, w = 60, max = 6) {
   const out = []; let line = "";
@@ -291,8 +291,8 @@ function wrap(s, w = 60, max = 6) {
 const hov = i => {
   const x = items()[i];
   return S.level === "citat"
-    ? `<b>${esc(x.p)}</b> (${esc(x.pa)})<br>${wrap(x.c)}<br><i>${esc(tname(x.lt))} (${pct(x.lp)})${x.s ? " · " + x.s : ""}${x.src ? " · " + esc(x.src) : ""}</i>`
-    : `<b>${esc(x.n)}</b> (${esc(x.pa)}) · ${x.k} citater<br><i>Mest ${esc(tname(x.lt))} (${pct(x.lp)})</i>`;
+    ? `<b>${esc(x.p)}</b> (${esc(x.pa)})<br>${wrap(x.c)}<br><i>${esc(tname(x.lt))} (${pct(x.lp)})${x.s ? " · " + stl(x.s) : ""}${x.src ? " · " + esc(x.src) : ""}</i>`
+    : `<b>${esc(x.n)}</b> (${esc(x.pa)}) · ${x.k} quotes<br><i>Mostly ${esc(tname(x.lt))} (${pct(x.lp)})</i>`;
 };
 const label = i => S.level === "citat" ? C[i].p : P[i].n;
 
@@ -300,7 +300,7 @@ function traces() {
   const g = groupDefs[S.color], xy = M()[S.map], it = items();
   const tr = g.list().map(name => {
     const ix = it.map((x, i) => g.of(x) === name ? i : -1).filter(i => i >= 0);
-    return { type: "scatter", mode: "markers", name, x: ix.map(i => xy[i][0]), y: ix.map(i => xy[i][1]), customdata: ix,
+    return { type: "scatter", mode: "markers", name: g.name ? g.name(name) : name, x: ix.map(i => xy[i][0]), y: ix.map(i => xy[i][1]), customdata: ix,
       hovertext: ix.map(hov), hovertemplate: "%{hovertext}<extra></extra>",
       marker: { size: S.level === "citat" ? 8 : ix.map(i => 9 + Math.min(P[i].k, 40) / 2.5), color: g.col(name),
         opacity: S.sel == null ? .85 : .3, line: { width: .6, color: css("--bg") } } };
@@ -336,9 +336,9 @@ function draw(animate = false) {
   if (first) { first = false; $("map").on("plotly_click", ev => { const p = ev.points[0]; if (p && p.customdata != null) select(p.customdata); }); }
   const m = M();
   $("mapsub").textContent = S.map === "pca"
-    ? `PCA: de to akser forklarer ${pct(m.evr[0] + m.evr[1])} af variansen. Retning og afstand er lineære, men groft.`
-    : "t-SNE: tætte klumper betyder lignende naboer. Afstande mellem klumper og klumpernes størrelse betyder næsten ingenting.";
-  syncButtons(); panel(); stats();
+    ? `PCA: the two axes explain ${pct(m.evr[0] + m.evr[1])} of the variance. Directions and distances are linear, but coarse.`
+    : "t-SNE: tight clusters mean similar neighbours. Distances between clusters and cluster sizes mean almost nothing.";
+  syncButtons(); panel();
 }
 function syncButtons() {
   for (const [id, k] of [["s-level", "level"], ["s-rep", "rep"], ["s-map", "map"], ["s-color", "color"]])
@@ -353,43 +353,37 @@ function mapNeighbors(s) {
 function itemCard(i) {
   if (S.level === "citat") { const c = C[i];
     return `<h2><span class="dot" style="background:${D.partiFarver[c.pa] || "#888"}"></span>${esc(c.p)} (${esc(c.pa)})</h2>
-      <q>${c.c}</q><div class="meta">${esc(tname(c.lt))} (${pct(c.lp)})${c.s ? ` · <span style="color:${D.stanceFarver[c.s]}">${c.s}</span> ${fmt(c.sc, 2)}` : ""}${c.src ? " · " + esc(c.src) : ""}</div>`; }
+      <q>${c.c}</q><div class="meta">${esc(tname(c.lt))} (${pct(c.lp)})${c.s ? ` · <span style="color:${D.stanceFarver[c.s]}">${stl(c.s)}</span> ${fmt(c.sc, 2)}` : ""}${c.src ? " · " + esc(c.src) : ""}</div>`; }
   const p = P[i];
   return `<h2><span class="dot" style="background:${D.partiFarver[p.pa] || "#888"}"></span>${esc(p.n)} (${esc(p.pa)})</h2>
-    <div class="meta">${p.k} citater · mest ${esc(tname(p.lt))} (${pct(p.lp)})</div>
+    <div class="meta">${p.k} quotes · mostly ${esc(tname(p.lt))} (${pct(p.lp)})</div>
     ${p.ex.map(j => `<q>${C[j].c}</q>`).join("")}`;
 }
 function nbRow(j, r, sim) {
   const x = items()[j];
   const title = S.level === "citat" ? `${esc(x.p)} (${esc(x.pa)})` : `${esc(x.n)} (${esc(x.pa)})`;
-  const sub = S.level === "citat" ? `<div class="meta">${x.c.length > 140 ? x.c.slice(0, 140) + " …" : x.c}</div>` : `<div class="meta">${x.k} citater · ${esc(tname(x.lt))}</div>`;
+  const sub = S.level === "citat" ? `<div class="meta">${x.c.length > 140 ? x.c.slice(0, 140) + " …" : x.c}</div>` : `<div class="meta">${x.k} quotes · ${esc(tname(x.lt))}</div>`;
   return `<button class="nb" data-i="${j}"><div class="t"><span><b>${r + 1}.</b> ${title}</span><span class="v">${fmt(sim, 2)}</span></div>${sub}
     <div class="simbar"><i style="width:${Math.max(0, sim) * 100}%"></i></div></button>`;
 }
 function panel() {
   const s = S.sel;
-  if (s == null) { $("sel").innerHTML = `<p class="empty">Klik på et punkt, eller søg efter et ord eller en politiker. Her ser du så de ${K} nærmeste naboer målt med cosinus i det oprindelige rum – og om kortet placerer dem tæt på.</p><button class="btn" id="rnd">Vælg et tilfældigt</button>`;
+  if (s == null) { $("sel").innerHTML = `<p class="empty">Click a point, or search for a word or a politician. You will then see the ${K} nearest neighbours, measured in the original space – and whether the map places them close by.</p><button class="btn" id="rnd">Pick one at random</button>`;
     $("rnd").onclick = () => select(Math.floor(Math.random() * items().length)); return; }
   const m = M(), nn = m.nn[s], kept = mapNeighbors(s).filter(j => nn.includes(j)).length;
   const same = nn.filter(j => items()[j].pa === items()[s].pa).length;
   $("sel").innerHTML = itemCard(s) +
-    `<h3>${K} nærmeste naboer · ${S.rep === "lda" ? "LDA (Hellinger)" : "TF-IDF (cosinus)"}</h3>` +
+    `<h3>${K} nearest neighbours · ${S.rep === "lda" ? "LDA (Hellinger)" : "TF-IDF (cosine)"}</h3>` +
     nn.map((j, r) => nbRow(j, r, m.sim[s][r])).join("") +
-    `<div class="verdict">På ${S.map === "pca" ? "PCA" : "t-SNE"}-kortet er <b>${kept} af ${K}</b> af dem også blandt de ${K} nærmeste punkter. ${same} af ${K} er fra samme parti.</div>`;
+    `<div class="verdict">On the ${S.map === "pca" ? "PCA" : "t-SNE"} map, <b>${kept} of ${K}</b> of them are also among the ${K} closest points. ${same} of ${K} are from the same party.</div>`;
   for (const b of $("sel").querySelectorAll(".nb")) b.onclick = () => select(+b.dataset.i);
-}
-function stats() {
-  const lvl = D.maps[S.level];
-  $("statsub").textContent = `Gennemsnit over alle ${S.level === "citat" ? "citater" : "politikere"}: hvor mange af de ${K} rigtige naboer kortet også lægger blandt de ${K} nærmeste, og hvor ofte naboerne er fra samme parti.`;
-  $("stats").innerHTML = ["tfidf", "lda"].map(r => { const s = lvl[r].stats;
-    return `<tr${r === S.rep ? ' style="font-weight:600"' : ""}><td>${r === "lda" ? "LDA" : "TF-IDF"}</td><td class="n">${fmt(s.pca)} af ${K}</td><td class="n">${fmt(s.tsne)} af ${K}</td><td class="n">${pct(s.party)} (tilfældigt ${pct(s.base)})</td></tr>`; }).join("");
 }
 function select(i) { S.sel = i; draw(); }
 function setOpt(k, v) {
   if (S[k] === v) return;
   const anim = k === "map"; S[k] = v;
   if (k === "level" || k === "rep") { if (k === "level") { S.sel = null; if (v !== "citat" && S.color === "stance") S.color = "parti";
-    try { history.replaceState(null, "", v === "politiker" ? "#politikere" : "#citater"); } catch (e) {} } }
+    try { history.replaceState(null, "", v === "politiker" ? "#politicians" : "#quotes"); } catch (e) {} } }
   draw(anim);
 }
 for (const [id, k] of [["s-level", "level"], ["s-rep", "rep"], ["s-map", "map"], ["s-color", "color"]])
@@ -404,16 +398,16 @@ function search(v) {
   const it = items(), hits = [];
   it.forEach((x, i) => { const hay = S.level === "citat" ? (x.c + " " + x.p + " " + x.pa) : (x.n + " " + x.pa); if (hay.toLowerCase().includes(q)) hits.push(i); });
   $("res").innerHTML = hits.length ? hits.slice(0, 8).map(i => `<button data-i="${i}"><b>${esc(label(i))}</b>${S.level === "citat" ? ` – <span class="meta">${C[i].c.slice(0, 90)} …</span>` : ""}</button>`).join("") +
-    (hits.length > 8 ? `<p class="meta">${hits.length} træf – viser 8.</p>` : "") : `<p class="meta">Ingen træf.</p>`;
+    (hits.length > 8 ? `<p class="meta">${hits.length} matches – showing 8.</p>` : "") : `<p class="meta">No matches.</p>`;
   for (const b of $("res").querySelectorAll("button")) b.onclick = () => { select(+b.dataset.i); $("res").innerHTML = ""; };
 }
-$("ldasub").textContent = `${D.meta.lda}. De vigtigste ord per emne:`;
+$("ldasub").textContent = `${D.meta.lda}. The most important words per topic:`;
 $("topics").innerHTML = T.map((t, i) => `<div><span class="dot" style="background:${D.ldaFarver[i]}"></span><b>${esc(t.label)}</b>${t.words ? " · " + esc(t.words) : ""}</div>`).join("");
-$("note").innerHTML = `<p><b>To repræsentationer, to slags lighed.</b> TF-IDF (${esc(D.meta.tf)}) finder citater, der bruger de samme sjældne ord. LDA beskriver hvert citat som en blanding af emner, og to citater er naboer, hvis blandingerne ligner hinanden (Hellinger-afstand). Politikere er gennemsnittet af deres citater.</p>
-<p><b>Forbehold.</b> Citaterne er korte, så mange citater får næsten ét LDA-emne, og emnerne kan være svage. Kortet er kun et billede: brug nabolisten, og læs citaterne, før du konkluderer.</p>`;
+$("note").innerHTML = `<p><b>Two representations, two kinds of similarity.</b> TF-IDF (${esc(D.meta.tf)}) finds quotes that use the same rare words. LDA describes each quote as a mixture of topics, and two quotes are neighbours if their mixtures are alike (Hellinger distance). Politicians are the average of their quotes.</p>
+<p><b>Caveats.</b> The quotes are short, so many quotes get almost a single LDA topic, and the topics can be weak. The map is only a picture: use the neighbour list, and read the quotes before drawing conclusions.</p>`;
 const themeObs = new MutationObserver(() => draw());
 themeObs.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-if (typeof Plotly === "undefined") $("lede").textContent = "Plotly kunne ikke indlæses. Tjek din internetforbindelse og genindlæs siden.";
+if (typeof Plotly === "undefined") $("lede").textContent = "Plotly could not be loaded. Check your internet connection and reload the page.";
 else draw();
 }
 </script>
