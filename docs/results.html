@@ -250,6 +250,64 @@
             </div>
           </div>
         </section>
+
+        <section class="result-section say-vs-do-section">
+          <p class="label">08 / Ord og handling</p>
+          <h2>Siger de det samme, som de stemmer?</h2>
+          <div class="chart-toolbar" aria-label="Vælg emne">
+            <label for="svd-topic">Emne</label>
+            <select id="svd-topic"></select>
+          </div>
+          <p id="svd-data-count" class="svd-data-count"></p>
+          <div class="svd-figures">
+            <div>
+              <h3>Hvad de sagde i valgkampen 2022</h3>
+              <div class="chart-card"><div id="say-chart" class="chart-container" aria-label="Hvad partierne sagde"></div></div>
+            </div>
+            <div>
+              <h3>Hvordan de stemte 2022–2026</h3>
+              <div class="chart-card"><div id="do-chart" class="chart-container" aria-label="Hvordan partierne stemte"></div></div>
+            </div>
+          </div>
+
+          <div class="svd-ranking">
+            <p class="svd-ranking-explanation">Hvert emne får én dom: Holder (sagde og stemte det samme), Holder ikke (sagde det modsatte af, hvad de stemte) eller Uklart (neutralt citat eller blandede stemmer). Tallene er antal emner, ikke procent, fordi de fleste partier kun har nok citater om 2–4 emner.</p>
+            <h3>Holder de, hvad de siger?</h3>
+            <div class="chart-toolbar svd-toggle"><button type="button" class="svd-toggle-button active" data-mode="parties">Partier</button><button type="button" class="svd-toggle-button" data-mode="politicians">Politikere</button></div>
+            <div class="svd-rank-columns">
+              <div><p class="svd-column-label">Holder mest</p><div id="svd-holder-most" class="svd-card-list"></div></div>
+              <div><p class="svd-column-label">Største forskel på ord og handling</p><div id="svd-holder-least" class="svd-card-list"></div></div>
+              <div><p class="svd-column-label">Blandet</p><div id="svd-holder-mixed" class="svd-card-list"></div></div>
+            </div>
+          </div>
+
+          <div class="svd-table-block">
+            <h3>Datadækning: hvor har vi nok citater?</h3>
+            <div class="svd-table-wrap">
+              <table class="svd-table">
+                <thead id="svd-table-head"></thead>
+                <tbody id="svd-table-body"></tbody>
+              </table>
+            </div>
+            <p id="svd-cell-detail" class="svd-cell-detail" aria-live="polite"></p>
+          </div>
+
+          <div class="interpretation">
+            <p class="interpretation-kicker">Fortolkning</p>
+            <h3>Ord og handling måles på forskellige måder</h3>
+            <p class="interpretation-summary">Stancen stammer fra korte citater, mens handlingen måles i endelige vedtagelser.</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>Kun citater, der nævner emnet, er brugt, og sammenligningen viser mønstre i de automatisk målte citater og stemmer. Stance er målt automatisk på korte citater og er usikker.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>Stancen er ikke en sikker angivelse af en politikers holdning. En for-stemme er for loven, ikke nødvendigvis for den underliggende stance. Ministre stemmer sjældent selv, så hvor egne stemmer mangler, bruges partiets stemmer i stedet.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
       <footer>
@@ -258,5 +316,6 @@
     </main>
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
     <script src="js/results.js?v=20261028-1"></script>
+    <script src="js/say_vs_do.js?v=20261118-1"></script>
   </body>
 </html>

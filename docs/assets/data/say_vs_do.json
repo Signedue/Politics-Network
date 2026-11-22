@@ -1,0 +1,1820 @@
+{
+  "meta": {
+    "generated": "2026-11-18T18:30:29+00:00",
+    "quotes_used": 166,
+    "quotes_total": 630,
+    "filter": true
+  },
+  "topics": [
+    {
+      "id": "Økonomi & Landbrug",
+      "label": "Økonomi & Landbrug",
+      "stance": "en CO2-afgift og grøn omstilling i landbruget",
+      "law_topics": [
+        "Klima, miljø & landbrug"
+      ]
+    },
+    {
+      "id": "Udlændinge & Arbejdsmarked",
+      "label": "Udlændinge & Arbejdsmarked",
+      "stance": "en stram udlændingepolitik",
+      "law_topics": [
+        "Udlændinge & integration"
+      ]
+    },
+    {
+      "id": "Velfærd, Børn & Unge",
+      "label": "Velfærd, Børn & Unge",
+      "stance": "flere investeringer i velfærd, børn og unge",
+      "law_topics": [
+        "Ældre & velfærd",
+        "Uddannelse & forskning"
+      ]
+    },
+    {
+      "id": "Blokpolitik & Statsfinanser",
+      "label": "Blokpolitik & Statsfinanser",
+      "stance": "skattelettelser og borgerlig økonomisk politik",
+      "law_topics": [
+        "Økonomi, skat & energipriser"
+      ]
+    },
+    {
+      "id": "Kommuner & Beskæftigelse",
+      "label": "Kommuner & Beskæftigelse",
+      "stance": "reformer på beskæftigelses- og kommunalområdet",
+      "law_topics": [
+        "Beskæftigelse & arbejdsmarked",
+        "Land & by"
+      ]
+    },
+    {
+      "id": "Regeringsdannelse & Midten",
+      "label": "Regeringsdannelse & Midten",
+      "stance": "en bred regering hen over midten",
+      "law_topics": [
+        "REGERING"
+      ]
+    }
+  ],
+  "parties": {
+    "S": {
+      "name": "Socialdemokratiet",
+      "color": "#E32F3B"
+    },
+    "V": {
+      "name": "Venstre",
+      "color": "#254264"
+    },
+    "M": {
+      "name": "Moderaterne",
+      "color": "#B48CD2"
+    },
+    "SF": {
+      "name": "SF",
+      "color": "#E07EA8"
+    },
+    "DD": {
+      "name": "Danmarksdemokraterne",
+      "color": "#7896D2"
+    },
+    "LA": {
+      "name": "Liberal Alliance",
+      "color": "#3FB2BE"
+    },
+    "KF": {
+      "name": "Konservative",
+      "color": "#5C8A3A"
+    },
+    "EL": {
+      "name": "Enhedslisten",
+      "color": "#E6801A"
+    },
+    "DF": {
+      "name": "Dansk Folkeparti",
+      "color": "#EAC73E"
+    },
+    "RV": {
+      "name": "Radikale Venstre",
+      "color": "#733280"
+    },
+    "ALT": {
+      "name": "Alternativet",
+      "color": "#2B8738"
+    }
+  },
+  "say": {
+    "Økonomi & Landbrug": {
+      "EL": {
+        "score": 0.333333,
+        "deviation": 0.138889,
+        "n_quotes": 3
+      },
+      "M": {
+        "score": -0.666667,
+        "deviation": -0.861111,
+        "n_quotes": 3
+      },
+      "SF": {
+        "score": 0.111111,
+        "deviation": -0.083333,
+        "n_quotes": 9
+      },
+      "V": {
+        "score": 1.0,
+        "deviation": 0.805556,
+        "n_quotes": 3
+      }
+    },
+    "Udlændinge & Arbejdsmarked": {
+      "DF": {
+        "score": 0.75,
+        "deviation": -0.125,
+        "n_quotes": 4
+      },
+      "M": {
+        "score": 1.0,
+        "deviation": 0.125,
+        "n_quotes": 5
+      }
+    },
+    "Velfærd, Børn & Unge": {
+      "M": {
+        "score": 0.4,
+        "deviation": -0.05,
+        "n_quotes": 5
+      },
+      "S": {
+        "score": 0.5,
+        "deviation": 0.05,
+        "n_quotes": 4
+      }
+    },
+    "Blokpolitik & Statsfinanser": {
+      "EL": {
+        "score": 0.0,
+        "deviation": 0.380357,
+        "n_quotes": 3
+      },
+      "KF": {
+        "score": -0.75,
+        "deviation": -0.369643,
+        "n_quotes": 4
+      },
+      "LA": {
+        "score": -0.571429,
+        "deviation": -0.191071,
+        "n_quotes": 7
+      },
+      "S": {
+        "score": -0.2,
+        "deviation": 0.180357,
+        "n_quotes": 5
+      }
+    },
+    "Kommuner & Beskæftigelse": {
+      "S": {
+        "score": 0.0625,
+        "deviation": 0.0,
+        "n_quotes": 16
+      }
+    },
+    "Regeringsdannelse & Midten": {
+      "DD": {
+        "score": -0.5,
+        "deviation": -0.347619,
+        "n_quotes": 6
+      },
+      "EL": {
+        "score": -0.8,
+        "deviation": -0.647619,
+        "n_quotes": 5
+      },
+      "LA": {
+        "score": -0.333333,
+        "deviation": -0.180952,
+        "n_quotes": 3
+      },
+      "M": {
+        "score": -0.125,
+        "deviation": 0.027381,
+        "n_quotes": 8
+      },
+      "RV": {
+        "score": 0.75,
+        "deviation": 0.902381,
+        "n_quotes": 4
+      },
+      "S": {
+        "score": 0.275,
+        "deviation": 0.427381,
+        "n_quotes": 40
+      },
+      "SF": {
+        "score": -0.333333,
+        "deviation": -0.180952,
+        "n_quotes": 3
+      }
+    }
+  },
+  "do": {
+    "Økonomi & Landbrug": {
+      "S": {
+        "score": 0.337868,
+        "deviation": -0.217247,
+        "share_for": 0.668934,
+        "n_votes": 882
+      },
+      "V": {
+        "score": 0.215259,
+        "deviation": -0.339857,
+        "share_for": 0.607629,
+        "n_votes": 367
+      },
+      "M": {
+        "score": 0.255814,
+        "deviation": -0.299302,
+        "share_for": 0.627907,
+        "n_votes": 172
+      },
+      "SF": {
+        "score": 0.907285,
+        "deviation": 0.352169,
+        "share_for": 0.953642,
+        "n_votes": 151
+      },
+      "DD": {
+        "score": 0.123894,
+        "deviation": -0.431222,
+        "share_for": 0.561947,
+        "n_votes": 226
+      },
+      "LA": {
+        "score": -0.032258,
+        "deviation": -0.587374,
+        "share_for": 0.483871,
+        "n_votes": 62
+      },
+      "KF": {
+        "score": 0.345455,
+        "deviation": -0.209661,
+        "share_for": 0.672727,
+        "n_votes": 220
+      },
+      "EL": {
+        "score": 0.842105,
+        "deviation": 0.28699,
+        "share_for": 0.921053,
+        "n_votes": 304
+      },
+      "DF": {
+        "score": -0.04878,
+        "deviation": -0.603896,
+        "share_for": 0.47561,
+        "n_votes": 82
+      },
+      "RV": {
+        "score": 0.751111,
+        "deviation": 0.195995,
+        "share_for": 0.875556,
+        "n_votes": 225
+      },
+      "ALT": {
+        "score": 1.0,
+        "deviation": 0.444884,
+        "share_for": 1.0,
+        "n_votes": 11
+      }
+    },
+    "Udlændinge & Arbejdsmarked": {
+      "S": {
+        "score": -0.147541,
+        "deviation": -0.139319,
+        "share_for": 0.42623,
+        "n_votes": 610
+      },
+      "V": {
+        "score": -0.042802,
+        "deviation": -0.034579,
+        "share_for": 0.478599,
+        "n_votes": 257
+      },
+      "M": {
+        "score": -0.072,
+        "deviation": -0.063778,
+        "share_for": 0.464,
+        "n_votes": 125
+      },
+      "SF": {
+        "score": 0.12,
+        "deviation": 0.128222,
+        "share_for": 0.56,
+        "n_votes": 125
+      },
+      "DD": {
+        "score": 0.202899,
+        "deviation": 0.211121,
+        "share_for": 0.601449,
+        "n_votes": 138
+      },
+      "LA": {
+        "score": -0.529412,
+        "deviation": -0.52119,
+        "share_for": 0.235294,
+        "n_votes": 34
+      },
+      "KF": {
+        "score": -0.109489,
+        "deviation": -0.101267,
+        "share_for": 0.445255,
+        "n_votes": 137
+      },
+      "EL": {
+        "score": -0.132075,
+        "deviation": -0.123853,
+        "share_for": 0.433962,
+        "n_votes": 212
+      },
+      "DF": {
+        "score": 0.055556,
+        "deviation": 0.063778,
+        "share_for": 0.527778,
+        "n_votes": 36
+      },
+      "RV": {
+        "score": 0.019355,
+        "deviation": 0.027577,
+        "share_for": 0.509677,
+        "n_votes": 155
+      },
+      "ALT": {
+        "score": -0.25,
+        "deviation": -0.241778,
+        "share_for": 0.375,
+        "n_votes": 8
+      }
+    },
+    "Velfærd, Børn & Unge": {
+      "S": {
+        "score": 0.464883,
+        "deviation": 0.047402,
+        "share_for": 0.732441,
+        "n_votes": 1196
+      },
+      "V": {
+        "score": 0.480076,
+        "deviation": 0.062595,
+        "share_for": 0.740038,
+        "n_votes": 527
+      },
+      "M": {
+        "score": 0.370079,
+        "deviation": -0.047402,
+        "share_for": 0.685039,
+        "n_votes": 254
+      },
+      "SF": {
+        "score": 0.607477,
+        "deviation": 0.189996,
+        "share_for": 0.803738,
+        "n_votes": 214
+      },
+      "DD": {
+        "score": 0.5727,
+        "deviation": 0.155219,
+        "share_for": 0.78635,
+        "n_votes": 337
+      },
+      "LA": {
+        "score": 0.362319,
+        "deviation": -0.055162,
+        "share_for": 0.681159,
+        "n_votes": 69
+      },
+      "KF": {
+        "score": 0.504702,
+        "deviation": 0.087221,
+        "share_for": 0.752351,
+        "n_votes": 319
+      },
+      "EL": {
+        "score": 0.319693,
+        "deviation": -0.097788,
+        "share_for": 0.659847,
+        "n_votes": 391
+      },
+      "DF": {
+        "score": 0.623762,
+        "deviation": 0.206282,
+        "share_for": 0.811881,
+        "n_votes": 101
+      },
+      "RV": {
+        "score": 0.537954,
+        "deviation": 0.120473,
+        "share_for": 0.768977,
+        "n_votes": 303
+      },
+      "ALT": {
+        "score": 0.5,
+        "deviation": 0.082519,
+        "share_for": 0.75,
+        "n_votes": 16
+      }
+    },
+    "Blokpolitik & Statsfinanser": {
+      "S": {
+        "score": 0.614035,
+        "deviation": 0.15151,
+        "share_for": 0.807018,
+        "n_votes": 969
+      },
+      "V": {
+        "score": 0.670481,
+        "deviation": 0.207955,
+        "share_for": 0.83524,
+        "n_votes": 437
+      },
+      "M": {
+        "score": 0.635468,
+        "deviation": 0.172943,
+        "share_for": 0.817734,
+        "n_votes": 203
+      },
+      "SF": {
+        "score": 0.652174,
+        "deviation": 0.189649,
+        "share_for": 0.826087,
+        "n_votes": 161
+      },
+      "DD": {
+        "score": 0.565217,
+        "deviation": 0.102692,
+        "share_for": 0.782609,
+        "n_votes": 253
+      },
+      "LA": {
+        "score": 0.245283,
+        "deviation": -0.217242,
+        "share_for": 0.622642,
+        "n_votes": 53
+      },
+      "KF": {
+        "score": 0.552511,
+        "deviation": 0.089986,
+        "share_for": 0.776256,
+        "n_votes": 219
+      },
+      "EL": {
+        "score": 0.438272,
+        "deviation": -0.024254,
+        "share_for": 0.719136,
+        "n_votes": 324
+      },
+      "DF": {
+        "score": 0.547619,
+        "deviation": 0.085094,
+        "share_for": 0.77381,
+        "n_votes": 84
+      },
+      "RV": {
+        "score": 0.728682,
+        "deviation": 0.266157,
+        "share_for": 0.864341,
+        "n_votes": 258
+      },
+      "ALT": {
+        "score": 0.238095,
+        "deviation": -0.22443,
+        "share_for": 0.619048,
+        "n_votes": 21
+      }
+    },
+    "Kommuner & Beskæftigelse": {
+      "S": {
+        "score": 0.462687,
+        "deviation": 0.0,
+        "share_for": 0.731343,
+        "n_votes": 402
+      },
+      "V": {
+        "score": 0.530055,
+        "deviation": 0.067368,
+        "share_for": 0.765027,
+        "n_votes": 183
+      },
+      "M": {
+        "score": 0.505882,
+        "deviation": 0.043196,
+        "share_for": 0.752941,
+        "n_votes": 85
+      },
+      "SF": {
+        "score": 0.443038,
+        "deviation": -0.019649,
+        "share_for": 0.721519,
+        "n_votes": 79
+      },
+      "DD": {
+        "score": 0.572816,
+        "deviation": 0.110129,
+        "share_for": 0.786408,
+        "n_votes": 103
+      },
+      "LA": {
+        "score": 0.478261,
+        "deviation": 0.015574,
+        "share_for": 0.73913,
+        "n_votes": 23
+      },
+      "KF": {
+        "score": 0.348315,
+        "deviation": -0.114372,
+        "share_for": 0.674157,
+        "n_votes": 89
+      },
+      "EL": {
+        "score": 0.385621,
+        "deviation": -0.077066,
+        "share_for": 0.69281,
+        "n_votes": 153
+      },
+      "DF": {
+        "score": 0.257143,
+        "deviation": -0.205544,
+        "share_for": 0.628571,
+        "n_votes": 35
+      },
+      "RV": {
+        "score": 0.538462,
+        "deviation": 0.075775,
+        "share_for": 0.769231,
+        "n_votes": 117
+      },
+      "ALT": {
+        "score": 0.555556,
+        "deviation": 0.092869,
+        "share_for": 0.777778,
+        "n_votes": 9
+      }
+    },
+    "Regeringsdannelse & Midten": {
+      "S": {
+        "score": 1.0,
+        "deviation": 0.339681,
+        "share_for": 1.0,
+        "n_votes": 8395
+      },
+      "V": {
+        "score": 0.99123,
+        "deviation": 0.330912,
+        "share_for": 0.995615,
+        "n_votes": 3649
+      },
+      "M": {
+        "score": 0.994273,
+        "deviation": 0.333954,
+        "share_for": 0.997136,
+        "n_votes": 1746
+      },
+      "SF": {
+        "score": 0.583777,
+        "deviation": -0.076542,
+        "share_for": 0.791888,
+        "n_votes": 1504
+      },
+      "DD": {
+        "score": 0.531308,
+        "deviation": -0.129011,
+        "share_for": 0.765654,
+        "n_votes": 2172
+      },
+      "LA": {
+        "score": 0.517375,
+        "deviation": -0.142944,
+        "share_for": 0.758687,
+        "n_votes": 518
+      },
+      "KF": {
+        "score": 0.629986,
+        "deviation": -0.030333,
+        "share_for": 0.814993,
+        "n_votes": 2081
+      },
+      "EL": {
+        "score": 0.317963,
+        "deviation": -0.342356,
+        "share_for": 0.658981,
+        "n_votes": 2906
+      },
+      "DF": {
+        "score": 0.352273,
+        "deviation": -0.308046,
+        "share_for": 0.676136,
+        "n_votes": 704
+      },
+      "RV": {
+        "score": 0.677538,
+        "deviation": 0.017219,
+        "share_for": 0.838769,
+        "n_votes": 2177
+      },
+      "ALT": {
+        "score": 0.486486,
+        "deviation": -0.173832,
+        "share_for": 0.743243,
+        "n_votes": 148
+      }
+    }
+  },
+  "party_summary": [
+    {
+      "party": "S",
+      "holder": 2,
+      "holder_ikke": 1,
+      "uklart": 1,
+      "consistency": 0.666667,
+      "for_til_imod": 0,
+      "sagde_for": 2,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Velfærd, Børn & Unge",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 0.732441,
+          "n_votes": 1196
+        },
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 5,
+          "share_for": 0.807018,
+          "n_votes": 969
+        },
+        {
+          "emne": "Kommuner & Beskæftigelse",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 16,
+          "share_for": 0.731343,
+          "n_votes": 402
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 1.0,
+          "n_votes": 8395
+        }
+      ]
+    },
+    {
+      "party": "V",
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 3,
+          "share_for": 0.607629,
+          "n_votes": 367
+        }
+      ]
+    },
+    {
+      "party": "M",
+      "holder": 1,
+      "holder_ikke": 1,
+      "uklart": 2,
+      "consistency": 0.5,
+      "for_til_imod": 0,
+      "sagde_for": 2,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 0.627907,
+          "n_votes": 172
+        },
+        {
+          "emne": "Udlændinge & Arbejdsmarked",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 5,
+          "share_for": 0.464,
+          "n_votes": 125
+        },
+        {
+          "emne": "Velfærd, Børn & Unge",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 5,
+          "share_for": 0.685039,
+          "n_votes": 254
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 8,
+          "share_for": 0.997136,
+          "n_votes": 1746
+        }
+      ]
+    },
+    {
+      "party": "SF",
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 1,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 9,
+          "share_for": 0.953642,
+          "n_votes": 151
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 0.791888,
+          "n_votes": 1504
+        }
+      ]
+    },
+    {
+      "party": "DD",
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 6,
+          "share_for": 0.765654,
+          "n_votes": 2172
+        }
+      ]
+    },
+    {
+      "party": "LA",
+      "holder": 0,
+      "holder_ikke": 2,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 2,
+      "sagde_imod": 2,
+      "topics": [
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 7,
+          "share_for": 0.622642,
+          "n_votes": 53
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 0.758687,
+          "n_votes": 518
+        }
+      ]
+    },
+    {
+      "party": "KF",
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 4,
+          "share_for": 0.776256,
+          "n_votes": 219
+        }
+      ]
+    },
+    {
+      "party": "EL",
+      "holder": 1,
+      "holder_ikke": 1,
+      "uklart": 1,
+      "consistency": 0.5,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 3,
+          "share_for": 0.921053,
+          "n_votes": 304
+        },
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 3,
+          "share_for": 0.719136,
+          "n_votes": 324
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 5,
+          "share_for": 0.658981,
+          "n_votes": 2906
+        }
+      ]
+    },
+    {
+      "party": "DF",
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 1,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Udlændinge & Arbejdsmarked",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 4,
+          "share_for": 0.527778,
+          "n_votes": 36
+        }
+      ]
+    },
+    {
+      "party": "RV",
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 0.838769,
+          "n_votes": 2177
+        }
+      ]
+    },
+    {
+      "party": "ALT",
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    }
+  ],
+  "politicians": [
+    {
+      "name": "Alex Vanopslagh",
+      "party": "LA",
+      "n_quotes": 11,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 2,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 2,
+      "sagde_imod": 2,
+      "topics": [
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 7,
+          "share_for": 0.622642,
+          "n_votes": 3,
+          "own_votes": false
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 0.6111111111111112,
+          "n_votes": 18,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Astrid Krag",
+      "party": "S",
+      "n_quotes": 3,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 2,
+          "share_for": 1.0,
+          "n_votes": 481,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Brigitte Klintskov Jerkel",
+      "party": "KF",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Camilla Fabricius",
+      "party": "S",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Henrik Frandsen",
+      "party": "M",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Inger Støjberg",
+      "party": "DD",
+      "n_quotes": 8,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 5,
+          "share_for": 0.7706422018348624,
+          "n_votes": 218,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Jakob Engel-Schmidt",
+      "party": "M",
+      "n_quotes": 7,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.5,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 0.7272727272727273,
+          "n_votes": 33,
+          "own_votes": true
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 1.0,
+          "n_votes": 298,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Jens Henrik Thulesen Dahl",
+      "party": "DD",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Jesper Petersen",
+      "party": "S",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Kaare Dybvad Bek",
+      "party": "S",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Karsten Hønge",
+      "party": "SF",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Lars Løkke Rasmussen",
+      "party": "M",
+      "n_quotes": 16,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 1,
+      "uklart": 2,
+      "consistency": 0.5,
+      "for_til_imod": 0,
+      "sagde_for": 2,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Udlændinge & Arbejdsmarked",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 5,
+          "share_for": 0.464,
+          "n_votes": 0,
+          "own_votes": false
+        },
+        {
+          "emne": "Velfærd, Børn & Unge",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 0.685039,
+          "n_votes": 2,
+          "own_votes": false
+        },
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 2,
+          "share_for": 0.817734,
+          "n_votes": 3,
+          "own_votes": false
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 4,
+          "share_for": 1.0,
+          "n_votes": 36,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Lasse Haugaard Pedersen",
+      "party": "S",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Lea Wermelin",
+      "party": "S",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Lotte Rod",
+      "party": "RV",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Mads Olsen",
+      "party": "SF",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Magnus Heunicke",
+      "party": "S",
+      "n_quotes": 3,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 1.0,
+          "n_votes": 683,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Mai Villadsen",
+      "party": "EL",
+      "n_quotes": 5,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 1,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 2,
+          "share_for": 0.875,
+          "n_votes": 24,
+          "own_votes": true
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 2,
+          "share_for": 0.6804733727810651,
+          "n_votes": 169,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Marie Bjerre",
+      "party": "V",
+      "n_quotes": 3,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 3,
+          "share_for": 0.6415094339622641,
+          "n_votes": 53,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Martin Lidegaard",
+      "party": "RV",
+      "n_quotes": 4,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 0.8947368421052632,
+          "n_votes": 95,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Mette Abildgaard",
+      "party": "KF",
+      "n_quotes": 3,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 2,
+          "share_for": 0.8333333333333334,
+          "n_votes": 48,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Mette Frederiksen",
+      "party": "S",
+      "n_quotes": 33,
+      "own_votes": true,
+      "holder": 2,
+      "holder_ikke": 1,
+      "uklart": 1,
+      "consistency": 0.666667,
+      "for_til_imod": 0,
+      "sagde_for": 2,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Velfærd, Børn & Unge",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 3,
+          "share_for": 0.732441,
+          "n_votes": 1,
+          "own_votes": false
+        },
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 0.807018,
+          "n_votes": 0,
+          "own_votes": false
+        },
+        {
+          "emne": "Kommuner & Beskæftigelse",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 2,
+          "share_for": 0.731343,
+          "n_votes": 2,
+          "own_votes": false
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 25,
+          "share_for": 1.0,
+          "n_votes": 8,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Morten Bødskov",
+      "party": "S",
+      "n_quotes": 6,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 6,
+          "share_for": 1.0,
+          "n_votes": 421,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Morten Messerschmidt",
+      "party": "DF",
+      "n_quotes": 9,
+      "own_votes": true,
+      "holder": 2,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.666667,
+      "for_til_imod": 0,
+      "sagde_for": 2,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Udlændinge & Arbejdsmarked",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 0.6363636363636364,
+          "n_votes": 11,
+          "own_votes": true
+        },
+        {
+          "emne": "Velfærd, Børn & Unge",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 2,
+          "share_for": 0.8846153846153846,
+          "n_votes": 26,
+          "own_votes": true
+        },
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 2,
+          "share_for": 0.7727272727272727,
+          "n_votes": 22,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Nicolai Wammen",
+      "party": "S",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Peder Hvelplund",
+      "party": "EL",
+      "n_quotes": 3,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 2,
+          "share_for": 0.6660039761431411,
+          "n_votes": 503,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Pelle Dragsted",
+      "party": "EL",
+      "n_quotes": 2,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Peter Hummelgaard",
+      "party": "S",
+      "n_quotes": 14,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Kommuner & Beskæftigelse",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 13,
+          "share_for": 0.7241379310344828,
+          "n_votes": 29,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Pia Olsen Dyhr",
+      "party": "SF",
+      "n_quotes": 13,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 2,
+      "uklart": 0,
+      "consistency": 0.333333,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 2,
+      "sagde_imod": 2,
+      "topics": [
+        {
+          "emne": "Økonomi & Landbrug",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 7,
+          "share_for": 0.8,
+          "n_votes": 5,
+          "own_votes": true
+        },
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 2,
+          "share_for": 0.826087,
+          "n_votes": 3,
+          "own_votes": false
+        },
+        {
+          "emne": "Regeringsdannelse & Midten",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 3,
+          "share_for": 0.8064516129032258,
+          "n_votes": 31,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Rasmus Jarlov",
+      "party": "KF",
+      "n_quotes": 4,
+      "own_votes": true,
+      "holder": 0,
+      "holder_ikke": 1,
+      "uklart": 0,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 2,
+          "share_for": 0.6904761904761905,
+          "n_votes": 42,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Rasmus Stoklund",
+      "party": "S",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Søren Egge Rasmussen",
+      "party": "EL",
+      "n_quotes": 2,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Blokpolitik & Statsfinanser",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 2,
+          "share_for": 0.7058823529411765,
+          "n_votes": 68,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Søren Espersen",
+      "party": "DD",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    },
+    {
+      "name": "Troels Lund Poulsen",
+      "party": "V",
+      "n_quotes": 2,
+      "own_votes": true,
+      "holder": 1,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Velfærd, Børn & Unge",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 2,
+          "share_for": 1.0,
+          "n_votes": 11,
+          "own_votes": true
+        }
+      ]
+    },
+    {
+      "name": "Victoria Velasquez",
+      "party": "EL",
+      "n_quotes": 1,
+      "own_votes": false,
+      "holder": 0,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": null,
+      "for_til_imod": 0,
+      "sagde_for": 0,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": []
+    }
+  ]
+}
