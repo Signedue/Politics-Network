@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Validated results from the Danish parliamentary voting networks project.">
     <title>Results | Danish Parliamentary Voting Networks</title>
-    <link rel="stylesheet" href="style.css?v=20261028-2">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css?v=20261124-1">
   </head>
   <body>
     <main class="page">
@@ -309,6 +310,43 @@
           </div>
         </section>
 
+        <section class="result-section mk-section">
+          <p class="label">09 / Mærkesager</p>
+          <h2>Hvilke mærkesager deler partierne?</h2>
+          <p class="mk-intro">Partiernes mærkesager fra deres hjemmesider lige før valget i 2022, inddelt i 8 kategorier. Vælg en eller flere kategorier. To partier forbindes, hvis begge har mindst én mærkesag i kategorien.</p>
+          <div class="mk-controls">
+            <div class="mk-buttons" id="mk-category-buttons" aria-label="Vælg mærkesagskategorier"></div>
+            <div class="mk-actions">
+              <button type="button" class="mk-action" id="mk-select-all">Vælg alle</button>
+              <button type="button" class="mk-action" id="mk-select-none">Fravælg alle</button>
+            </div>
+          </div>
+          <div class="mk-layout">
+            <div class="chart-card mk-network-card">
+              <svg id="mk-network" class="mk-network" viewBox="0 0 640 640" role="img" aria-label="Netværk over fælles mærkesager mellem partier"></svg>
+              <p class="mk-help">Kanter viser fælles kategorier. Partikoden står i hver node.</p>
+            </div>
+            <aside class="mk-sidebar">
+              <section class="mk-panel" id="mk-panel" aria-live="polite"></section>
+              <p class="mk-note">Nye Borgerlige har 100 mærkesager og har derfor mindst én i næsten alle kategorier.</p>
+            </aside>
+          </div>
+          <div class="interpretation">
+            <p class="interpretation-kicker">Fortolkning</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>Netværket viser, hvilke emner partierne selv fremhævede på deres hjemmesider, og hvilke partier der havde mærkesager inden for samme emne.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>En fælles kant betyder ikke, at partierne er enige; de kan have modsatte holdninger inden for samme emne. Kategorierne er tildelt med ordlister ud fra overskrift og tekst. Partierne har meget forskelligt antal mærkesager (Nye Borgerlige 100, flere partier kun 4–6), og Venstres og Radikale Venstres sider er arkivkopier med usikker dato.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mk-tooltip" id="mk-tooltip" role="tooltip"></div>
+        </section>
+
         <section class="result-section atlas-section">
           <div class="atlas-subsection">
             <h3>Interactive atlas of the quotes</h3>
@@ -326,6 +364,7 @@
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
     <script src="js/results.js?v=20261028-1"></script>
     <script src="js/say_vs_do.js?v=20261118-1"></script>
+    <script src="js/maerkesager.js?v=20261124-1"></script>
     <script>
       (() => {
         const frame = document.querySelector(".atlas-frame");
