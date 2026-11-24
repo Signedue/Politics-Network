@@ -1,0 +1,1787 @@
+{
+  "meta": {
+    "generated": "2026-11-24T10:15:00+00:00",
+    "source": "maerkesager",
+    "statements_before_menu_filter": 1727,
+    "statements_after_menu_filter": 1685,
+    "quotes_used": 1685,
+    "quotes_total": 1727,
+    "filter": true
+  },
+  "topics": [
+    {
+      "id": "Økonomi og skat",
+      "label": "Økonomi og skat",
+      "stance": "lavere skatter og afgifter",
+      "law_topics": [
+        "Økonomi, skat & energipriser"
+      ]
+    },
+    {
+      "id": "Sundhed og ældrepleje",
+      "label": "Sundhed og ældrepleje",
+      "stance": "flere penge og mere personale til sundhed og ældrepleje",
+      "law_topics": [
+        "Sundhed & psykiatri",
+        "Ældre & velfærd"
+      ]
+    },
+    {
+      "id": "Klima og miljø",
+      "label": "Klima og miljø",
+      "stance": "en mere ambitiøs klimapolitik og grøn omstilling",
+      "law_topics": [
+        "Klima, miljø & landbrug"
+      ]
+    },
+    {
+      "id": "Skoler og børnepasning",
+      "label": "Skoler og børnepasning",
+      "stance": "flere ressourcer til skoler, uddannelse og børnepasning",
+      "law_topics": [
+        "Uddannelse & forskning",
+        "Kultur, medier & kirke"
+      ]
+    },
+    {
+      "id": "Flygtninge og indvandrere",
+      "label": "Flygtninge og indvandrere",
+      "stance": "en stram udlændingepolitik",
+      "law_topics": [
+        "Udlændinge & integration"
+      ]
+    },
+    {
+      "id": "Retspolitik og tryghed",
+      "label": "Retspolitik og tryghed",
+      "stance": "hårdere straffe og mere politi",
+      "law_topics": [
+        "Retsvæsen & politi"
+      ]
+    },
+    {
+      "id": "Forsvar og sikkerhed",
+      "label": "Forsvar og sikkerhed",
+      "stance": "et stærkere forsvar",
+      "law_topics": [
+        "Forsvar & sikkerhed"
+      ]
+    },
+    {
+      "id": "Pension og tilbagetrækning",
+      "label": "Pension og tilbagetrækning",
+      "stance": "bedre muligheder for tidlig tilbagetrækning",
+      "law_topics": [
+        "TITEL:pension|efterløn|tilbagetrækning"
+      ]
+    }
+  ],
+  "parties": {
+    "S": {
+      "name": "Socialdemokratiet",
+      "color": "#E32F3B"
+    },
+    "V": {
+      "name": "Venstre",
+      "color": "#254264"
+    },
+    "M": {
+      "name": "Moderaterne",
+      "color": "#B48CD2"
+    },
+    "SF": {
+      "name": "SF",
+      "color": "#E07EA8"
+    },
+    "DD": {
+      "name": "Danmarksdemokraterne",
+      "color": "#7896D2"
+    },
+    "LA": {
+      "name": "Liberal Alliance",
+      "color": "#3FB2BE"
+    },
+    "KF": {
+      "name": "Konservative",
+      "color": "#5C8A3A"
+    },
+    "EL": {
+      "name": "Enhedslisten",
+      "color": "#E6801A"
+    },
+    "DF": {
+      "name": "Dansk Folkeparti",
+      "color": "#EAC73E"
+    },
+    "RV": {
+      "name": "Radikale Venstre",
+      "color": "#733280"
+    },
+    "ALT": {
+      "name": "Alternativet",
+      "color": "#2B8738"
+    }
+  },
+  "say": {
+    "Økonomi og skat": {
+      "ALT": {
+        "score": 0.26087,
+        "deviation": -0.175466,
+        "n_quotes": 23
+      },
+      "DD": {
+        "score": 0.4,
+        "deviation": -0.036336,
+        "n_quotes": 25
+      },
+      "DF": {
+        "score": 0.5,
+        "deviation": 0.063664,
+        "n_quotes": 40
+      },
+      "EL": {
+        "score": 0.375,
+        "deviation": -0.061336,
+        "n_quotes": 8
+      },
+      "KF": {
+        "score": 0.566667,
+        "deviation": 0.130331,
+        "n_quotes": 30
+      },
+      "LA": {
+        "score": 0.05,
+        "deviation": -0.386336,
+        "n_quotes": 40
+      },
+      "M": {
+        "score": 0.5,
+        "deviation": 0.063664,
+        "n_quotes": 38
+      },
+      "RV": {
+        "score": 0.5,
+        "deviation": 0.063664,
+        "n_quotes": 40
+      },
+      "S": {
+        "score": 0.615385,
+        "deviation": 0.179049,
+        "n_quotes": 39
+      },
+      "SF": {
+        "score": 0.423077,
+        "deviation": -0.013259,
+        "n_quotes": 26
+      },
+      "V": {
+        "score": 0.608696,
+        "deviation": 0.17236,
+        "n_quotes": 23
+      }
+    },
+    "Sundhed og ældrepleje": {
+      "ALT": {
+        "score": 0.4,
+        "deviation": 0.334844,
+        "n_quotes": 5
+      },
+      "DD": {
+        "score": 0.25,
+        "deviation": 0.184844,
+        "n_quotes": 4
+      },
+      "DF": {
+        "score": 0.15,
+        "deviation": 0.084844,
+        "n_quotes": 40
+      },
+      "EL": {
+        "score": -0.25,
+        "deviation": -0.315156,
+        "n_quotes": 4
+      },
+      "KF": {
+        "score": 0.136364,
+        "deviation": 0.071207,
+        "n_quotes": 22
+      },
+      "LA": {
+        "score": -0.6,
+        "deviation": -0.665156,
+        "n_quotes": 5
+      },
+      "M": {
+        "score": 0.0625,
+        "deviation": -0.002656,
+        "n_quotes": 16
+      },
+      "RV": {
+        "score": -0.057143,
+        "deviation": -0.122299,
+        "n_quotes": 35
+      },
+      "S": {
+        "score": 0.3,
+        "deviation": 0.234844,
+        "n_quotes": 40
+      },
+      "SF": {
+        "score": 0.125,
+        "deviation": 0.059844,
+        "n_quotes": 40
+      },
+      "V": {
+        "score": 0.2,
+        "deviation": 0.134844,
+        "n_quotes": 35
+      }
+    },
+    "Klima og miljø": {
+      "ALT": {
+        "score": 0.775,
+        "deviation": 0.017893,
+        "n_quotes": 40
+      },
+      "DD": {
+        "score": 0.666667,
+        "deviation": -0.09044,
+        "n_quotes": 6
+      },
+      "DF": {
+        "score": 0.222222,
+        "deviation": -0.534885,
+        "n_quotes": 9
+      },
+      "EL": {
+        "score": 0.764706,
+        "deviation": 0.007599,
+        "n_quotes": 17
+      },
+      "KF": {
+        "score": 0.857143,
+        "deviation": 0.100036,
+        "n_quotes": 28
+      },
+      "LA": {
+        "score": 0.708333,
+        "deviation": -0.048774,
+        "n_quotes": 24
+      },
+      "M": {
+        "score": 0.9,
+        "deviation": 0.142893,
+        "n_quotes": 10
+      },
+      "RV": {
+        "score": 0.825,
+        "deviation": 0.067893,
+        "n_quotes": 40
+      },
+      "S": {
+        "score": 0.897436,
+        "deviation": 0.140329,
+        "n_quotes": 39
+      },
+      "SF": {
+        "score": 0.842105,
+        "deviation": 0.084998,
+        "n_quotes": 38
+      },
+      "V": {
+        "score": 0.869565,
+        "deviation": 0.112458,
+        "n_quotes": 23
+      }
+    },
+    "Skoler og børnepasning": {
+      "ALT": {
+        "score": 0.75,
+        "deviation": 0.093264,
+        "n_quotes": 16
+      },
+      "DD": {
+        "score": 0.4375,
+        "deviation": -0.219236,
+        "n_quotes": 16
+      },
+      "DF": {
+        "score": 0.411765,
+        "deviation": -0.244972,
+        "n_quotes": 17
+      },
+      "KF": {
+        "score": 0.8,
+        "deviation": 0.143264,
+        "n_quotes": 20
+      },
+      "M": {
+        "score": 0.636364,
+        "deviation": -0.020373,
+        "n_quotes": 22
+      },
+      "RV": {
+        "score": 0.5,
+        "deviation": -0.156736,
+        "n_quotes": 40
+      },
+      "S": {
+        "score": 0.75,
+        "deviation": 0.093264,
+        "n_quotes": 36
+      },
+      "SF": {
+        "score": 0.875,
+        "deviation": 0.218264,
+        "n_quotes": 40
+      },
+      "V": {
+        "score": 0.75,
+        "deviation": 0.093264,
+        "n_quotes": 8
+      }
+    },
+    "Flygtninge og indvandrere": {
+      "ALT": {
+        "score": -0.2,
+        "deviation": -0.265394,
+        "n_quotes": 5
+      },
+      "DD": {
+        "score": 0.0,
+        "deviation": -0.065394,
+        "n_quotes": 3
+      },
+      "DF": {
+        "score": -0.1,
+        "deviation": -0.165394,
+        "n_quotes": 40
+      },
+      "EL": {
+        "score": -0.333333,
+        "deviation": -0.398727,
+        "n_quotes": 3
+      },
+      "KF": {
+        "score": 0.5,
+        "deviation": 0.434606,
+        "n_quotes": 14
+      },
+      "M": {
+        "score": 0.0,
+        "deviation": -0.065394,
+        "n_quotes": 5
+      },
+      "RV": {
+        "score": -0.272727,
+        "deviation": -0.338121,
+        "n_quotes": 11
+      },
+      "S": {
+        "score": 0.56,
+        "deviation": 0.494606,
+        "n_quotes": 25
+      },
+      "SF": {
+        "score": 0.142857,
+        "deviation": 0.077463,
+        "n_quotes": 7
+      },
+      "V": {
+        "score": 0.357143,
+        "deviation": 0.291749,
+        "n_quotes": 14
+      }
+    },
+    "Retspolitik og tryghed": {
+      "DD": {
+        "score": -0.4,
+        "deviation": -0.563975,
+        "n_quotes": 5
+      },
+      "DF": {
+        "score": 0.325,
+        "deviation": 0.161025,
+        "n_quotes": 40
+      },
+      "KF": {
+        "score": 0.227273,
+        "deviation": 0.063298,
+        "n_quotes": 22
+      },
+      "LA": {
+        "score": -0.190476,
+        "deviation": -0.354451,
+        "n_quotes": 21
+      },
+      "RV": {
+        "score": 0.0,
+        "deviation": -0.163975,
+        "n_quotes": 6
+      },
+      "S": {
+        "score": 0.6,
+        "deviation": 0.436025,
+        "n_quotes": 40
+      },
+      "SF": {
+        "score": 1.0,
+        "deviation": 0.836025,
+        "n_quotes": 3
+      },
+      "V": {
+        "score": -0.25,
+        "deviation": -0.413975,
+        "n_quotes": 8
+      }
+    },
+    "Forsvar og sikkerhed": {
+      "DF": {
+        "score": 0.666667,
+        "deviation": 0.111111,
+        "n_quotes": 3
+      },
+      "RV": {
+        "score": 0.125,
+        "deviation": -0.430556,
+        "n_quotes": 8
+      },
+      "V": {
+        "score": 0.875,
+        "deviation": 0.319444,
+        "n_quotes": 8
+      }
+    },
+    "Pension og tilbagetrækning": {
+      "M": {
+        "score": 0.75,
+        "deviation": 0.050649,
+        "n_quotes": 4
+      },
+      "RV": {
+        "score": 0.5,
+        "deviation": -0.199351,
+        "n_quotes": 6
+      },
+      "S": {
+        "score": 0.818182,
+        "deviation": 0.118831,
+        "n_quotes": 11
+      },
+      "SF": {
+        "score": 0.428571,
+        "deviation": -0.270779,
+        "n_quotes": 7
+      },
+      "V": {
+        "score": 1.0,
+        "deviation": 0.300649,
+        "n_quotes": 3
+      }
+    }
+  },
+  "do": {
+    "Økonomi og skat": {
+      "S": {
+        "score": 0.614035,
+        "deviation": 0.078777,
+        "share_for": 0.807018,
+        "n_votes": 969
+      },
+      "V": {
+        "score": 0.670481,
+        "deviation": 0.135223,
+        "share_for": 0.83524,
+        "n_votes": 437
+      },
+      "M": {
+        "score": 0.635468,
+        "deviation": 0.10021,
+        "share_for": 0.817734,
+        "n_votes": 203
+      },
+      "SF": {
+        "score": 0.652174,
+        "deviation": 0.116916,
+        "share_for": 0.826087,
+        "n_votes": 161
+      },
+      "DD": {
+        "score": 0.565217,
+        "deviation": 0.029959,
+        "share_for": 0.782609,
+        "n_votes": 253
+      },
+      "LA": {
+        "score": 0.245283,
+        "deviation": -0.289975,
+        "share_for": 0.622642,
+        "n_votes": 53
+      },
+      "KF": {
+        "score": 0.552511,
+        "deviation": 0.017253,
+        "share_for": 0.776256,
+        "n_votes": 219
+      },
+      "EL": {
+        "score": 0.438272,
+        "deviation": -0.096986,
+        "share_for": 0.719136,
+        "n_votes": 324
+      },
+      "DF": {
+        "score": 0.547619,
+        "deviation": 0.012361,
+        "share_for": 0.77381,
+        "n_votes": 84
+      },
+      "RV": {
+        "score": 0.728682,
+        "deviation": 0.193424,
+        "share_for": 0.864341,
+        "n_votes": 258
+      },
+      "ALT": {
+        "score": 0.238095,
+        "deviation": -0.297163,
+        "share_for": 0.619048,
+        "n_votes": 21
+      }
+    },
+    "Sundhed og ældrepleje": {
+      "S": {
+        "score": 0.512706,
+        "deviation": -0.043964,
+        "share_for": 0.756353,
+        "n_votes": 1338
+      },
+      "V": {
+        "score": 0.535117,
+        "deviation": -0.021552,
+        "share_for": 0.767559,
+        "n_votes": 598
+      },
+      "M": {
+        "score": 0.44898,
+        "deviation": -0.107689,
+        "share_for": 0.72449,
+        "n_votes": 294
+      },
+      "SF": {
+        "score": 0.609195,
+        "deviation": 0.052526,
+        "share_for": 0.804598,
+        "n_votes": 261
+      },
+      "DD": {
+        "score": 0.568,
+        "deviation": 0.011331,
+        "share_for": 0.784,
+        "n_votes": 375
+      },
+      "LA": {
+        "score": 0.386364,
+        "deviation": -0.170305,
+        "share_for": 0.693182,
+        "n_votes": 88
+      },
+      "KF": {
+        "score": 0.527066,
+        "deviation": -0.029604,
+        "share_for": 0.763533,
+        "n_votes": 351
+      },
+      "EL": {
+        "score": 0.300668,
+        "deviation": -0.256001,
+        "share_for": 0.650334,
+        "n_votes": 449
+      },
+      "DF": {
+        "score": 0.636364,
+        "deviation": 0.079695,
+        "share_for": 0.818182,
+        "n_votes": 110
+      },
+      "RV": {
+        "score": 0.598901,
+        "deviation": 0.042232,
+        "share_for": 0.799451,
+        "n_votes": 364
+      },
+      "ALT": {
+        "score": 1.0,
+        "deviation": 0.443331,
+        "share_for": 1.0,
+        "n_votes": 18
+      }
+    },
+    "Klima og miljø": {
+      "S": {
+        "score": 0.337868,
+        "deviation": -0.0892,
+        "share_for": 0.668934,
+        "n_votes": 882
+      },
+      "V": {
+        "score": 0.215259,
+        "deviation": -0.21181,
+        "share_for": 0.607629,
+        "n_votes": 367
+      },
+      "M": {
+        "score": 0.255814,
+        "deviation": -0.171254,
+        "share_for": 0.627907,
+        "n_votes": 172
+      },
+      "SF": {
+        "score": 0.907285,
+        "deviation": 0.480216,
+        "share_for": 0.953642,
+        "n_votes": 151
+      },
+      "DD": {
+        "score": 0.123894,
+        "deviation": -0.303175,
+        "share_for": 0.561947,
+        "n_votes": 226
+      },
+      "LA": {
+        "score": -0.032258,
+        "deviation": -0.459326,
+        "share_for": 0.483871,
+        "n_votes": 62
+      },
+      "KF": {
+        "score": 0.345455,
+        "deviation": -0.081614,
+        "share_for": 0.672727,
+        "n_votes": 220
+      },
+      "EL": {
+        "score": 0.842105,
+        "deviation": 0.415037,
+        "share_for": 0.921053,
+        "n_votes": 304
+      },
+      "DF": {
+        "score": -0.04878,
+        "deviation": -0.475849,
+        "share_for": 0.47561,
+        "n_votes": 82
+      },
+      "RV": {
+        "score": 0.751111,
+        "deviation": 0.324043,
+        "share_for": 0.875556,
+        "n_votes": 225
+      },
+      "ALT": {
+        "score": 1.0,
+        "deviation": 0.572932,
+        "share_for": 1.0,
+        "n_votes": 11
+      }
+    },
+    "Skoler og børnepasning": {
+      "S": {
+        "score": 0.48659,
+        "deviation": -0.026062,
+        "share_for": 0.743295,
+        "n_votes": 783
+      },
+      "V": {
+        "score": 0.5,
+        "deviation": -0.012652,
+        "share_for": 0.75,
+        "n_votes": 336
+      },
+      "M": {
+        "score": 0.445161,
+        "deviation": -0.06749,
+        "share_for": 0.722581,
+        "n_votes": 155
+      },
+      "SF": {
+        "score": 0.618321,
+        "deviation": 0.105669,
+        "share_for": 0.80916,
+        "n_votes": 131
+      },
+      "DD": {
+        "score": 0.657143,
+        "deviation": 0.144491,
+        "share_for": 0.828571,
+        "n_votes": 210
+      },
+      "LA": {
+        "score": 0.333333,
+        "deviation": -0.179318,
+        "share_for": 0.666667,
+        "n_votes": 45
+      },
+      "KF": {
+        "score": 0.556604,
+        "deviation": 0.043952,
+        "share_for": 0.778302,
+        "n_votes": 212
+      },
+      "EL": {
+        "score": 0.429658,
+        "deviation": -0.082994,
+        "share_for": 0.714829,
+        "n_votes": 263
+      },
+      "DF": {
+        "score": 0.5,
+        "deviation": -0.012652,
+        "share_for": 0.75,
+        "n_votes": 60
+      },
+      "RV": {
+        "score": 0.57732,
+        "deviation": 0.064668,
+        "share_for": 0.78866,
+        "n_votes": 194
+      },
+      "ALT": {
+        "score": 0.272727,
+        "deviation": -0.239924,
+        "share_for": 0.636364,
+        "n_votes": 11
+      }
+    },
+    "Flygtninge og indvandrere": {
+      "S": {
+        "score": -0.147541,
+        "deviation": -0.111931,
+        "share_for": 0.42623,
+        "n_votes": 610
+      },
+      "V": {
+        "score": -0.042802,
+        "deviation": -0.007192,
+        "share_for": 0.478599,
+        "n_votes": 257
+      },
+      "M": {
+        "score": -0.072,
+        "deviation": -0.03639,
+        "share_for": 0.464,
+        "n_votes": 125
+      },
+      "SF": {
+        "score": 0.12,
+        "deviation": 0.15561,
+        "share_for": 0.56,
+        "n_votes": 125
+      },
+      "DD": {
+        "score": 0.202899,
+        "deviation": 0.238508,
+        "share_for": 0.601449,
+        "n_votes": 138
+      },
+      "LA": {
+        "score": -0.529412,
+        "deviation": -0.493802,
+        "share_for": 0.235294,
+        "n_votes": 34
+      },
+      "KF": {
+        "score": -0.109489,
+        "deviation": -0.073879,
+        "share_for": 0.445255,
+        "n_votes": 137
+      },
+      "EL": {
+        "score": -0.132075,
+        "deviation": -0.096466,
+        "share_for": 0.433962,
+        "n_votes": 212
+      },
+      "DF": {
+        "score": 0.055556,
+        "deviation": 0.091165,
+        "share_for": 0.527778,
+        "n_votes": 36
+      },
+      "RV": {
+        "score": 0.019355,
+        "deviation": 0.054965,
+        "share_for": 0.509677,
+        "n_votes": 155
+      },
+      "ALT": {
+        "score": -0.25,
+        "deviation": -0.21439,
+        "share_for": 0.375,
+        "n_votes": 8
+      }
+    },
+    "Retspolitik og tryghed": {
+      "S": {
+        "score": 0.188514,
+        "deviation": -0.184786,
+        "share_for": 0.594257,
+        "n_votes": 801
+      },
+      "V": {
+        "score": 0.168142,
+        "deviation": -0.205159,
+        "share_for": 0.584071,
+        "n_votes": 339
+      },
+      "M": {
+        "score": 0.190751,
+        "deviation": -0.182549,
+        "share_for": 0.595376,
+        "n_votes": 173
+      },
+      "SF": {
+        "score": 0.513043,
+        "deviation": 0.139743,
+        "share_for": 0.756522,
+        "n_votes": 115
+      },
+      "DD": {
+        "score": 0.396985,
+        "deviation": 0.023684,
+        "share_for": 0.698492,
+        "n_votes": 199
+      },
+      "LA": {
+        "score": 0.220339,
+        "deviation": -0.152962,
+        "share_for": 0.610169,
+        "n_votes": 59
+      },
+      "KF": {
+        "score": 0.42246,
+        "deviation": 0.049159,
+        "share_for": 0.71123,
+        "n_votes": 187
+      },
+      "EL": {
+        "score": 0.314286,
+        "deviation": -0.059015,
+        "share_for": 0.657143,
+        "n_votes": 280
+      },
+      "DF": {
+        "score": 0.630769,
+        "deviation": 0.257468,
+        "share_for": 0.815385,
+        "n_votes": 65
+      },
+      "RV": {
+        "score": 0.446154,
+        "deviation": 0.072853,
+        "share_for": 0.723077,
+        "n_votes": 195
+      },
+      "ALT": {
+        "score": 0.666667,
+        "deviation": 0.293366,
+        "share_for": 0.833333,
+        "n_votes": 18
+      }
+    },
+    "Forsvar og sikkerhed": {
+      "S": {
+        "score": 0.8,
+        "deviation": 0.10941,
+        "share_for": 0.9,
+        "n_votes": 200
+      },
+      "V": {
+        "score": 0.878788,
+        "deviation": 0.188198,
+        "share_for": 0.939394,
+        "n_votes": 99
+      },
+      "M": {
+        "score": 0.791667,
+        "deviation": 0.101077,
+        "share_for": 0.895833,
+        "n_votes": 48
+      },
+      "SF": {
+        "score": 1.0,
+        "deviation": 0.30941,
+        "share_for": 1.0,
+        "n_votes": 35
+      },
+      "DD": {
+        "score": 0.925926,
+        "deviation": 0.235336,
+        "share_for": 0.962963,
+        "n_votes": 54
+      },
+      "LA": {
+        "score": 0.857143,
+        "deviation": 0.166553,
+        "share_for": 0.928571,
+        "n_votes": 14
+      },
+      "KF": {
+        "score": 1.0,
+        "deviation": 0.30941,
+        "share_for": 1.0,
+        "n_votes": 55
+      },
+      "EL": {
+        "score": 0.054054,
+        "deviation": -0.636536,
+        "share_for": 0.527027,
+        "n_votes": 74
+      },
+      "DF": {
+        "score": 0.263158,
+        "deviation": -0.427432,
+        "share_for": 0.631579,
+        "n_votes": 19
+      },
+      "RV": {
+        "score": 0.929825,
+        "deviation": 0.239234,
+        "share_for": 0.964912,
+        "n_votes": 57
+      },
+      "ALT": {
+        "score": 0.0,
+        "deviation": -0.69059,
+        "share_for": 0.5,
+        "n_votes": 8
+      }
+    },
+    "Pension og tilbagetrækning": {
+      "S": {
+        "score": 0.687861,
+        "deviation": 0.061737,
+        "share_for": 0.843931,
+        "n_votes": 173
+      },
+      "V": {
+        "score": 0.761905,
+        "deviation": 0.135781,
+        "share_for": 0.880952,
+        "n_votes": 84
+      },
+      "M": {
+        "score": 0.714286,
+        "deviation": 0.088162,
+        "share_for": 0.857143,
+        "n_votes": 42
+      },
+      "SF": {
+        "score": 0.548387,
+        "deviation": -0.077737,
+        "share_for": 0.774194,
+        "n_votes": 31
+      },
+      "DD": {
+        "score": 0.52,
+        "deviation": -0.106124,
+        "share_for": 0.76,
+        "n_votes": 50
+      },
+      "LA": {
+        "score": -0.090909,
+        "deviation": -0.717033,
+        "share_for": 0.454545,
+        "n_votes": 11
+      },
+      "KF": {
+        "score": 0.318182,
+        "deviation": -0.307942,
+        "share_for": 0.659091,
+        "n_votes": 44
+      },
+      "EL": {
+        "score": 0.283582,
+        "deviation": -0.342542,
+        "share_for": 0.641791,
+        "n_votes": 67
+      },
+      "DF": {
+        "score": 0.294118,
+        "deviation": -0.332006,
+        "share_for": 0.647059,
+        "n_votes": 17
+      },
+      "RV": {
+        "score": 0.418182,
+        "deviation": -0.207942,
+        "share_for": 0.709091,
+        "n_votes": 55
+      },
+      "ALT": {
+        "score": 0.0,
+        "deviation": -0.626124,
+        "share_for": 0.5,
+        "n_votes": 2
+      }
+    }
+  },
+  "party_summary": [
+    {
+      "party": "S",
+      "holder": 5,
+      "holder_ikke": 0,
+      "uklart": 2,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 7,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 39,
+          "share_for": 0.807018,
+          "n_votes": 969
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 0.756353,
+          "n_votes": 1338
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 39,
+          "share_for": 0.668934,
+          "n_votes": 882
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 36,
+          "share_for": 0.743295,
+          "n_votes": 783
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 25,
+          "share_for": 0.42623,
+          "n_votes": 610
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 40,
+          "share_for": 0.594257,
+          "n_votes": 801
+        },
+        {
+          "emne": "Pension og tilbagetrækning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 11,
+          "share_for": 0.843931,
+          "n_votes": 173
+        }
+      ]
+    },
+    {
+      "party": "V",
+      "holder": 6,
+      "holder_ikke": 0,
+      "uklart": 2,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 7,
+      "imod_til_for": 0,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 23,
+          "share_for": 0.83524,
+          "n_votes": 437
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 35,
+          "share_for": 0.767559,
+          "n_votes": 598
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 23,
+          "share_for": 0.607629,
+          "n_votes": 367
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 8,
+          "share_for": 0.75,
+          "n_votes": 336
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 14,
+          "share_for": 0.478599,
+          "n_votes": 257
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "Imod",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 8,
+          "share_for": 0.584071,
+          "n_votes": 339
+        },
+        {
+          "emne": "Forsvar og sikkerhed",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 8,
+          "share_for": 0.939394,
+          "n_votes": 99
+        },
+        {
+          "emne": "Pension og tilbagetrækning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 3,
+          "share_for": 0.880952,
+          "n_votes": 84
+        }
+      ]
+    },
+    {
+      "party": "M",
+      "holder": 4,
+      "holder_ikke": 0,
+      "uklart": 2,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 4,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 38,
+          "share_for": 0.817734,
+          "n_votes": 203
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 16,
+          "share_for": 0.72449,
+          "n_votes": 294
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 10,
+          "share_for": 0.627907,
+          "n_votes": 172
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 22,
+          "share_for": 0.722581,
+          "n_votes": 155
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "Neutral",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 5,
+          "share_for": 0.464,
+          "n_votes": 125
+        },
+        {
+          "emne": "Pension og tilbagetrækning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 0.857143,
+          "n_votes": 42
+        }
+      ]
+    },
+    {
+      "party": "SF",
+      "holder": 5,
+      "holder_ikke": 0,
+      "uklart": 2,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 5,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 26,
+          "share_for": 0.826087,
+          "n_votes": 161
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 40,
+          "share_for": 0.804598,
+          "n_votes": 261
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 38,
+          "share_for": 0.953642,
+          "n_votes": 151
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 0.80916,
+          "n_votes": 131
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "Neutral",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 7,
+          "share_for": 0.56,
+          "n_votes": 125
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 3,
+          "share_for": 0.756522,
+          "n_votes": 115
+        },
+        {
+          "emne": "Pension og tilbagetrækning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 7,
+          "share_for": 0.774194,
+          "n_votes": 31
+        }
+      ]
+    },
+    {
+      "party": "DD",
+      "holder": 3,
+      "holder_ikke": 1,
+      "uklart": 2,
+      "consistency": 0.75,
+      "for_til_imod": 0,
+      "sagde_for": 4,
+      "imod_til_for": 1,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 25,
+          "share_for": 0.782609,
+          "n_votes": 253
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 4,
+          "share_for": 0.784,
+          "n_votes": 375
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 6,
+          "share_for": 0.561947,
+          "n_votes": 226
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 16,
+          "share_for": 0.828571,
+          "n_votes": 210
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 3,
+          "share_for": 0.601449,
+          "n_votes": 138
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 5,
+          "share_for": 0.698492,
+          "n_votes": 199
+        }
+      ]
+    },
+    {
+      "party": "LA",
+      "holder": 0,
+      "holder_ikke": 2,
+      "uklart": 2,
+      "consistency": 0.0,
+      "for_til_imod": 0,
+      "sagde_for": 1,
+      "imod_til_for": 2,
+      "sagde_imod": 2,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 40,
+          "share_for": 0.622642,
+          "n_votes": 53
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 5,
+          "share_for": 0.693182,
+          "n_votes": 88
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 24,
+          "share_for": 0.483871,
+          "n_votes": 62
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 21,
+          "share_for": 0.610169,
+          "n_votes": 59
+        }
+      ]
+    },
+    {
+      "party": "KF",
+      "holder": 4,
+      "holder_ikke": 0,
+      "uklart": 2,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 5,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 30,
+          "share_for": 0.776256,
+          "n_votes": 219
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 22,
+          "share_for": 0.763533,
+          "n_votes": 351
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 28,
+          "share_for": 0.672727,
+          "n_votes": 220
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 20,
+          "share_for": 0.778302,
+          "n_votes": 212
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 14,
+          "share_for": 0.445255,
+          "n_votes": 137
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 22,
+          "share_for": 0.71123,
+          "n_votes": 187
+        }
+      ]
+    },
+    {
+      "party": "EL",
+      "holder": 2,
+      "holder_ikke": 1,
+      "uklart": 1,
+      "consistency": 0.666667,
+      "for_til_imod": 0,
+      "sagde_for": 2,
+      "imod_til_for": 1,
+      "sagde_imod": 2,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 8,
+          "share_for": 0.719136,
+          "n_votes": 324
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "Imod",
+          "stemte": "For",
+          "dom": "Holder ikke",
+          "n_quotes": 4,
+          "share_for": 0.650334,
+          "n_votes": 449
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 17,
+          "share_for": 0.921053,
+          "n_votes": 304
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "Imod",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 3,
+          "share_for": 0.433962,
+          "n_votes": 212
+        }
+      ]
+    },
+    {
+      "party": "DF",
+      "holder": 4,
+      "holder_ikke": 0,
+      "uklart": 3,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 5,
+      "imod_til_for": 0,
+      "sagde_imod": 0,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 0.77381,
+          "n_votes": 84
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 40,
+          "share_for": 0.818182,
+          "n_votes": 110
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 9,
+          "share_for": 0.47561,
+          "n_votes": 82
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 17,
+          "share_for": 0.75,
+          "n_votes": 60
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "Neutral",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 40,
+          "share_for": 0.527778,
+          "n_votes": 36
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 0.815385,
+          "n_votes": 65
+        },
+        {
+          "emne": "Forsvar og sikkerhed",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 3,
+          "share_for": 0.631579,
+          "n_votes": 19
+        }
+      ]
+    },
+    {
+      "party": "RV",
+      "holder": 4,
+      "holder_ikke": 0,
+      "uklart": 4,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 4,
+      "imod_til_for": 0,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 0.864341,
+          "n_votes": 258
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 35,
+          "share_for": 0.799451,
+          "n_votes": 364
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 0.875556,
+          "n_votes": 225
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 0.78866,
+          "n_votes": 194
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "Imod",
+          "stemte": "Blandet",
+          "dom": "Uklart",
+          "n_quotes": 11,
+          "share_for": 0.509677,
+          "n_votes": 155
+        },
+        {
+          "emne": "Retspolitik og tryghed",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 6,
+          "share_for": 0.723077,
+          "n_votes": 195
+        },
+        {
+          "emne": "Forsvar og sikkerhed",
+          "sagde": "Neutral",
+          "stemte": "For",
+          "dom": "Uklart",
+          "n_quotes": 8,
+          "share_for": 0.964912,
+          "n_votes": 57
+        },
+        {
+          "emne": "Pension og tilbagetrækning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 6,
+          "share_for": 0.709091,
+          "n_votes": 55
+        }
+      ]
+    },
+    {
+      "party": "ALT",
+      "holder": 5,
+      "holder_ikke": 0,
+      "uklart": 0,
+      "consistency": 1.0,
+      "for_til_imod": 0,
+      "sagde_for": 4,
+      "imod_til_for": 0,
+      "sagde_imod": 1,
+      "topics": [
+        {
+          "emne": "Økonomi og skat",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 23,
+          "share_for": 0.619048,
+          "n_votes": 21
+        },
+        {
+          "emne": "Sundhed og ældrepleje",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 5,
+          "share_for": 1.0,
+          "n_votes": 18
+        },
+        {
+          "emne": "Klima og miljø",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 40,
+          "share_for": 1.0,
+          "n_votes": 11
+        },
+        {
+          "emne": "Skoler og børnepasning",
+          "sagde": "For",
+          "stemte": "For",
+          "dom": "Holder",
+          "n_quotes": 16,
+          "share_for": 0.636364,
+          "n_votes": 11
+        },
+        {
+          "emne": "Flygtninge og indvandrere",
+          "sagde": "Imod",
+          "stemte": "Imod",
+          "dom": "Holder",
+          "n_quotes": 5,
+          "share_for": 0.375,
+          "n_votes": 8
+        }
+      ]
+    }
+  ],
+  "politicians": []
+}

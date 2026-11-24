@@ -1756,3 +1756,15 @@ footer {
     width: 100%;
   }
 }
+
+@media (max-width: 800px) {
+  .mvd-section {
+    margin-inline: 6px;
+  }
+
+  .mvd-section .chart-toolbar select {
+    flex: 1 1 16rem;
+    min-width: 0;
+    max-width: 100%;
+  }
+}

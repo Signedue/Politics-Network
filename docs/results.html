@@ -6,7 +6,7 @@
     <meta name="description" content="Validated results from the Danish parliamentary voting networks project.">
     <title>Results | Danish Parliamentary Voting Networks</title>
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="style.css?v=20261124-1">
+    <link rel="stylesheet" href="style.css?v=20261124-2">
   </head>
   <body>
     <main class="page">
@@ -347,6 +347,61 @@
           <div class="mk-tooltip" id="mk-tooltip" role="tooltip"></div>
         </section>
 
+        <section class="result-section say-vs-do-section mvd-section">
+          <p class="label">10 / Mærkesager og handling</p>
+          <h2>Gør partierne det, de skrev i deres mærkesager?</h2>
+          <div class="chart-toolbar" aria-label="Vælg emne for mærkesager og stemmer">
+            <label for="mvd-topic">Emne</label>
+            <select id="mvd-topic"></select>
+          </div>
+          <p id="mvd-data-count" class="svd-data-count"></p>
+          <div class="svd-figures">
+            <div>
+              <h3>Hvad de skrev i deres mærkesager (hjemmesider, oktober 2022)</h3>
+              <div class="chart-card"><div id="mvd-say-chart" class="chart-container" aria-label="Partiernes holdninger i deres mærkesager"></div></div>
+            </div>
+            <div>
+              <h3>Hvordan de stemte 2022–2026</h3>
+              <div class="chart-card"><div id="mvd-do-chart" class="chart-container" aria-label="Hvordan partierne stemte"></div></div>
+            </div>
+          </div>
+
+          <div class="svd-ranking">
+            <p class="svd-ranking-explanation">Hvert emne får én dom: Holder (skrev og stemte det samme), Holder ikke (skrev det modsatte af, hvad de stemte) eller Uklart (neutrale udsagn eller blandede stemmer). Tallene er antal emner, ikke procent.</p>
+            <h3>Holder de, hvad de skriver?</h3>
+            <div class="svd-rank-columns">
+              <div><p class="svd-column-label">Holder mest</p><div id="mvd-holder-most" class="svd-card-list"></div></div>
+              <div><p class="svd-column-label">Største forskel på ord og handling</p><div id="mvd-holder-least" class="svd-card-list"></div></div>
+              <div><p class="svd-column-label">Blandet</p><div id="mvd-holder-mixed" class="svd-card-list"></div></div>
+            </div>
+          </div>
+
+          <div class="svd-table-block">
+            <h3>Datadækning: hvor har vi nok udsagn?</h3>
+            <div class="svd-table-wrap">
+              <table class="svd-table">
+                <thead id="mvd-table-head"></thead>
+                <tbody id="mvd-table-body"></tbody>
+              </table>
+            </div>
+            <p id="mvd-cell-detail" class="svd-cell-detail" aria-live="polite"></p>
+          </div>
+
+          <div class="interpretation">
+            <p class="interpretation-kicker">Fortolkning</p>
+            <div class="interpretation-columns">
+              <div class="interpretation-item">
+                <p class="interpretation-label">What we can say</p>
+                <p>Sammenligningen viser, om partiernes stemmer på et område peger i samme retning som de holdninger, de selv skrev i deres mærkesager før valget i 2022.</p>
+              </div>
+              <div class="interpretation-item interpretation-limit">
+                <p class="interpretation-label">What we cannot say</p>
+                <p>At stemme for en lov på et område er ikke det samme som at stemme for påstanden (fx "lavere skatter og afgifter"); et parti kan stemme imod en lov, fordi den går for kort. Venstres og Radikale Venstres sider er arkivkopier med usikker dato og kan indeholde tekst fra efter valget. Nye Borgerlige er udeladt, fordi partiet ikke findes i afstemningsdata. Emner og holdninger er tildelt automatisk (ordlister og en sprogmodel) og bør tjekkes.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="result-section atlas-section">
           <div class="atlas-subsection">
             <h3>Interactive atlas of the quotes</h3>
@@ -365,6 +420,7 @@
     <script src="js/results.js?v=20261028-1"></script>
     <script src="js/say_vs_do.js?v=20261118-1"></script>
     <script src="js/maerkesager.js?v=20261124-1"></script>
+    <script src="js/maerkesager_vs_do.js?v=20261124-1"></script>
     <script>
       (() => {
         const frame = document.querySelector(".atlas-frame");
