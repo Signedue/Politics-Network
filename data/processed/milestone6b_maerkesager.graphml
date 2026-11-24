@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="parti" for="node" attr.name="parti" attr.type="string"/>
+<key id="partikode" for="node" attr.name="partikode" attr.type="string"/>
+<key id="n_sager" for="node" attr.name="n_sager" attr.type="int"/>
+<key id="categories" for="node" attr.name="categories" attr.type="string"/>
+<key id="degree" for="node" attr.name="degree" attr.type="int"/>
+<key id="strength" for="node" attr.name="strength" attr.type="double"/>
+<key id="weight" for="edge" attr.name="weight" attr.type="int"/>
+<key id="jaccard" for="edge" attr.name="jaccard" attr.type="double"/>
+<key id="n_shared_sager" for="edge" attr.name="n_shared_sager" attr.type="int"/>
+<key id="shared_categories" for="edge" attr.name="shared_categories" attr.type="string"/>
+<graph id="milestone6b_maerkesager" edgedefault="undirected">
+<node id="ALT">
+<data key="parti">Alternativet</data>
+<data key="partikode">ALT</data>
+<data key="n_sager">4</data>
+<data key="categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">35.0000</data>
+</node>
+<node id="DD">
+<data key="parti">Danmarksdemokraterne</data>
+<data key="partikode">DD</data>
+<data key="n_sager">4</data>
+<data key="categories">Retspolitik og tryghed, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">27.0000</data>
+</node>
+<node id="DF">
+<data key="parti">Dansk Folkeparti</data>
+<data key="partikode">DF</data>
+<data key="n_sager">8</data>
+<data key="categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">50.0000</data>
+</node>
+<node id="EL">
+<data key="parti">Enhedslisten</data>
+<data key="partikode">EL</data>
+<data key="n_sager">4</data>
+<data key="categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">36.0000</data>
+</node>
+<node id="KF">
+<data key="parti">Det Konservative Folkeparti</data>
+<data key="partikode">KF</data>
+<data key="n_sager">5</data>
+<data key="categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">44.0000</data>
+</node>
+<node id="LA">
+<data key="parti">Liberal Alliance</data>
+<data key="partikode">LA</data>
+<data key="n_sager">5</data>
+<data key="categories">Klima og miljø, Retspolitik og tryghed, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">28.0000</data>
+</node>
+<node id="M">
+<data key="parti">Moderaterne</data>
+<data key="partikode">M</data>
+<data key="n_sager">11</data>
+<data key="categories">Forsvar og sikkerhed, Klima og miljø, Pension og tilbagetrækning, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">40.0000</data>
+</node>
+<node id="NB">
+<data key="parti">Nye Borgerlige</data>
+<data key="partikode">NB</data>
+<data key="n_sager">100</data>
+<data key="categories">Flygtninge og indvandrere, Forsvar og sikkerhed, Klima og miljø, Pension og tilbagetrækning, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">53.0000</data>
+</node>
+<node id="RV">
+<data key="parti">Radikale Venstre</data>
+<data key="partikode">RV</data>
+<data key="n_sager">15</data>
+<data key="categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">50.0000</data>
+</node>
+<node id="S">
+<data key="parti">Socialdemokratiet</data>
+<data key="partikode">S</data>
+<data key="n_sager">13</data>
+<data key="categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">50.0000</data>
+</node>
+<node id="SF">
+<data key="parti">Socialistisk Folkeparti</data>
+<data key="partikode">SF</data>
+<data key="n_sager">8</data>
+<data key="categories">Flygtninge og indvandrere, Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">43.0000</data>
+</node>
+<node id="V">
+<data key="parti">Venstre</data>
+<data key="partikode">V</data>
+<data key="n_sager">6</data>
+<data key="categories">Flygtninge og indvandrere, Forsvar og sikkerhed, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+<data key="degree">11</data>
+<data key="strength">38.0000</data>
+</node>
+<edge id="e0" source="ALT" target="DD">
+<data key="weight">2</data>
+<data key="jaccard">0.4</data>
+<data key="n_shared_sager">5</data>
+<data key="shared_categories">Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e1" source="ALT" target="DF">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Økonomi og skat</data>
+</edge>
+<edge id="e2" source="ALT" target="EL">
+<data key="weight">2</data>
+<data key="jaccard">0.3333</data>
+<data key="n_shared_sager">4</data>
+<data key="shared_categories">Klima og miljø, Økonomi og skat</data>
+</edge>
+<edge id="e3" source="ALT" target="KF">
+<data key="weight">4</data>
+<data key="jaccard">0.8</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Økonomi og skat</data>
+</edge>
+<edge id="e4" source="ALT" target="LA">
+<data key="weight">3</data>
+<data key="jaccard">0.75</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e5" source="ALT" target="M">
+<data key="weight">3</data>
+<data key="jaccard">0.4286</data>
+<data key="n_shared_sager">10</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Økonomi og skat</data>
+</edge>
+<edge id="e6" source="ALT" target="NB">
+<data key="weight">4</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">72</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Økonomi og skat</data>
+</edge>
+<edge id="e7" source="ALT" target="RV">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">16</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Økonomi og skat</data>
+</edge>
+<edge id="e8" source="ALT" target="S">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">13</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Økonomi og skat</data>
+</edge>
+<edge id="e9" source="ALT" target="SF">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Økonomi og skat</data>
+</edge>
+<edge id="e10" source="ALT" target="V">
+<data key="weight">2</data>
+<data key="jaccard">0.2857</data>
+<data key="n_shared_sager">4</data>
+<data key="shared_categories">Klima og miljø, Økonomi og skat</data>
+</edge>
+<edge id="e11" source="DD" target="DF">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Retspolitik og tryghed, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e12" source="DD" target="EL">
+<data key="weight">2</data>
+<data key="jaccard">0.4</data>
+<data key="n_shared_sager">5</data>
+<data key="shared_categories">Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e13" source="DD" target="KF">
+<data key="weight">3</data>
+<data key="jaccard">0.6</data>
+<data key="n_shared_sager">7</data>
+<data key="shared_categories">Retspolitik og tryghed, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e14" source="DD" target="LA">
+<data key="weight">2</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">7</data>
+<data key="shared_categories">Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e15" source="DD" target="M">
+<data key="weight">2</data>
+<data key="jaccard">0.2857</data>
+<data key="n_shared_sager">9</data>
+<data key="shared_categories">Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e16" source="DD" target="NB">
+<data key="weight">3</data>
+<data key="jaccard">0.375</data>
+<data key="n_shared_sager">60</data>
+<data key="shared_categories">Retspolitik og tryghed, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e17" source="DD" target="RV">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">10</data>
+<data key="shared_categories">Retspolitik og tryghed, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e18" source="DD" target="S">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">12</data>
+<data key="shared_categories">Retspolitik og tryghed, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e19" source="DD" target="SF">
+<data key="weight">2</data>
+<data key="jaccard">0.3333</data>
+<data key="n_shared_sager">7</data>
+<data key="shared_categories">Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e20" source="DD" target="V">
+<data key="weight">2</data>
+<data key="jaccard">0.3333</data>
+<data key="n_shared_sager">6</data>
+<data key="shared_categories">Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e21" source="DF" target="EL">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">10</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e22" source="DF" target="KF">
+<data key="weight">5</data>
+<data key="jaccard">0.8333</data>
+<data key="n_shared_sager">11</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e23" source="DF" target="LA">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e24" source="DF" target="M">
+<data key="weight">4</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">14</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e25" source="DF" target="NB">
+<data key="weight">6</data>
+<data key="jaccard">0.75</data>
+<data key="n_shared_sager">102</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e26" source="DF" target="RV">
+<data key="weight">6</data>
+<data key="jaccard">1.0</data>
+<data key="n_shared_sager">23</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e27" source="DF" target="S">
+<data key="weight">6</data>
+<data key="jaccard">1.0</data>
+<data key="n_shared_sager">21</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e28" source="DF" target="SF">
+<data key="weight">5</data>
+<data key="jaccard">0.8333</data>
+<data key="n_shared_sager">15</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e29" source="DF" target="V">
+<data key="weight">4</data>
+<data key="jaccard">0.5714</data>
+<data key="n_shared_sager">11</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e30" source="EL" target="KF">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">6</data>
+<data key="shared_categories">Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e31" source="EL" target="LA">
+<data key="weight">2</data>
+<data key="jaccard">0.4</data>
+<data key="n_shared_sager">6</data>
+<data key="shared_categories">Klima og miljø, Økonomi og skat</data>
+</edge>
+<edge id="e32" source="EL" target="M">
+<data key="weight">3</data>
+<data key="jaccard">0.4286</data>
+<data key="n_shared_sager">10</data>
+<data key="shared_categories">Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e33" source="EL" target="NB">
+<data key="weight">4</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">74</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e34" source="EL" target="RV">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">13</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e35" source="EL" target="S">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">15</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e36" source="EL" target="SF">
+<data key="weight">4</data>
+<data key="jaccard">0.8</data>
+<data key="n_shared_sager">11</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e37" source="EL" target="V">
+<data key="weight">4</data>
+<data key="jaccard">0.8</data>
+<data key="n_shared_sager">9</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e38" source="KF" target="LA">
+<data key="weight">3</data>
+<data key="jaccard">0.6</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e39" source="KF" target="M">
+<data key="weight">4</data>
+<data key="jaccard">0.5714</data>
+<data key="n_shared_sager">13</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e40" source="KF" target="NB">
+<data key="weight">5</data>
+<data key="jaccard">0.625</data>
+<data key="n_shared_sager">87</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e41" source="KF" target="RV">
+<data key="weight">5</data>
+<data key="jaccard">0.8333</data>
+<data key="n_shared_sager">19</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e42" source="KF" target="S">
+<data key="weight">5</data>
+<data key="jaccard">0.8333</data>
+<data key="n_shared_sager">17</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e43" source="KF" target="SF">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">11</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e44" source="KF" target="V">
+<data key="weight">3</data>
+<data key="jaccard">0.4286</data>
+<data key="n_shared_sager">7</data>
+<data key="shared_categories">Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e45" source="LA" target="M">
+<data key="weight">2</data>
+<data key="jaccard">0.2857</data>
+<data key="n_shared_sager">9</data>
+<data key="shared_categories">Klima og miljø, Økonomi og skat</data>
+</edge>
+<edge id="e46" source="LA" target="NB">
+<data key="weight">3</data>
+<data key="jaccard">0.375</data>
+<data key="n_shared_sager">60</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e47" source="LA" target="RV">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">13</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e48" source="LA" target="S">
+<data key="weight">3</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">13</data>
+<data key="shared_categories">Klima og miljø, Retspolitik og tryghed, Økonomi og skat</data>
+</edge>
+<edge id="e49" source="LA" target="SF">
+<data key="weight">2</data>
+<data key="jaccard">0.3333</data>
+<data key="n_shared_sager">8</data>
+<data key="shared_categories">Klima og miljø, Økonomi og skat</data>
+</edge>
+<edge id="e50" source="LA" target="V">
+<data key="weight">2</data>
+<data key="jaccard">0.3333</data>
+<data key="n_shared_sager">6</data>
+<data key="shared_categories">Klima og miljø, Økonomi og skat</data>
+</edge>
+<edge id="e51" source="M" target="NB">
+<data key="weight">6</data>
+<data key="jaccard">0.75</data>
+<data key="n_shared_sager">88</data>
+<data key="shared_categories">Forsvar og sikkerhed, Klima og miljø, Pension og tilbagetrækning, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e52" source="M" target="RV">
+<data key="weight">4</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">21</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e53" source="M" target="S">
+<data key="weight">4</data>
+<data key="jaccard">0.5</data>
+<data key="n_shared_sager">20</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e54" source="M" target="SF">
+<data key="weight">4</data>
+<data key="jaccard">0.5714</data>
+<data key="n_shared_sager">16</data>
+<data key="shared_categories">Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e55" source="M" target="V">
+<data key="weight">4</data>
+<data key="jaccard">0.5714</data>
+<data key="n_shared_sager">13</data>
+<data key="shared_categories">Forsvar og sikkerhed, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e56" source="NB" target="RV">
+<data key="weight">6</data>
+<data key="jaccard">0.75</data>
+<data key="n_shared_sager">109</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e57" source="NB" target="S">
+<data key="weight">6</data>
+<data key="jaccard">0.75</data>
+<data key="n_shared_sager">107</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e58" source="NB" target="SF">
+<data key="weight">5</data>
+<data key="jaccard">0.625</data>
+<data key="n_shared_sager">91</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e59" source="NB" target="V">
+<data key="weight">5</data>
+<data key="jaccard">0.625</data>
+<data key="n_shared_sager">81</data>
+<data key="shared_categories">Flygtninge og indvandrere, Forsvar og sikkerhed, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e60" source="RV" target="S">
+<data key="weight">6</data>
+<data key="jaccard">1.0</data>
+<data key="n_shared_sager">28</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Retspolitik og tryghed, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e61" source="RV" target="SF">
+<data key="weight">5</data>
+<data key="jaccard">0.8333</data>
+<data key="n_shared_sager">21</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e62" source="RV" target="V">
+<data key="weight">4</data>
+<data key="jaccard">0.5714</data>
+<data key="n_shared_sager">14</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e63" source="S" target="SF">
+<data key="weight">5</data>
+<data key="jaccard">0.8333</data>
+<data key="n_shared_sager">20</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Skoler og børnepasning, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e64" source="S" target="V">
+<data key="weight">4</data>
+<data key="jaccard">0.5714</data>
+<data key="n_shared_sager">16</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+<edge id="e65" source="SF" target="V">
+<data key="weight">4</data>
+<data key="jaccard">0.6667</data>
+<data key="n_shared_sager">12</data>
+<data key="shared_categories">Flygtninge og indvandrere, Klima og miljø, Sundhed og ældrepleje, Økonomi og skat</data>
+</edge>
+</graph>
+</graphml>
