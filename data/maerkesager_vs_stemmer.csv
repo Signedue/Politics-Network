@@ -1,0 +1,78 @@
+﻿parti,emne,score,n,skrev,andel_for,antal_love,stemte,dom
+ALT,Flygtninge og indvandrere,-0.2,5,Imod,0.375,8,Imod,Holder
+ALT,Klima og miljø,0.775,40,For,1.0,11,For,Holder
+ALT,Retspolitik og tryghed,0.0,2,Neutral,0.833,18,For,For lidt data
+ALT,Skoler og børnepasning,0.75,16,For,0.636,11,For,Holder
+ALT,Sundhed og ældrepleje,0.4,5,For,1.0,18,For,Holder
+ALT,Økonomi og skat,0.261,23,For,0.619,21,For,Holder
+DD,Flygtninge og indvandrere,0.0,3,Neutral,0.601,60,For,Uklart
+DD,Klima og miljø,0.667,6,For,0.562,97,Blandet,Uklart
+DD,Pension og tilbagetrækning,1.0,1,For,0.76,19,For,For lidt data
+DD,Retspolitik og tryghed,-0.4,5,Imod,0.698,80,For,Holder ikke
+DD,Skoler og børnepasning,0.438,16,For,0.829,87,For,Holder
+DD,Sundhed og ældrepleje,0.25,4,For,0.784,149,For,Holder
+DD,Økonomi og skat,0.4,25,For,0.783,106,For,Holder
+DF,Flygtninge og indvandrere,-0.1,40,Neutral,0.528,35,Blandet,Uklart
+DF,Forsvar og sikkerhed,0.667,3,For,0.632,16,For,Holder
+DF,Klima og miljø,0.222,9,For,0.476,67,Blandet,Uklart
+DF,Pension og tilbagetrækning,1.0,2,For,0.647,15,For,For lidt data
+DF,Retspolitik og tryghed,0.325,40,For,0.815,53,For,Holder
+DF,Skoler og børnepasning,0.412,17,For,0.75,51,For,Holder
+DF,Sundhed og ældrepleje,0.15,40,Neutral,0.818,97,For,Uklart
+DF,Økonomi og skat,0.5,40,For,0.774,71,For,Holder
+EL,Flygtninge og indvandrere,-0.6,5,Imod,0.434,68,Blandet,Uklart
+EL,Klima og miljø,0.8,20,For,0.921,96,For,Holder
+EL,Skoler og børnepasning,-1.0,2,Imod,0.715,85,For,For lidt data
+EL,Sundhed og ældrepleje,-0.4,5,Imod,0.65,146,For,Holder ikke
+EL,Økonomi og skat,0.455,11,For,0.719,105,For,Holder
+KF,Flygtninge og indvandrere,0.5,14,For,0.445,60,Blandet,Uklart
+KF,Klima og miljø,0.857,28,For,0.673,94,For,Holder
+KF,Retspolitik og tryghed,0.174,23,For,0.711,86,For,Holder
+KF,Skoler og børnepasning,0.8,20,For,0.778,87,For,Holder
+KF,Sundhed og ældrepleje,0.136,22,Neutral,0.764,148,For,Uklart
+KF,Økonomi og skat,0.581,31,For,0.776,97,For,Holder
+LA,Flygtninge og indvandrere,0.0,1,Neutral,0.235,34,Imod,For lidt data
+LA,Klima og miljø,0.708,24,For,0.484,61,Blandet,Uklart
+LA,Pension og tilbagetrækning,1.0,2,For,0.455,11,Blandet,For lidt data
+LA,Retspolitik og tryghed,-0.19,21,Imod,0.61,57,For,Holder ikke
+LA,Sundhed og ældrepleje,-0.6,5,Imod,0.693,84,For,Holder ikke
+LA,Økonomi og skat,0.05,40,Neutral,0.623,52,For,Uklart
+M,Flygtninge og indvandrere,0.0,5,Neutral,0.464,68,Blandet,Uklart
+M,Forsvar og sikkerhed,1.0,2,For,0.896,24,For,For lidt data
+M,Klima og miljø,0.9,10,For,0.628,97,For,Holder
+M,Pension og tilbagetrækning,0.75,4,For,0.857,19,For,Holder
+M,Retspolitik og tryghed,0.0,1,Neutral,0.595,86,Blandet,For lidt data
+M,Skoler og børnepasning,0.636,22,For,0.723,89,For,Holder
+M,Sundhed og ældrepleje,0.062,16,Neutral,0.724,149,For,Uklart
+M,Økonomi og skat,0.5,38,For,0.818,111,For,Holder
+RV,Flygtninge og indvandrere,-0.273,11,Imod,0.51,67,Blandet,Uklart
+RV,Forsvar og sikkerhed,0.125,8,Neutral,0.965,24,For,Uklart
+RV,Klima og miljø,0.825,40,For,0.876,95,For,Holder
+RV,Pension og tilbagetrækning,0.5,6,For,0.709,20,For,Holder
+RV,Retspolitik og tryghed,0.0,6,Neutral,0.723,81,For,Uklart
+RV,Skoler og børnepasning,0.5,40,For,0.789,86,For,Holder
+RV,Sundhed og ældrepleje,-0.057,35,Neutral,0.799,146,For,Uklart
+RV,Økonomi og skat,0.5,40,For,0.864,108,For,Holder
+S,Flygtninge og indvandrere,0.56,25,For,0.426,70,Blandet,Uklart
+S,Forsvar og sikkerhed,0.0,2,Neutral,0.9,24,For,For lidt data
+S,Klima og miljø,0.9,40,For,0.669,99,For,Holder
+S,Pension og tilbagetrækning,0.818,11,For,0.844,20,For,Holder
+S,Retspolitik og tryghed,0.6,40,For,0.594,87,Blandet,Uklart
+S,Skoler og børnepasning,0.757,37,For,0.743,89,For,Holder
+S,Sundhed og ældrepleje,0.3,40,For,0.756,151,For,Holder
+S,Økonomi og skat,0.575,40,For,0.807,112,For,Holder
+SF,Flygtninge og indvandrere,0.0,8,Neutral,0.56,69,Blandet,Uklart
+SF,Klima og miljø,0.85,40,For,0.954,92,For,Holder
+SF,Pension og tilbagetrækning,0.429,7,For,0.774,19,For,Holder
+SF,Retspolitik og tryghed,1.0,3,For,0.757,71,For,Holder
+SF,Skoler og børnepasning,0.875,40,For,0.809,84,For,Holder
+SF,Sundhed og ældrepleje,0.125,40,Neutral,0.805,139,For,Uklart
+SF,Økonomi og skat,0.444,27,For,0.826,98,For,Holder
+V,Flygtninge og indvandrere,0.105,19,Neutral,0.479,70,Blandet,Uklart
+V,Forsvar og sikkerhed,0.875,8,For,0.939,24,For,Holder
+V,Klima og miljø,0.897,29,For,0.608,99,For,Holder
+V,Pension og tilbagetrækning,1.0,3,For,0.881,20,For,Holder
+V,Retspolitik og tryghed,-0.25,8,Imod,0.584,88,Blandet,Uklart
+V,Skoler og børnepasning,0.75,8,For,0.75,89,For,Holder
+V,Sundhed og ældrepleje,0.25,40,For,0.768,151,For,Holder
+V,Økonomi og skat,0.615,26,For,0.835,112,For,Holder

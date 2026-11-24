@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Partiernes mærkesager på hjemmesiderne, oktober 2022</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #202a35;
+      background: #f7f8fa;
+      font-synthesis: none;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; }
+    header { max-width: 1200px; margin: 0 auto; padding: 24px 24px 12px; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.2; }
+    header p { margin: 0; color: #526170; line-height: 1.45; }
+
+    .controls { max-width: 1200px; margin: 0 auto; padding: 12px 24px 18px; }
+    .category-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+    .category-button {
+      border: 2px solid var(--category-color);
+      border-radius: 999px;
+      background: white;
+      color: var(--category-color);
+      cursor: pointer;
+      font: inherit;
+      font-size: .88rem;
+      line-height: 1.2;
+      padding: 8px 12px;
+      transition: background-color .15s, color .15s, opacity .15s;
+    }
+    .category-button[aria-pressed="true"] { background: var(--category-color); color: white; }
+    .category-button:focus-visible, a:focus-visible, .party-node:focus-visible {
+      outline: 3px solid #111827;
+      outline-offset: 3px;
+    }
+    .selection-links { display: flex; gap: 16px; margin-top: 10px; font-size: .9rem; }
+    a { color: #245c98; }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 28px;
+      display: grid;
+      grid-template-columns: minmax(0, 640px) minmax(250px, 1fr);
+      align-items: start;
+      gap: 24px;
+    }
+    .network-wrap { position: relative; width: 100%; aspect-ratio: 1; }
+    #network { display: block; width: 100%; height: 100%; overflow: visible; }
+    .network-help { margin: 5px 0 0; color: #667381; font-size: .83rem; }
+    .edge { fill: none; stroke-width: 3; stroke-linecap: round; }
+    .party-node { cursor: pointer; }
+    .party-node circle { stroke: white; stroke-width: 2; transition: fill .15s, opacity .15s; }
+    .party-node text { fill: white; font-size: 13px; font-weight: 750; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+    .party-node.is-selected circle { stroke: #111827; stroke-width: 4; }
+
+    aside { padding-top: 4px; }
+    .panel {
+      min-height: 220px;
+      max-height: min(68vh, 680px);
+      overflow: auto;
+      border: 1px solid #dce2e8;
+      border-radius: 12px;
+      background: white;
+      padding: 16px;
+      box-shadow: 0 2px 8px #172b4d0d;
+    }
+    .panel h2 { margin: 0 0 12px; font-size: 1.15rem; }
+    .panel h3 { margin: 16px 0 5px; font-size: .95rem; }
+    .panel h3:first-of-type { margin-top: 0; }
+    .panel p { margin: 5px 0; font-size: .9rem; line-height: 1.4; }
+    .panel ul { margin: 5px 0 0; padding-left: 19px; font-size: .88rem; line-height: 1.42; }
+    .summary-party { display: inline-block; margin: 2px 5px 2px 0; white-space: nowrap; }
+    .summary-party strong { color: var(--party-color); }
+    .note { margin: 12px 2px; color: #596675; font-size: .82rem; line-height: 1.4; }
+
+    .tooltip {
+      position: fixed;
+      z-index: 3;
+      display: none;
+      max-width: 320px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: #17212b;
+      color: #fff;
+      box-shadow: 0 4px 16px #0003;
+      font-size: .84rem;
+      line-height: 1.38;
+      pointer-events: none;
+    }
+    .tooltip.visible { display: block; }
+    .tooltip strong { display: block; margin-bottom: 4px; }
+    .tooltip ul { margin: 4px 0 0; padding-left: 19px; }
+    .tooltip li + li { margin-top: 2px; }
+
+    @media (max-width: 900px) {
+      main { grid-template-columns: minmax(0, 1fr); }
+      .network-wrap { max-width: 640px; margin: 0 auto; }
+      aside { width: 100%; }
+    }
+    @media (max-width: 520px) {
+      header, .controls { padding-left: 16px; padding-right: 16px; }
+      main { padding-left: 12px; padding-right: 12px; gap: 12px; }
+      .category-button { font-size: .8rem; padding: 7px 9px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Partiernes mærkesager på hjemmesiderne, oktober 2022</h1>
+    <p>Vælg en eller flere mærkesager. To partier forbindes, hvis begge har mindst én mærkesag i kategorien. Klik på et parti for at se dets mærkesager.</p>
+  </header>
+
+  <section class="controls" aria-label="Vælg mærkesager">
+    <div class="category-buttons" id="category-buttons"></div>
+    <div class="selection-links">
+      <a href="#" id="select-all">Vælg alle</a>
+      <a href="#" id="select-none">Fravælg alle</a>
+    </div>
+  </section>
+
+  <main>
+    <section aria-label="Netværk af partier">
+      <div class="network-wrap">
+        <svg id="network" viewBox="0 0 640 640" role="img" aria-label="Netværk over fælles mærkesager mellem partier"></svg>
+      </div>
+      <p class="network-help">Kanter viser fælles kategorier. Partikoden står i hver node.</p>
+    </section>
+    <aside>
+      <section class="panel" id="panel" aria-live="polite"></section>
+      <p class="note">Nye Borgerlige har 100 mærkesager og har derfor mindst én i næsten alle kategorier.</p>
+    </aside>
+  </main>
+  <div class="tooltip" id="tooltip" role="tooltip"></div>
+
+  <script>
+    const categoryColors = {
+      "Sundhed og ældrepleje": "#2b6cb0",
+      "Klima og miljø": "#2f855a",
+      "Skoler og børnepasning": "#b7791f",
+      "Økonomi og skat": "#c53030",
+      "Flygtninge og indvandrere": "#dd6b20",
+      "Retspolitik og tryghed": "#4a5568",
+      "Forsvar og sikkerhed": "#553c9a",
+      "Pension og tilbagetrækning": "#319795"
+    };
+    const partyOrder = ["EL", "SF", "ALT", "RV", "S", "M", "V", "KF", "LA", "DD", "DF", "NB"];
+    const svgNamespace = "http://www.w3.org/2000/svg";
+    const selectedCategories = new Set(["Sundhed og ældrepleje"]);
+    const svg = document.getElementById("network");
+    const tooltip = document.getElementById("tooltip");
+    const panel = document.getElementById("panel");
+    let parties = [];
+    let categories = [];
+    let selectedParty = null;
+    let edges = [];
+
+    function element(name, className, parent) {
+      const node = document.createElement(name);
+      if (className) node.className = className;
+      if (parent) parent.append(node);
+      return node;
+    }
+
+    function svgElement(name, attributes) {
+      const node = document.createElementNS(svgNamespace, name);
+      for (const [key, value] of Object.entries(attributes)) node.setAttribute(key, value);
+      return node;
+    }
+
+    function partyTitles(party, category) {
+      return party.kategorier[category] || [];
+    }
+
+    function chosenCategories() {
+      return categories.filter(category => selectedCategories.has(category));
+    }
+
+    function activeCount(party) {
+      return chosenCategories().reduce((sum, category) => sum + partyTitles(party, category).length, 0);
+    }
+
+    function showTooltip(content, event) {
+      tooltip.replaceChildren();
+      tooltip.append(content);
+      tooltip.classList.add("visible");
+      moveTooltip(event);
+    }
+
+    function moveTooltip(event) {
+      const margin = 12;
+      const rect = tooltip.getBoundingClientRect();
+      const x = Math.min(event.clientX + 14, window.innerWidth - rect.width - margin);
+      const y = Math.min(event.clientY + 14, window.innerHeight - rect.height - margin);
+      tooltip.style.left = `${Math.max(margin, x)}px`;
+      tooltip.style.top = `${Math.max(margin, y)}px`;
+    }
+
+    function hideTooltip() {
+      tooltip.classList.remove("visible");
+    }
+
+    function nodeTooltip(party) {
+      const content = document.createDocumentFragment();
+      const title = element("strong", null, content);
+      title.textContent = party.partinavn;
+      const detail = element("span", null, content);
+      detail.textContent = `${activeCount(party)} af ${party.antal_maerkesager_i_alt} mærkesager i de valgte kategorier`;
+      return content;
+    }
+
+    function edgeTooltip(edge) {
+      const content = document.createDocumentFragment();
+      const title = element("strong", null, content);
+      title.textContent = `${edge.first.partikode} – ${edge.second.partikode} · ${edge.category}`;
+      const list = element("ul", null, content);
+      for (const party of [edge.first, edge.second]) {
+        const group = element("li", null, list);
+        group.append(document.createTextNode(`${party.partikode}: `));
+        group.append(document.createTextNode(partyTitles(party, edge.category).join("; ")));
+      }
+      return content;
+    }
+
+    function positionFor(index) {
+      const angle = (-150 + index * 30) * Math.PI / 180;
+      return { x: 320 + Math.cos(angle) * 258, y: 320 + Math.sin(angle) * 258 };
+    }
+
+    function pathFor(edge) {
+      const first = positionFor(edge.firstIndex);
+      const second = positionFor(edge.secondIndex);
+      const dx = second.x - first.x;
+      const dy = second.y - first.y;
+      const length = Math.hypot(dx, dy);
+      const ux = dx / length;
+      const uy = dy / length;
+      const start = { x: first.x + ux * 19, y: first.y + uy * 19 };
+      const end = { x: second.x - ux * 19, y: second.y - uy * 19 };
+      const middle = { x: (start.x + end.x) / 2, y: (start.y + end.y) / 2 };
+      const offset = edge.parallelOffset;
+      const control = { x: middle.x - uy * offset, y: middle.y + ux * offset };
+      return `M ${start.x} ${start.y} Q ${control.x} ${control.y} ${end.x} ${end.y}`;
+    }
+
+    function buildEdges() {
+      edges = [];
+      for (let firstIndex = 0; firstIndex < parties.length; firstIndex += 1) {
+        for (let secondIndex = firstIndex + 1; secondIndex < parties.length; secondIndex += 1) {
+          const first = parties[firstIndex];
+          const second = parties[secondIndex];
+          const shared = categories.filter(category => partyTitles(first, category).length && partyTitles(second, category).length);
+          shared.forEach((category, index) => {
+            edges.push({
+              first, second, firstIndex, secondIndex, category,
+              parallelOffset: (index - (shared.length - 1) / 2) * 12
+            });
+          });
+        }
+      }
+    }
+
+    function renderNetwork() {
+      svg.replaceChildren();
+      const edgeLayer = svgElement("g", { "aria-hidden": "true" });
+      const nodeLayer = svgElement("g", {});
+      svg.append(edgeLayer, nodeLayer);
+
+      for (const edge of edges) {
+        if (!selectedCategories.has(edge.category)) continue;
+        const path = svgElement("path", {
+          d: pathFor(edge),
+          class: "edge",
+          stroke: categoryColors[edge.category],
+          opacity: selectedParty ? (edge.first === selectedParty || edge.second === selectedParty ? "0.9" : "0.07") : "0.52",
+          "aria-label": `${edge.first.partikode} – ${edge.second.partikode} · ${edge.category}`
+        });
+        path.addEventListener("mouseenter", event => showTooltip(edgeTooltip(edge), event));
+        path.addEventListener("mousemove", moveTooltip);
+        path.addEventListener("mouseleave", hideTooltip);
+        edgeLayer.append(path);
+      }
+
+      parties.forEach((party, index) => {
+        const position = positionFor(index);
+        const active = activeCount(party) > 0;
+        const node = svgElement("g", {
+          class: `party-node${selectedParty === party ? " is-selected" : ""}`,
+          transform: `translate(${position.x} ${position.y})`,
+          tabindex: "0",
+          role: "button",
+          "aria-label": `${party.partinavn}, ${activeCount(party)} af ${party.antal_maerkesager_i_alt} mærkesager i de valgte kategorier`
+        });
+        const circle = svgElement("circle", {
+          r: 19,
+          fill: active ? party.farve : "#aeb7c1",
+          opacity: active ? "1" : "0.78"
+        });
+        const label = svgElement("text", {});
+        label.textContent = party.partikode;
+        node.append(circle, label);
+        node.addEventListener("mouseenter", event => showTooltip(nodeTooltip(party), event));
+        node.addEventListener("mousemove", moveTooltip);
+        node.addEventListener("mouseleave", hideTooltip);
+        node.addEventListener("focus", () => showTooltip(nodeTooltip(party), {
+          clientX: position.x * svg.clientWidth / 640 + svg.getBoundingClientRect().left,
+          clientY: position.y * svg.clientHeight / 640 + svg.getBoundingClientRect().top
+        }));
+        node.addEventListener("blur", hideTooltip);
+        node.addEventListener("click", () => toggleParty(party));
+        node.addEventListener("keydown", event => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            toggleParty(party);
+          }
+        });
+        nodeLayer.append(node);
+      });
+    }
+
+    function renderPanel() {
+      panel.replaceChildren();
+      if (selectedParty) {
+        const heading = element("h2", null, panel);
+        heading.textContent = `${selectedParty.partinavn} (${selectedParty.partikode})`;
+        for (const category of chosenCategories()) {
+          const titles = partyTitles(selectedParty, category);
+          const categoryHeading = element("h3", null, panel);
+          categoryHeading.textContent = category;
+          if (!titles.length) {
+            const message = element("p", null, panel);
+            message.textContent = "Ingen mærkesager i denne kategori.";
+            continue;
+          }
+          const list = element("ul", null, panel);
+          for (const title of titles) {
+            const item = element("li", null, list);
+            item.textContent = title;
+          }
+        }
+        if (!chosenCategories().length || activeCount(selectedParty) === 0) {
+          const message = element("p", null, panel);
+          message.textContent = "Partiet har ingen mærkesager i de valgte kategorier.";
+        }
+        return;
+      }
+
+      const heading = element("h2", null, panel);
+      heading.textContent = "Mærkesager i valgte kategorier";
+      if (!chosenCategories().length) {
+        const message = element("p", null, panel);
+        message.textContent = "Vælg mindst én kategori for at se fælles mærkesager.";
+        return;
+      }
+      for (const category of chosenCategories()) {
+        const categoryHeading = element("h3", null, panel);
+        categoryHeading.textContent = category;
+        const entries = parties
+          .filter(party => partyTitles(party, category).length)
+          .map(party => `${party.partikode} (${partyTitles(party, category).length})`);
+        const summary = element("p", null, panel);
+        summary.textContent = entries.length ? entries.join(", ") : "Ingen partier";
+      }
+    }
+
+    function render() {
+      renderNetwork();
+      renderPanel();
+    }
+
+    function toggleParty(party) {
+      selectedParty = selectedParty === party ? null : party;
+      render();
+    }
+
+    function renderCategoryButtons() {
+      const container = document.getElementById("category-buttons");
+      for (const category of categories) {
+        const button = element("button", "category-button", container);
+        button.type = "button";
+        button.textContent = category;
+        button.style.setProperty("--category-color", categoryColors[category]);
+        button.setAttribute("aria-pressed", String(selectedCategories.has(category)));
+        button.addEventListener("click", () => {
+          if (selectedCategories.has(category)) selectedCategories.delete(category);
+          else selectedCategories.add(category);
+          button.setAttribute("aria-pressed", String(selectedCategories.has(category)));
+          render();
+        });
+      }
+    }
+
+    document.getElementById("select-all").addEventListener("click", event => {
+      event.preventDefault();
+      for (const category of categories) selectedCategories.add(category);
+      document.querySelectorAll(".category-button").forEach(button => button.setAttribute("aria-pressed", "true"));
+      render();
+    });
+    document.getElementById("select-none").addEventListener("click", event => {
+      event.preventDefault();
+      selectedCategories.clear();
+      document.querySelectorAll(".category-button").forEach(button => button.setAttribute("aria-pressed", "false"));
+      render();
+    });
+
+    fetch("data.json")
+      .then(response => {
+        if (!response.ok) throw new Error(`Kunne ikke hente data.json (${response.status})`);
+        return response.json();
+      })
+      .then(data => {
+        categories = data.kategorier;
+        parties = partyOrder.map(code => data.partier.find(party => party.partikode === code)).filter(Boolean);
+        if (parties.length !== partyOrder.length) throw new Error("data.json mangler et eller flere partier");
+        renderCategoryButtons();
+        buildEdges();
+        render();
+      })
+      .catch(error => {
+        const message = element("p", null, panel);
+        message.textContent = `Fejl ved indlæsning af data: ${error.message}`;
+        console.error(error);
+      });
+  </script>
+</body>
+</html>

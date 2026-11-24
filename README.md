@@ -32,3 +32,16 @@ observed politicians in the study period, with one row per actor ID and the
 columns actor ID, name, and party label. Party labels originate from the
 official actor biography metadata (`partyShortname`); they were not manually
 corrected or assigned as a historical membership series.
+
+## Mærkesagsnetværk fra valgkampen 2022
+
+Generér data og start den lokale server fra repoets rod:
+
+```sh
+python results/maerkesager_netvaerk/build_data.py
+python -m http.server 8000
+# åbn http://localhost:8000/results/maerkesager_netvaerk/
+```
+
+Siden henter `data.json` med `fetch` og skal derfor åbnes via den lokale server,
+ikke direkte som en fil.

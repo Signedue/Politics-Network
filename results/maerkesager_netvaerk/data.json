@@ -1,0 +1,450 @@
+{
+  "kategorier": [
+    "Sundhed og ældrepleje",
+    "Klima og miljø",
+    "Skoler og børnepasning",
+    "Økonomi og skat",
+    "Flygtninge og indvandrere",
+    "Retspolitik og tryghed",
+    "Forsvar og sikkerhed",
+    "Pension og tilbagetrækning"
+  ],
+  "partier": [
+    {
+      "partikode": "EL",
+      "partinavn": "Enhedslisten",
+      "farve": "#E2611E",
+      "antal_maerkesager_i_alt": 4,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Red vores velfærd"
+        ],
+        "Klima og miljø": [
+          "Gør valget til et klimavalg"
+        ],
+        "Skoler og børnepasning": [],
+        "Økonomi og skat": [
+          "Hjælp de inflationsramte"
+        ],
+        "Flygtninge og indvandrere": [
+          "Retfærdig flygtningepolitik nu"
+        ],
+        "Retspolitik og tryghed": [],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "SF",
+      "partinavn": "Socialistisk Folkeparti",
+      "farve": "#E0457B",
+      "antal_maerkesager_i_alt": 8,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Styrk sundhedsvæsnet og psykiatrien",
+          "Værdigheden tilbage i ældreplejen"
+        ],
+        "Klima og miljø": [
+          "Giv naturen sin egen lov",
+          "Sæt klimaet først"
+        ],
+        "Skoler og børnepasning": [
+          "Stop mistrivsel hos børn og unge"
+        ],
+        "Økonomi og skat": [
+          "Inflationshjælp til dem der har mindst",
+          "Ligeløn og bedre arbejdsvilkår"
+        ],
+        "Flygtninge og indvandrere": [
+          "Mere hjerte i udlændingepolitikken"
+        ],
+        "Retspolitik og tryghed": [],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "ALT",
+      "partinavn": "Alternativet",
+      "farve": "#57B947",
+      "antal_maerkesager_i_alt": 4,
+      "kategorier": {
+        "Sundhed og ældrepleje": [],
+        "Klima og miljø": [
+          "Vores planet"
+        ],
+        "Skoler og børnepasning": [
+          "Vores liv"
+        ],
+        "Økonomi og skat": [
+          "Vores økonomi"
+        ],
+        "Flygtninge og indvandrere": [],
+        "Retspolitik og tryghed": [
+          "Vores samfund"
+        ],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "RV",
+      "partinavn": "Radikale Venstre",
+      "farve": "#A0287D",
+      "antal_maerkesager_i_alt": 15,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Flere gode leveår for alle",
+          "Rummelighed i fællesskabet"
+        ],
+        "Klima og miljø": [
+          "110 procent grønt Danmark",
+          "Et grønnere Danmark med rigere dyreliv",
+          "Renere vand og bedre mad",
+          "Større klimaretfærdighed"
+        ],
+        "Skoler og børnepasning": [
+          "Bedre uddannelse hele livet",
+          "Flere unge i fællesskabet",
+          "Fri folkeskole som løfter alle",
+          "Mere leg, grin og nærvær"
+        ],
+        "Økonomi og skat": [
+          "Høje ambitioner og nye reformer",
+          "Plads til alle og fokus på den enkelte"
+        ],
+        "Flygtninge og indvandrere": [
+          "Danmark, åbent mod verden"
+        ],
+        "Retspolitik og tryghed": [
+          "Vi vil tillid – ikke splittelse",
+          "Åbent, stærkt demokrati"
+        ],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "S",
+      "partinavn": "Socialdemokratiet",
+      "farve": "#C8102E",
+      "antal_maerkesager_i_alt": 13,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Akutpakke til sygehusene",
+          "Ny sygehusfond til moderne sygehuse i hele landet",
+          "Værdig velfærd"
+        ],
+        "Klima og miljø": [
+          "Et grønt landbrug der indfrier klimamålene",
+          "Hurtigere grøn omstilling",
+          "Ret til rent drikkevand"
+        ],
+        "Skoler og børnepasning": [
+          "Et faglært Danmark"
+        ],
+        "Økonomi og skat": [
+          "Bedre vilkår. Bedre velfærd.",
+          "Lavere skat på arbejde",
+          "Ny inflationshjælp",
+          "Trygt igennem usikre tider"
+        ],
+        "Flygtninge og indvandrere": [
+          "En stram udlændingepolitik"
+        ],
+        "Retspolitik og tryghed": [
+          "Tryghed for alle"
+        ],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "M",
+      "partinavn": "Moderaterne",
+      "farve": "#7B2D8E",
+      "antal_maerkesager_i_alt": 11,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Fremtidens sundhedsvæsen: SygehusDanmark",
+          "Værdighedsydelse"
+        ],
+        "Klima og miljø": [
+          "Grøn konsekvens"
+        ],
+        "Skoler og børnepasning": [
+          "Kulturen i fokus",
+          "Større udsyn og højere kvalitet i uddannelsessystemet"
+        ],
+        "Økonomi og skat": [
+          "Et åbent arbejdsmarked",
+          "Iværksætteri og vækst",
+          "Reformer for vækst med sammenhængskraften i centrum",
+          "VELFÆRD UNDER PRES"
+        ],
+        "Flygtninge og indvandrere": [],
+        "Retspolitik og tryghed": [],
+        "Forsvar og sikkerhed": [
+          "Borgerpligt"
+        ],
+        "Pension og tilbagetrækning": [
+          "Fremtidens pension"
+        ]
+      }
+    },
+    {
+      "partikode": "V",
+      "partinavn": "Venstre",
+      "farve": "#1B3F8B",
+      "antal_maerkesager_i_alt": 6,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Et sundhedsvæsen, der sætter dig først",
+          "Mere frihed til selv at bestemme"
+        ],
+        "Klima og miljø": [
+          "Danmark skal gå forrest i klimakampen"
+        ],
+        "Skoler og børnepasning": [],
+        "Økonomi og skat": [
+          "Det skal kunne betale sig at arbejde"
+        ],
+        "Flygtninge og indvandrere": [
+          "Konsekvente krav til udlændinge"
+        ],
+        "Retspolitik og tryghed": [],
+        "Forsvar og sikkerhed": [
+          "Vi skal tage større ansvar for Danmarks sikkerhed"
+        ],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "KF",
+      "partinavn": "Det Konservative Folkeparti",
+      "farve": "#0B6E4F",
+      "antal_maerkesager_i_alt": 5,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Hjælp og omsorg, når du har brug for det"
+        ],
+        "Klima og miljø": [
+          "En grønnere fremtid for de næste generationer"
+        ],
+        "Skoler og børnepasning": [
+          "En god start på livet"
+        ],
+        "Økonomi og skat": [
+          "Lavere skat og virksomheder i vækst"
+        ],
+        "Flygtninge og indvandrere": [],
+        "Retspolitik og tryghed": [
+          "Respekt for loven og vores fælles værdier"
+        ],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "LA",
+      "partinavn": "Liberal Alliance",
+      "farve": "#1FB5C9",
+      "antal_maerkesager_i_alt": 5,
+      "kategorier": {
+        "Sundhed og ældrepleje": [],
+        "Klima og miljø": [
+          "Klimapolitik"
+        ],
+        "Skoler og børnepasning": [],
+        "Økonomi og skat": [
+          "1 regel ind, 2 regler ud",
+          "Bedre og billigere velfærd",
+          "Lavere skat"
+        ],
+        "Flygtninge og indvandrere": [],
+        "Retspolitik og tryghed": [
+          "Retsstat & demokrati"
+        ],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "DD",
+      "partinavn": "Danmarksdemokraterne",
+      "farve": "#5AA9E6",
+      "antal_maerkesager_i_alt": 4,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Danmark skal hænge sammen"
+        ],
+        "Klima og miljø": [],
+        "Skoler og børnepasning": [],
+        "Økonomi og skat": [
+          "En varm hånd, der griber de svageste",
+          "Respekt for Produktionsdanmark"
+        ],
+        "Flygtninge og indvandrere": [],
+        "Retspolitik og tryghed": [
+          "Udlændinge- og retspolitik"
+        ],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "DF",
+      "partinavn": "Dansk Folkeparti",
+      "farve": "#E3B505",
+      "antal_maerkesager_i_alt": 8,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Velfærd og sundhed",
+          "Ældre og seniorer"
+        ],
+        "Klima og miljø": [
+          "Dyrevelfærd"
+        ],
+        "Skoler og børnepasning": [
+          "Nej til krænkelseshysteri"
+        ],
+        "Økonomi og skat": [
+          "En hjælpende hånd"
+        ],
+        "Flygtninge og indvandrere": [
+          "Stop indvandringen",
+          "Vi skal selv bestemme"
+        ],
+        "Retspolitik og tryghed": [
+          "Kriminalitet"
+        ],
+        "Forsvar og sikkerhed": [],
+        "Pension og tilbagetrækning": []
+      }
+    },
+    {
+      "partikode": "NB",
+      "partinavn": "Nye Borgerlige",
+      "farve": "#0E4D59",
+      "antal_maerkesager_i_alt": 100,
+      "kategorier": {
+        "Sundhed og ældrepleje": [
+          "Beskyttelse af vores veteraner",
+          "En ny og styrket psykiatri",
+          "Fair og hurtig tildeling af førtidspension",
+          "Faste teams frem for kommunal bureaukrati i ældreplejen",
+          "Flere friplejehjem",
+          "Forbedret arbejdsmiljø i sundhedssektoren",
+          "Kompensation til borgerne for kommunens fejl og fristoverskridelser",
+          "Mere nærhed i sundhed og flere familielæger",
+          "Pengene skal følge den ældre, som selv må bestemme",
+          "Permanent højere ældrecheck til dem, der har mindst",
+          "Respekt for hjemløses ret til det gode liv",
+          "Stop for hvalpe- og killingefabrikker",
+          "Styrke kernevelfærden med 43 milliarder kroner",
+          "Udvidet frit sygehusvalg fra dag 1"
+        ],
+        "Klima og miljø": [
+          "En forceret grøn omstilling gør energien alt for dyr",
+          "Grøn omstilling baseret på fornuft",
+          "Havmiljøet skal beskyttes mod råstofudvinding og dumpning",
+          "Ingen rewilding-projekter, der mishandler dyrene",
+          "Kernekraft skal indgå i planlægningen",
+          "Kommunernes spildevand skal ikke ende i havet",
+          "Landbruget skal udvikles - ikke afvikles",
+          "Landmænd og jægere skal anerkendes som naturforvaltere",
+          "Lempe krav om unyttige efterafgrøder",
+          "Oprydning efter generationsforureninger",
+          "Respekt for naturværdierne",
+          "Skovbruget skal reguleres mindre, så vi får mere skov",
+          "Vind- og solenergi skal ikke have offentlig støtte"
+        ],
+        "Skoler og børnepasning": [
+          "Flere lokale folkeafstemninger",
+          "Flere uddannelser i de mindre byer",
+          "Forældrene skal beslutte, om deres barn er klar til børnehave og skole",
+          "Fri adgang til de store museer",
+          "Frihedsbrev til skolerne i stedet for central styring",
+          "Give større bidrag til formidling af danmarkshistorien",
+          "Ingen tvangsfordeling af elever",
+          "Omlægge SU på kandidatdelen til lån",
+          "Opgør med identitetspolitik på uddannelser og kulturinstitutioner",
+          "Respekt om lærergerningen",
+          "Styrke bevarelsen af fortidsminder og landskabsværdier",
+          "Styrke erhvervsskolerne og genindføre den traditionelle mesterlære",
+          "Sælge DR til private til fordel for en dansk kulturpulje"
+        ],
+        "Økonomi og skat": [
+          "Afskaffe arveafgiften",
+          "Afskaffe brugerbetaling på Storebæltsbroen",
+          "Afskaffe to regler for hver ny, der indføres",
+          "Bedre muligheder med medarbejderaktier",
+          "Beskyttelse af kystfiskeri og de mindre kuttere",
+          "Fjerne afgifter på planteværn",
+          "Fjerne arbejdsmarkedsbidraget - skatten for at gå på arbejde",
+          "Fjerne indkomstskatten i bunden op til 90.000 kroner",
+          "Flere private velfærdsiværksættere",
+          "Fradrag i skatten for at passe børnene hjemme, mens de er små",
+          "Garanti mod overimplementering af EU-regler",
+          "Giv en lovbunden garanti mod konkurrenceforvridende regler",
+          "Godskørselsloven skal afskaffes",
+          "Halvere regelmængden i løbet af 15 år",
+          "Indføre en flad skat på 37 %",
+          "Ingen jordskatter og arveafgift",
+          "Lavere selskabsskat",
+          "Lempe rente- og aktiebeskatningen",
+          "Løfte den private beskæftigelse med 233.000 nye jobs",
+          "Mennesker med handicap skal fri af kommunens kløer",
+          "Mere frihandel - ingen udviklingsbistand",
+          "Mindske erhvervstilskud med 10 milliarder kroner",
+          "Momsafløftning af restaurationsydelser",
+          "Nedsætte afgifter på øl, vin, spiritus, kaffe, chokolade og is",
+          "Raske og rørige på kontanthjælp skal ansvarliggøres",
+          "Stop for videoovervågning af fiskerne",
+          "Styrke infrastrukturen",
+          "Sænke elafgiften",
+          "Væk med registreringsafgiften på biler",
+          "Øge velstanden med 80 milliarder kroner",
+          "Økonomien skal følge med befolkningsudviklingen"
+        ],
+        "Flygtninge og indvandrere": [
+          "Bekæmpe socialt bedrageri - med fokus på ghettoområder",
+          "Integration er et personligt ansvar - ikke en offentlig opgave",
+          "Islam skal ingen indflydelse have i samfundet",
+          "Jobcentrene skal nedlægges",
+          "Lette adgang for international arbejdskraft",
+          "Lette danskeres mulighed for at bo med en udenlandsk ægtefælle",
+          "Stop for spontan asyl til gengæld for et velordnet kvotesystem",
+          "Stærkere udrejsekontrol for at fange tyvebanderne",
+          "Tydelig mærkning af halalcertificerede varer og produkter",
+          "Udlændinge skal forsørge sig selv",
+          "Udvise kriminelle udlændinge konsekvent efter første dom",
+          "Udvisningsdømte skal ikke gå frit omkring"
+        ],
+        "Retspolitik og tryghed": [
+          "Bedre forebyggelse fremfor tvangsanbringelse af børn",
+          "Familieretssystemet skal menneskeliggøres",
+          "Fjerne frås for 6 milliarder kroner om året",
+          "Flere lokale politistationer",
+          "Fuld frihed til at dele barsel mellem far og mor",
+          "Ikke mere end 100 nye love i Folketinget om året",
+          "Skærpede straffe for vold og voldtægt",
+          "Strengere straffe for dyremishandling",
+          "Ud med mørklægningslovens ministerbetjeningsregel",
+          "Væk med regeljunglen for biler og MC",
+          "Ændring af hundeloven - styrket retssikkerhed"
+        ],
+        "Forsvar og sikkerhed": [
+          "Flere fly og flere skibe",
+          "Styrke mobiliseringsforsvaret",
+          "Styrket hjemmeværn og beredskabsstyrelse",
+          "Udbygge værnepligten",
+          "Vi skal i gang - investeringer her og nu"
+        ],
+        "Pension og tilbagetrækning": [
+          "Pension til Arne - men også en skatterabat til Bjarne"
+        ]
+      }
+    }
+  ]
+}
