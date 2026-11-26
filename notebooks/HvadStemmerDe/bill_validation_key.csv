@@ -1,0 +1,121 @@
+﻿validation_id,sag_id,predicted_topic,sampling_weight
+1,96201,Sundhed & psykiatri,6.0
+2,101054,Ældre & velfærd,6.5
+3,93629,"Økonomi, skat & energipriser",6.0
+4,102270,Retsvæsen & politi,6.0
+5,103133,"Erhverv, finans & digitalisering",6.4
+6,68570,Uddannelse & forskning,5.875
+7,100401,Udlændinge & integration,6.2
+8,70590,"Økonomi, skat & energipriser",6.0
+9,67759,Sundhed & psykiatri,6.0
+10,94171,Forsvar & sikkerhed,2.4
+11,100768,"Klima, miljø & landbrug",5.818181818181818
+12,98268,Uddannelse & forskning,5.875
+13,96613,"Økonomi, skat & energipriser",6.0
+14,94569,Sundhed & psykiatri,6.0
+15,97492,Bolig,4.2
+16,103141,Grønland & Færøerne,4.2
+17,98271,Forsvar & sikkerhed,2.4
+18,98037,"Økonomi, skat & energipriser",6.0
+19,94565,Bolig,4.2
+20,103914,Andet,3.2
+21,103135,Uddannelse & forskning,5.875
+22,103128,Sundhed & psykiatri,6.0
+23,99429,"Erhverv, finans & digitalisering",6.4
+24,103113,Udlændinge & integration,6.2
+25,100072,Sundhed & psykiatri,6.0
+26,100073,"Økonomi, skat & energipriser",6.0
+27,101056,"Klima, miljø & landbrug",5.818181818181818
+28,95136,EU & udenrigs,2.2
+29,98107,Beskæftigelse & arbejdsmarked,5.4
+30,96448,"Kultur, medier & kirke",3.6
+31,105373,"Klima, miljø & landbrug",5.818181818181818
+32,101703,Beskæftigelse & arbejdsmarked,5.4
+33,94794,"Klima, miljø & landbrug",5.818181818181818
+34,94807,"Kultur, medier & kirke",3.6
+35,99926,Retsvæsen & politi,6.0
+36,69352,EU & udenrigs,2.2
+37,94398,"Erhverv, finans & digitalisering",6.4
+38,105669,Ældre & velfærd,6.5
+39,97120,Land & by,1.4
+40,97411,"Økonomi, skat & energipriser",6.0
+41,95137,"Erhverv, finans & digitalisering",6.4
+42,103489,"Klima, miljø & landbrug",5.818181818181818
+43,96612,Uddannelse & forskning,5.875
+44,93991,"Erhverv, finans & digitalisering",6.4
+45,96047,"Kultur, medier & kirke",3.6
+46,93628,Bolig,4.2
+47,96770,"Økonomi, skat & energipriser",6.0
+48,93990,Grønland & Færøerne,4.2
+49,67760,Uddannelse & forskning,5.875
+50,101688,Sundhed & psykiatri,6.0
+51,94822,Ældre & velfærd,6.5
+52,105381,"Erhverv, finans & digitalisering",6.4
+53,103145,"Klima, miljø & landbrug",5.818181818181818
+54,97926,Uddannelse & forskning,5.875
+55,97337,"Erhverv, finans & digitalisering",6.4
+56,105374,EU & udenrigs,2.2
+57,99923,"Økonomi, skat & energipriser",6.0
+58,101690,Sundhed & psykiatri,6.0
+59,101139,Udlændinge & integration,6.2
+60,101588,Uddannelse & forskning,5.875
+61,97417,Transport & infrastruktur,4.6
+62,103326,"Erhverv, finans & digitalisering",6.4
+63,93979,"Klima, miljø & landbrug",5.818181818181818
+64,93981,"Kultur, medier & kirke",3.6
+65,93980,Andet,3.2
+66,94716,"Økonomi, skat & energipriser",6.0
+67,104968,"Økonomi, skat & energipriser",6.0
+68,101318,Transport & infrastruktur,4.6
+69,102023,"Økonomi, skat & energipriser",6.0
+70,93637,"Klima, miljø & landbrug",5.818181818181818
+71,100403,Sundhed & psykiatri,6.0
+72,103801,Land & by,1.4
+73,97302,"Økonomi, skat & energipriser",6.0
+74,96449,Beskæftigelse & arbejdsmarked,5.4
+75,94823,EU & udenrigs,2.2
+76,98000,Grønland & Færøerne,4.2
+77,99927,Retsvæsen & politi,6.0
+78,101246,Ældre & velfærd,6.5
+79,101247,Transport & infrastruktur,4.6
+80,96049,Ældre & velfærd,6.5
+81,98281,Transport & infrastruktur,4.6
+82,98363,Retsvæsen & politi,6.0
+83,94713,Land & by,1.4
+84,93464,Beskæftigelse & arbejdsmarked,5.4
+85,94174,Grønland & Færøerne,4.2
+86,103151,Sundhed & psykiatri,6.0
+87,99565,Retsvæsen & politi,6.0
+88,102231,Ældre & velfærd,6.5
+89,96960,Andet,3.2
+90,103130,Retsvæsen & politi,6.0
+91,95138,Beskæftigelse & arbejdsmarked,5.4
+92,96026,"Erhverv, finans & digitalisering",6.4
+93,103406,EU & udenrigs,2.2
+94,101696,Retsvæsen & politi,6.0
+95,103800,Uddannelse & forskning,5.875
+96,101403,Forsvar & sikkerhed,2.4
+97,94800,Sundhed & psykiatri,6.0
+98,101039,"Erhverv, finans & digitalisering",6.4
+99,94180,Land & by,1.4
+100,67753,"Økonomi, skat & energipriser",6.0
+101,96045,Ældre & velfærd,6.5
+102,68002,"Klima, miljø & landbrug",5.818181818181818
+103,99218,"Økonomi, skat & energipriser",6.0
+104,97921,"Klima, miljø & landbrug",5.818181818181818
+105,103328,Andet,3.2
+106,94812,"Kultur, medier & kirke",3.6
+107,100453,Bolig,4.2
+108,69351,Forsvar & sikkerhed,2.4
+109,67755,Udlændinge & integration,6.2
+110,103116,Bolig,4.2
+111,94400,Transport & infrastruktur,4.6
+112,101905,Land & by,1.4
+113,99227,"Klima, miljø & landbrug",5.818181818181818
+114,97217,Retsvæsen & politi,6.0
+115,99285,Udlændinge & integration,6.2
+116,101806,Forsvar & sikkerhed,2.4
+117,95327,"Økonomi, skat & energipriser",6.0
+118,69350,Grønland & Færøerne,4.2
+119,94566,Ældre & velfærd,6.5
+120,98109,Andet,3.2
